@@ -66,6 +66,9 @@ class Item {
 ```
 # General information about the repo
 
+## Edit DSPACE2VIVO metamodel
+ [dspace2vivo.yaml](https://editor.swagger.io/?url=https://raw.githubusercontent.com/vivo-community/DSpace-VIVO/dev-heon/bundles/ca.uqam.dspace2vivo.model.openapi/dspace2vivo.yaml)
+
 ## Repo directory structure
 The repo encompasses the following directory structure:
 ```txt
@@ -111,7 +114,3 @@ The `releng` ( release engineering ) and `bundles` directories are the two root 
 `releng` contains the packages necessary to manage the engineering of the current and future packages of the project including the directory `ca.uqam.dspace2vivo.installer` containing the installation management scripts and the directory `ca.uqam.dspace2vivo.model.conceptual` containing the project explanatory models
 ### about bundles
 the `bundles` directory encapsulates the project code. 
-
-# Edit metamodel
- [petstore.yaml](https://editor.swagger.io/?url=https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v3.0/petstore.yaml)
-
