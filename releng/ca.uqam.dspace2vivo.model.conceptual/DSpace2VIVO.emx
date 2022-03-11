@@ -3,7 +3,7 @@
 <!--Rational Software Architect Designer 9.7.1-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:FileSet="http:///schemas/FileSet/_a1S_AD65Eeu8HuvamFAM6w/5" xmlns:SemanticWeb="http:///schemas/SemanticWeb/_UNmnYD67Eeu8HuvamFAM6w/9" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/FileSet/_a1S_AD65Eeu8HuvamFAM6w/5 platform:/resource/10-Profiles/FileSet.epx#_a1S_AT65Eeu8HuvamFAM6w?FileSet/FileSet? http:///schemas/SemanticWeb/_UNmnYD67Eeu8HuvamFAM6w/9 platform:/resource/10-Profiles/SemanticWeb.epx#_UNmnYT67Eeu8HuvamFAM6w?SemanticWeb/SemanticWeb?">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:FileSet="http:///schemas/FileSet/_a1S_AD65Eeu8HuvamFAM6w/5" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/FileSet/_a1S_AD65Eeu8HuvamFAM6w/5 FileSet.epx#_a1S_AT65Eeu8HuvamFAM6w?FileSet/FileSet?">
   <uml:Package xmi:id="_E24Z0J3vEeyEZfqA4WvQXQ" name="DSpace2VIVO">
     <eAnnotations xmi:id="_E24Z0Z3vEeyEZfqA4WvQXQ" source="uml2.diagrams" references="_E24Z0p3vEeyEZfqA4WvQXQ">
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_E24Z0p3vEeyEZfqA4WvQXQ" type="Freeform" name="Main">
@@ -88,7 +88,7 @@
           <children xmi:type="notation:ListCompartment" xmi:id="_wR2kq53wEeyEZfqA4WvQXQ" visible="false" type="RequiredInterfaceListCompartment"/>
           <children xmi:type="notation:ListCompartment" xmi:id="_wR2krJ3wEeyEZfqA4WvQXQ" visible="false" type="ProvidedInterfaceListCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_wR2krZ3wEeyEZfqA4WvQXQ" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wR2koZ3wEeyEZfqA4WvQXQ" x="12481" y="14737" width="4919" height="1053"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wR2koZ3wEeyEZfqA4WvQXQ" x="12481" y="14737" width="5686" height="1053"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_2sH5YJ3wEeyEZfqA4WvQXQ" element="_2sGEMJ3wEeyEZfqA4WvQXQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
           <children xmi:type="notation:DecorationNode" xmi:id="_2sNY8J3wEeyEZfqA4WvQXQ" type="ImageCompartment">
@@ -106,7 +106,7 @@
           <children xmi:type="notation:ListCompartment" xmi:id="_2sOnEp3wEeyEZfqA4WvQXQ" visible="false" type="NestedNodeListCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_2sOnE53wEeyEZfqA4WvQXQ" visible="false" type="NestedNodeShapeCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_2sOnFJ3wEeyEZfqA4WvQXQ" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2sH5YZ3wEeyEZfqA4WvQXQ" x="7231" y="14582" width="4919" height="1053"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2sH5YZ3wEeyEZfqA4WvQXQ" x="5389" y="14582" width="4919" height="1053"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_LifrUZ3xEeyEZfqA4WvQXQ" element="_LifrUJ3xEeyEZfqA4WvQXQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
           <children xmi:type="notation:DecorationNode" xmi:id="_LifrU53xEeyEZfqA4WvQXQ" type="ImageCompartment">
@@ -124,7 +124,7 @@
           <children xmi:type="notation:ListCompartment" xmi:id="_LipcU53xEeyEZfqA4WvQXQ" visible="false" type="NestedNodeListCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_LipcVJ3xEeyEZfqA4WvQXQ" visible="false" type="NestedNodeShapeCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_LipcVZ3xEeyEZfqA4WvQXQ" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LifrUp3xEeyEZfqA4WvQXQ" x="19337" y="14582" width="3649" height="1186"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LifrUp3xEeyEZfqA4WvQXQ" x="19337" y="14582" width="6506" height="1186"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_MxyTgZ3yEeyEZfqA4WvQXQ" element="_J4UzEJ3yEeyEZfqA4WvQXQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
           <eAnnotations xmi:id="_MxyTg53yEeyEZfqA4WvQXQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -619,9 +619,9 @@
     </profileApplication>
     <profileApplication xmi:id="_UwbscJ3vEeyEZfqA4WvQXQ">
       <eAnnotations xmi:id="_UwbscZ3vEeyEZfqA4WvQXQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="platform:/resource/10-Profiles/SemanticWeb.epx#_UNmnYT67Eeu8HuvamFAM6w?SemanticWeb/SemanticWeb?"/>
+        <references xmi:type="ecore:EPackage" href="SemanticWeb.epx#_UNmnYT67Eeu8HuvamFAM6w?SemanticWeb/SemanticWeb?"/>
       </eAnnotations>
-      <appliedProfile href="platform:/resource/10-Profiles/SemanticWeb.epx#_BLSd8Da_EemG8dAiMgYgrg?SemanticWeb?"/>
+      <appliedProfile href="SemanticWeb.epx#_BLSd8Da_EemG8dAiMgYgrg?SemanticWeb?"/>
     </profileApplication>
     <profileApplication xmi:id="_Vr2L0J3vEeyEZfqA4WvQXQ">
       <eAnnotations xmi:id="_Vr2y4J3vEeyEZfqA4WvQXQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -637,9 +637,9 @@
     </profileApplication>
     <profileApplication xmi:id="_APcCsJ3xEeyEZfqA4WvQXQ">
       <eAnnotations xmi:id="_APcCsZ3xEeyEZfqA4WvQXQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="platform:/resource/10-Profiles/FileSet.epx#_a1S_AT65Eeu8HuvamFAM6w?FileSet/FileSet?"/>
+        <references xmi:type="ecore:EPackage" href="FileSet.epx#_a1S_AT65Eeu8HuvamFAM6w?FileSet/FileSet?"/>
       </eAnnotations>
-      <appliedProfile href="platform:/resource/10-Profiles/FileSet.epx#_PJoekD64Eeu8HuvamFAM6w?FileSet?"/>
+      <appliedProfile href="FileSet.epx#_PJoekD64Eeu8HuvamFAM6w?FileSet?"/>
     </profileApplication>
     <profileApplication xmi:id="_C2FU0J3xEeyEZfqA4WvQXQ">
       <eAnnotations xmi:id="_C2FU0Z3xEeyEZfqA4WvQXQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -647,9 +647,14 @@
       </eAnnotations>
       <appliedProfile href="platform:/resource/10-Profiles/MicrosoftProfil.epx#_euSMcKyAEeit9MV3aTnofg?MicrosoftProfil?"/>
     </profileApplication>
+    <profileApplication xmi:id="_GajfUJ4sEeyQLqWiQtSiyA">
+      <eAnnotations xmi:id="_GamioJ4sEeyQLqWiQtSiyA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="Enterprise.epx#_hhLOoD1FEey1bt8f6Jwxig?Enterprise/Enterprise?"/>
+      </eAnnotations>
+      <appliedProfile href="Enterprise.epx#_s-BboDu0EeyczY92qhuqtA?Enterprise?"/>
+    </profileApplication>
   </uml:Package>
-  <FileSet:JSON_Document xmi:id="_E4LvcJ3xEeyEZfqA4WvQXQ" base_Node="_2sGEMJ3wEeyEZfqA4WvQXQ"/>
-  <SemanticWeb:RDF_Document xmi:id="_VRAYAJ3xEeyEZfqA4WvQXQ" base_Node="_LifrUJ3xEeyEZfqA4WvQXQ"/>
   <Default:URL xmi:id="_MxyTgJ3yEeyEZfqA4WvQXQ" base_Comment="_J4UzEJ3yEeyEZfqA4WvQXQ" displayName="Swagger editor" type=""/>
   <Default:URL xmi:id="_kQ0w0J3yEeyEZfqA4WvQXQ" base_Comment="_iZSAYJ3yEeyEZfqA4WvQXQ" displayName="swagger-codegen/" type=""/>
+  <FileSet:JSON_Document xmi:id="_O7Of4J4sEeyQLqWiQtSiyA" base_Node="_2sGEMJ3wEeyEZfqA4WvQXQ"/>
 </xmi:XMI>
