@@ -1,0 +1,45 @@
+# baseURI: http://vivoweb.org/ontology/dspace
+# imports: http://vivoweb.org/ontology/core
+# imports: http://www.w3.org/2004/02/skos/core
+# prefix: dspace
+
+@prefix : <http://vivoweb.org/ontology/dspace#> .
+@prefix core: <http://vivoweb.org/ontology/core#> .
+@prefix dspace: <http://vivoweb.org/ontology/dspace#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://vivoweb.org/ontology/dspace>
+  rdf:type owl:Ontology ;
+  owl:imports <http://vivoweb.org/ontology/core> ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+dspace:Collection
+  rdf:type owl:Class ;
+  rdfs:label "DSpace Collection"@en ;
+  rdfs:subClassOf core:Dataset ;
+  skos:prefLabel "Collection" ;
+.
+dspace:Community
+  rdf:type owl:Class ;
+  rdfs:label "DSpace Community"@en ;
+  rdfs:subClassOf core:Dataset ;
+  skos:prefLabel "Community" ;
+.
+dspace:Item
+  rdf:type owl:Class ;
+  rdfs:label "DSpace Item"@en ;
+  rdfs:subClassOf core:Dataset ;
+  skos:prefLabel "Item" ;
+.
+dspace:Repository
+  rdf:type owl:Class ;
+  rdfs:label "DSpace Repository"@en ;
+  rdfs:subClassOf core:Dataset ;
+  skos:prefLabel "Repository" ;
+.
