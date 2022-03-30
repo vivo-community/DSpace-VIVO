@@ -9,7 +9,7 @@ For now: `dspace2vivo` pipeline
 - Maven 3.6.3
 
 ## Exécution
-1. Move in directory: `relang/ca.uqam.dspace2vivo.installer`
+1. Move in directory: `relang/org.vivoweb.dspacevivo.installer`
 2. edit the file `00-env-sample-sh` , adjust values for JAVA_HOME and MAVEN_HOME and save it as `00-env.sh` if necessary.
 3. Run the following script sequence to execute the test
 ```sh
@@ -67,13 +67,13 @@ class Item {
 # General information about the repo
 
 ## Edit DSPACE2VIVO metamodel
- [dspace2vivo.yaml](https://editor.swagger.io/?url=https://raw.githubusercontent.com/vivo-community/DSpace-VIVO/dev-heon/bundles/ca.uqam.dspace2vivo.model.openapi/dspace2vivo.yaml)
+ [dspace2vivo.yaml](https://editor.swagger.io/?url=https://raw.githubusercontent.com/vivo-community/DSpace-VIVO/dev-heon/bundles/org.vivoweb.dspacevivo.model.openapi/dspace2vivo.yaml)
 
 ## Repo directory structure
 The repo encompasses the following directory structure:
 ```txt
 ├── bundles
-│   ├── ca.uqam.dspace2vivo
+│   ├── org.vivoweb.dspacevivo
 │   │   ├── src
 │   │   │   ├── main
 │   │   │   │   ├── java
@@ -82,7 +82,7 @@ The repo encompasses the following directory structure:
 │   │   │       ├── java
 │   │   │       └── resources
 │   │   └── target
-│   └── ca.uqam.dspace2vivo.model.openapi
+│   └── org.vivoweb.dspacevivo.model.openapi
 │       ├── src
 │       │   ├── main
 │       │   │   ├── java
@@ -104,13 +104,13 @@ The repo encompasses the following directory structure:
 │       │           └── specFiles
 │       └── target
 └── releng
-    ├── ca.uqam.dspace2vivo.installer
+    ├── org.vivoweb.dspacevivo.installer
     │   └── src
     │       └── site
-    └── ca.uqam.dspace2vivo.model.conceptual
+    └── org.vivoweb.dspacevivo.model.conceptual
 ```
 The `releng` ( release engineering ) and `bundles` directories are the two root directories of the project. 
 ### about releng
-`releng` contains the packages necessary to manage the engineering of the current and future packages of the project including the directory `ca.uqam.dspace2vivo.installer` containing the installation management scripts and the directory `ca.uqam.dspace2vivo.model.conceptual` containing the project explanatory models
+`releng` contains the packages necessary to manage the engineering of the current and future packages of the project including the directory `org.vivoweb.dspacevivo.installer` containing the installation management scripts and the directory `org.vivoweb.dspacevivo.model.conceptual` containing the project explanatory models
 ### about bundles
 the `bundles` directory encapsulates the project code. 
