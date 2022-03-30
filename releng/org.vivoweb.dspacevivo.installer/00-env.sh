@@ -23,6 +23,7 @@
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P )"
 export BUNDLES=$(cd $SCRIPT_DIR/../../bundles; pwd -P)
 export RELENG=$(cd $SCRIPT_DIR/../../releng; pwd -P)
+export GIT_REPO=$(cd $SCRIPT_DIR/../../../; pwd -P)
 export LIB=$BUNDLES/lib
 export TARGET_HOME=$BUNDLES/org.vivoweb.dspacevivo.model.openapi/target
 
