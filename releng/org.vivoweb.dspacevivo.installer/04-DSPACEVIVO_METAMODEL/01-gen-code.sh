@@ -1,9 +1,10 @@
 #!/bin/bash 
 
 ###################################################################
-# Script Name   :
-# Description   :
-# Args          : 
+# Script Name   : 01-gen-code.sh
+# Description   : This script is used to generate the Java skeletons 
+#     of the DSExDS YAML metamodel
+# Args          : N/A
 # Author       	: Michel Héon PhD
 # Institution   : Université du Québec à Montréal
 # Copyright     : Université du Québec à Montréal (c) 2022

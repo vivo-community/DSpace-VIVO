@@ -1,9 +1,9 @@
 openapi: "3.0.2"
 info:
-  version: 1.0.0
-  title: DSpace - VIVO integration project
+  version: 1.1.0
+  title: DSpace-VIVO EXchange Data Schema (DVExDS)
   description: |-
-    This is the "DSpace - VIVO integration project" based on the OpenAPI 3.0 specification.
+    This is the "DSpace-VIVO EXchange Data Schema (DVExDS)" based on the OpenAPI 3.0.2 specification.
     You can find out more about Swagger at [http://swagger.io](http://swagger.io). In the third iteration of the pet store, we've switched to the design first approach!
     You can now help us improve the API whether it's by making changes to the definition itself or to the code.
     That way, with time, we can improve the API in general, and expose some of the new features in OAS3.
@@ -127,9 +127,11 @@ components:
         - id
         - uri
         - url
-        - hasItem 
-        - isPartOfCommunity 
       properties:
+        dspaceType:
+          type: string
+          readOnly: true
+          default: collection
         id:
           type: string
           example: 123456789/2
@@ -142,13 +144,11 @@ components:
         hasItem: 
           type: array
           items:
-            type: string
-          example: 123456789/4,123456789/3
-        isPartOfCommunity: 
+            $ref: '#/components/schemas/Item'
+        isPartOfCommunityID: 
           type: array
           items:
             type: string
-          example: 123456789/1
         listOfStatements:
           type: array
           items:
@@ -163,9 +163,11 @@ components:
         - id
         - uri
         - url
-        - hasCollection
-        - isPartOfRepository 
       properties:
+        dspaceType:
+          type: string
+          readOnly: true
+          default: community
         id:
           type: string
           example: 123456789/1
@@ -178,11 +180,19 @@ components:
         hasCollection:
           type: array
           items:
-            type: string
+            $ref: '#/components/schemas/Collection'
           example: 123456789/2
+        hasSubCommunity:
+          type: array
+          items:
+            $ref: '#/components/schemas/Community'
+        isSubcommunityOfID:
+          type: array
+          items:
+            type: string
         isPartOfRepositoryID:
-          type: string
-          example: 123456789/0
+          items:
+            type: string
         listOfStatements:
           type: array
           items:
@@ -196,19 +206,21 @@ components:
       required:
         - id
         - uri
-        - hasCommunityId
       properties:
+        dspaceType:
+          type: string
+          readOnly: true
+          default: repository
         id:
           type: string
           example: 123456789/0
         uri:
           type: string
           example: "http://localhost:4000/handle/123456789/0"    
-        hasCommunityId:
+        hasCommunity:
           type: array
           items:
-            type: string
-          example: 123456789/1, 123456789/2
+            $ref: '#/components/schemas/Community'
         listOfStatements:
           type: array
           items:
@@ -224,8 +236,12 @@ components:
         - uri
         - url
         - dspaceBitstreamURL
-        - dspaceIsPartOfCollectionID
+        - dspaceIsPartOfCollection
       properties:
+        dspaceType:
+          type: string
+          readOnly: true
+          default: item
         id:
           type: string
           example: 123456789/4
@@ -233,8 +249,8 @@ components:
           type: string
           example: http://localhost:4000/bitstream/123456789/3/1/pdf1.pdf
         dspaceIsPartOfCollectionID:
-          type: string
-          example: 123456789/2
+          items:
+            type: string
         uri:
           type: string
           example: http://localhost:4000/handle/123456789/3
@@ -256,6 +272,10 @@ components:
         - predicateUri
         - objectUri
       properties:
+        dspaceType:
+          type: string
+          readOnly: true
+          default: statement
         subjectUri:
           type: string
           example: http://localhost:4000/handle/123456789/3
@@ -273,6 +293,10 @@ components:
         - objectLiteral
         - literalType
       properties:
+        dspaceType:
+          type: string
+          readOnly: true
+          default: statementLiteral
         subjectUri:
           type: string
           example: http://localhost:4000/handle/123456789/3
