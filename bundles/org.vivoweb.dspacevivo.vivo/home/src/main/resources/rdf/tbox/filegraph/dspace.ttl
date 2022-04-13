@@ -60,10 +60,9 @@ dspace:Collection
 dspace:Community
   rdf:type owl:Class ;
   rdfs:label "DSpace Community"@en, "DSpace Community"@en-US ;
-  rdfs:subClassOf core:Dataset ;
+  rdfs:subClassOf          bibo:Document , owl:Thing , bibo:CollectedDocument , obo:IAO_0000030 , obo:BFO_0000001 , obo:BFO_0000031 , obo:BFO_0000002 ;
   skos:prefLabel "Community"@en-US ;
   rdfs:label               "DSpace Community"@en , "DSpace Community"@en-US ;
-        rdfs:subClassOf          bibo:Document , owl:Thing , bibo:CollectedDocument , obo:IAO_0000030 , obo:BFO_0000001 , obo:BFO_0000031 , obo:BFO_0000002 ;
         rdfs:subClassOf          [ a                  owl:Restriction ;
                                    owl:allValuesFrom  foaf:Organization ;
                                    owl:onProperty     vivo:publisher
