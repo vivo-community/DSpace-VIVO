@@ -1,0 +1,9 @@
+<Context> <!-- useHttpOnly="false" -->
+   <Environment
+        type="java.lang.String" 
+        name="vitro/home"
+        value="/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home" override="true"/>
+
+   <!-- Disable persist sessions on shut down.-->
+   <Manager pathname="" />
+</Context>
