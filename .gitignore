@@ -1,4 +1,6 @@
 /target/
+/app-tomcat/
+/app-solr/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
