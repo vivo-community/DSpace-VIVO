@@ -2,3 +2,6 @@
 /solr-*.tgz*
 /lib/
 /app-tomcat/
+/app-solr/
+/vivo-home/
+
