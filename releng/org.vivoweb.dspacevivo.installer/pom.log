@@ -1,0 +1,367 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.vivoweb.dspacevivo:org.vivoweb.dspacevivo.webapp:war:1.12.2
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-war-plugin is missing. @ line 21, column 21
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-clean-plugin is missing. @ line 35, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.vivoweb.dspacevivo:org.vivoweb.dspacevivo.home:pom:1.12.2
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 38, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.vivoweb:vivo-api-overlay:jar:1.12.2
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 44, column 12
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] VIVO Web App                                                       [war]
+[[1;34mINFO[m] VIVO Home                                                          [pom]
+[[1;34mINFO[m] DSPACE/VIVO webapp                                                 [war]
+[[1;34mINFO[m] DSPACE/VIVO home                                                   [pom]
+[[1;34mINFO[m] VIVO Api overlay                                                   [jar]
+[[1;34mINFO[m] VIVO Installer -overlay-                                           [pom]
+[[1;34mINFO[m] VIVO Install Home -overlay-                                        [pom]
+[[1;34mINFO[m] VIVO Install Web App -overlay-                                     [war]
+[[1;34mINFO[m] VIVO -overlay-                                                     [pom]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.vivoweb:vivo-webapp[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding VIVO Web App 1.12.2                                       [1/9][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.0.0:clean[m [1m(default-clean)[m @ [36mvivo-webapp[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mvivo-webapp[0;1m ---[m
+[[1;34mINFO[m] ShortRevision tag detected. The value is '7'.
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp
+[[1;34mINFO[m] Storing buildNumber: f2a8fde at timestamp: 1649274768164
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] ShortRevision tag detected. The value is '7'.
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mvivo-webapp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mvivo-webapp[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mvivo-webapp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mvivo-webapp[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mvivo-webapp[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:3.2.0:war[m [1m(default-war)[m @ [36mvivo-webapp[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [vivo-webapp] in [/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp/target/vivo-webapp-1.12.2]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp webResources [/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp/src/main/webResources] to [/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp/target/vivo-webapp-1.12.2]
+[[1;34mINFO[m] Copying webapp resources [/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp/src/main/webapp]
+[[1;34mINFO[m] Processing overlay [ id org.vivoweb:vitro-webapp]
+[[1;34mINFO[m] Webapp assembled in [896 msecs]
+[[1;34mINFO[m] Building war: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp/target/vivo-webapp-1.12.2.war
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:3.1.1:check[m [1m(verify-style)[m @ [36mvivo-webapp[0;1m ---[m
+[[1;34mINFO[m] Début de la vérification...
+Vérification terminée.
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mvivo-webapp[0;1m ---[m
+[[1;34mINFO[m] Installing /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp/target/vivo-webapp-1.12.2.war to /home/heon/.m2/repository/org/vivoweb/vivo-webapp/1.12.2/vivo-webapp-1.12.2.war
+[[1;34mINFO[m] Installing /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/webapp/pom.xml to /home/heon/.m2/repository/org/vivoweb/vivo-webapp/1.12.2/vivo-webapp-1.12.2.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36morg.vivoweb:vivo-home[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding VIVO Home 1.12.2                                          [2/9][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.0.0:clean[m [1m(default-clean)[m @ [36mvivo-home[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/home/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mvivo-home[0;1m ---[m
+[[1;34mINFO[m] ShortRevision tag detected. The value is '7'.
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/home' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/home
+[[1;34mINFO[m] Storing buildNumber: f2a8fde at timestamp: 1649274770802
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] ShortRevision tag detected. The value is '7'.
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/home' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/home
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-assembly-plugin:2.5.5:single[m [1m(default)[m @ [36mvivo-home[0;1m ---[m
+[[1;34mINFO[m] Reading assembly descriptor: src/main/assembly/home.xml
+[[1;33mWARNING[m] Cannot include project artifact: org.vivoweb:vivo-home:pom:1.12.2; it doesn't have an associated file or directory.
+[[1;34mINFO[m] Building tar: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/home/target/vivo-home-1.12.2.tar.gz
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.9.1:attach-artifact[m [1m(attach-artifacts)[m @ [36mvivo-home[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:3.1.1:check[m [1m(verify-style)[m @ [36mvivo-home[0;1m ---[m
+[[1;34mINFO[m] Début de la vérification...
+Vérification terminée.
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mvivo-home[0;1m ---[m
+[[1;34mINFO[m] Installing /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/home/pom.xml to /home/heon/.m2/repository/org/vivoweb/vivo-home/1.12.2/vivo-home-1.12.2.pom
+[[1;34mINFO[m] Installing /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/home/target/vivo-home-1.12.2.tar.gz to /home/heon/.m2/repository/org/vivoweb/vivo-home/1.12.2/vivo-home-1.12.2.tar.gz
+[[1;34mINFO[m] Installing /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/home/target/vivo-home-1.12.2.tar.gz to /home/heon/.m2/repository/org/vivoweb/vivo-home/1.12.2/vivo-home-1.12.2.tar.gz
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36morg.vivoweb.dspacevivo:org.vivoweb.dspacevivo.webapp[0;1m >--------[m
+[[1;34mINFO[m] [1mBuilding DSPACE/VIVO webapp 1.12.2                                 [3/9][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36morg.vivoweb.dspacevivo.webapp[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo/webapp/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36morg.vivoweb.dspacevivo.webapp[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo/webapp/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36morg.vivoweb.dspacevivo.webapp[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36morg.vivoweb.dspacevivo.webapp[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo/webapp/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36morg.vivoweb.dspacevivo.webapp[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36morg.vivoweb.dspacevivo.webapp[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.2:war[m [1m(default-war)[m @ [36morg.vivoweb.dspacevivo.webapp[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [org.vivoweb.dspacevivo.webapp] in [/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo/webapp/target/org.vivoweb.dspacevivo.webapp-1.12.2]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp resources [/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo/webapp/src/main/webapp]
+[[1;34mINFO[m] Webapp assembled in [15 msecs]
+[[1;34mINFO[m] Building war: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo/webapp/target/org.vivoweb.dspacevivo.webapp-1.12.2.war
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36morg.vivoweb.dspacevivo.webapp[0;1m ---[m
+[[1;34mINFO[m] Installing /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo/webapp/target/org.vivoweb.dspacevivo.webapp-1.12.2.war to /home/heon/.m2/repository/org/vivoweb/dspacevivo/org.vivoweb.dspacevivo.webapp/1.12.2/org.vivoweb.dspacevivo.webapp-1.12.2.war
+[[1;34mINFO[m] Installing /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo/webapp/pom.xml to /home/heon/.m2/repository/org/vivoweb/dspacevivo/org.vivoweb.dspacevivo.webapp/1.12.2/org.vivoweb.dspacevivo.webapp-1.12.2.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------< [0;36morg.vivoweb.dspacevivo:org.vivoweb.dspacevivo.home[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding DSPACE/VIVO home 1.12.2                                   [4/9][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36morg.vivoweb.dspacevivo.home[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo/home/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-assembly-plugin:3.3.0:single[m [1m(default)[m @ [36morg.vivoweb.dspacevivo.home[0;1m ---[m
+[[1;34mINFO[m] Reading assembly descriptor: src/main/assembly/home.xml
+[[1;33mWARNING[m] Cannot include project artifact: org.vivoweb.dspacevivo:org.vivoweb.dspacevivo.home:pom:1.12.2; it doesn't have an associated file or directory.
+[[1;34mINFO[m] Building tar: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo/home/target/org.vivoweb.dspacevivo.home-1.12.2.tar.gz
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.3.0:attach-artifact[m [1m(attach-artifacts)[m @ [36morg.vivoweb.dspacevivo.home[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36morg.vivoweb.dspacevivo.home[0;1m ---[m
+[[1;34mINFO[m] Installing /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo/home/pom.xml to /home/heon/.m2/repository/org/vivoweb/dspacevivo/org.vivoweb.dspacevivo.home/1.12.2/org.vivoweb.dspacevivo.home-1.12.2.pom
+[[1;34mINFO[m] Installing /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo/home/target/org.vivoweb.dspacevivo.home-1.12.2.tar.gz to /home/heon/.m2/repository/org/vivoweb/dspacevivo/org.vivoweb.dspacevivo.home/1.12.2/org.vivoweb.dspacevivo.home-1.12.2.tar.gz
+[[1;34mINFO[m] Installing /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo/home/target/org.vivoweb.dspacevivo.home-1.12.2.tar.gz to /home/heon/.m2/repository/org/vivoweb/dspacevivo/org.vivoweb.dspacevivo.home/1.12.2/org.vivoweb.dspacevivo.home-1.12.2.tar.gz
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.vivoweb:vivo-api-overlay[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding VIVO Api overlay 1.12.2                                   [5/9][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.0.0:clean[m [1m(default-clean)[m @ [36mvivo-api-overlay[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/vivo-api-overlay/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mvivo-api-overlay[0;1m ---[m
+[[1;34mINFO[m] ShortRevision tag detected. The value is '7'.
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/vivo-api-overlay' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/vivo-api-overlay
+[[1;34mINFO[m] Storing buildNumber: 5684df3 at timestamp: 1649274773779
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] ShortRevision tag detected. The value is '7'.
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/vivo-api-overlay' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/vivo-api-overlay
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.2.0:add-source[m [1m(add-source)[m @ [36mvivo-api-overlay[0;1m ---[m
+[[1;34mINFO[m] Source directory: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/VIVO/api/src/main/java added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mvivo-api-overlay[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mvivo-api-overlay[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 227 source files to /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/vivo-api-overlay/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mvivo-api-overlay[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mvivo-api-overlay[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mvivo-api-overlay[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.0.2:jar[m [1m(default-jar)[m @ [36mvivo-api-overlay[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/vivo-api-overlay/target/vivo-api-overlay-1.12.2.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:3.1.1:check[m [1m(verify-style)[m @ [36mvivo-api-overlay[0;1m ---[m
+[[1;34mINFO[m] Début de la vérification...
+Vérification terminée.
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mvivo-api-overlay[0;1m ---[m
+[[1;34mINFO[m] Installing /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/vivo-api-overlay/target/vivo-api-overlay-1.12.2.jar to /home/heon/.m2/repository/org/vivoweb/vivo-api-overlay/1.12.2/vivo-api-overlay-1.12.2.jar
+[[1;34mINFO[m] Installing /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/bundles/vivo-api-overlay/pom.xml to /home/heon/.m2/repository/org/vivoweb/vivo-api-overlay/1.12.2/vivo-api-overlay-1.12.2.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.vivoweb:vivo-installer[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding VIVO Installer -overlay- 1.12.2                           [6/9][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.0.0:clean[m [1m(default-clean)[m @ [36mvivo-installer[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-properties)[m @ [36mvivo-installer[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mvivo-installer[0;1m ---[m
+[[1;34mINFO[m] Skipping artifact installation
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.vivoweb:vivo-installer-home[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding VIVO Install Home -overlay- 1.12.2                        [7/9][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.0.0:clean[m [1m(default-clean)[m @ [36mvivo-installer-home[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/installer/home/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-properties)[m @ [36mvivo-installer-home[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-assembly-plugin:2.5.5:single[m [1m(default)[m @ [36mvivo-installer-home[0;1m ---[m
+[[1;34mINFO[m] Reading assembly descriptor: src/main/assembly/home.xml
+[[1;33mWARNING[m] Cannot include project artifact: org.vivoweb:vivo-installer-home:pom:1.12.2; it doesn't have an associated file or directory.
+[[1;34mINFO[m] Copying files to /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/installer/home/target/vivo
+[[1;33mWARNING[m] Assembly file: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/installer/home/target/vivo is not a regular file (it may be a directory). It cannot be attached to the project build for installation or deployment.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(remove-webapp)[m @ [36mvivo-installer-home[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+   [delete] Deleting directory /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mvivo-installer-home[0;1m ---[m
+[[1;34mINFO[m] Skipping artifact installation
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:copy-resources[m [1m(install)[m @ [36mvivo-installer-home[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 95 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.vivoweb:vivo-installer-vivo[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding VIVO Install Web App -overlay- 1.12.2                     [8/9][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.0.0:clean[m [1m(default-clean)[m @ [36mvivo-installer-vivo[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/installer/webapp/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-properties)[m @ [36mvivo-installer-vivo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mvivo-installer-vivo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/installer/webapp/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mvivo-installer-vivo[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mvivo-installer-vivo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/installer/webapp/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mvivo-installer-vivo[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mvivo-installer-vivo[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:3.2.0:war[m [1m(default-war)[m @ [36mvivo-installer-vivo[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [vivo-installer-vivo] in [/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/installer/webapp/target/vivo]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp webResources [/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/installer/webapp/src/main/webResources] to [/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/installer/webapp/target/vivo]
+[[1;34mINFO[m] Copying webapp resources [/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/installer/webapp/src/main/webapp]
+[[1;34mINFO[m] Processing overlay [ id org.vivoweb:vivo-webapp]
+[[1;34mINFO[m] Processing overlay [ id org.vivoweb:vitro-languages-webapp-core]
+[[1;34mINFO[m] Processing overlay [ id org.vivoweb:vivo-languages-webapp-core]
+[[1;34mINFO[m] Processing overlay [ id org.vivoweb.dspacevivo:org.vivoweb.dspacevivo.webapp]
+[[1;34mINFO[m] Webapp assembled in [1119 msecs]
+[[1;34mINFO[m] Building war: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/installer/webapp/target/vivo.war
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(remove-webapp)[m @ [36mvivo-installer-vivo[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+   [delete] Deleting directory /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/app-tomcat/webapps/vivo
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mvivo-installer-vivo[0;1m ---[m
+[[1;34mINFO[m] Skipping artifact installation
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:unpack[m [1m(install)[m @ [36mvivo-installer-vivo[0;1m ---[m
+[[1;34mINFO[m] Configured Artifact: org.vivoweb:vivo-installer-vivo:1.12.2:war
+[[1;34mINFO[m] Unpacking /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/installer/webapp/target/vivo.war to /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/app-tomcat/webapps/vivo with includes "" and excludes ""
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------< [0;36morg.vivoweb.dspacevivo:org.vivoweb.dspacevivo.installer[0;1m >-------[m
+[[1;34mINFO[m] [1mBuilding VIVO -overlay- 1.12.2                                     [9/9][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.0.0:clean[m [1m(default-clean)[m @ [36morg.vivoweb.dspacevivo.installer[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36morg.vivoweb.dspacevivo.installer[0;1m ---[m
+[[1;34mINFO[m] ShortRevision tag detected. The value is '7'.
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO
+[[1;34mINFO[m] Storing buildNumber: 5684df3 at timestamp: 1649274793837
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] ShortRevision tag detected. The value is '7'.
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO' && 'git' 'rev-parse' '--verify' '--short=7' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:3.1.1:check[m [1m(verify-style)[m @ [36morg.vivoweb.dspacevivo.installer[0;1m ---[m
+[[1;34mINFO[m] Début de la vérification...
+Vérification terminée.
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36morg.vivoweb.dspacevivo.installer[0;1m ---[m
+[[1;34mINFO[m] Installing /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/01-VIVO/pom.xml to /home/heon/.m2/repository/org/vivoweb/dspacevivo/org.vivoweb.dspacevivo.installer/1.12.2/org.vivoweb.dspacevivo.installer-1.12.2.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for VIVO -overlay- 1.12.2:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] VIVO Web App ....................................... [1;32mSUCCESS[m [  3.171 s]
+[[1;34mINFO[m] VIVO Home .......................................... [1;32mSUCCESS[m [  2.524 s]
+[[1;34mINFO[m] DSPACE/VIVO webapp ................................. [1;32mSUCCESS[m [  0.249 s]
+[[1;34mINFO[m] DSPACE/VIVO home ................................... [1;32mSUCCESS[m [  0.288 s]
+[[1;34mINFO[m] VIVO Api overlay ................................... [1;32mSUCCESS[m [ 12.991 s]
+[[1;34mINFO[m] VIVO Installer -overlay- ........................... [1;32mSUCCESS[m [  0.125 s]
+[[1;34mINFO[m] VIVO Install Home -overlay- ........................ [1;32mSUCCESS[m [  1.440 s]
+[[1;34mINFO[m] VIVO Install Web App -overlay- ..................... [1;32mSUCCESS[m [  5.536 s]
+[[1;34mINFO[m] VIVO -overlay- ..................................... [1;32mSUCCESS[m [  0.077 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  26.912 s
+[[1;34mINFO[m] Finished at: 2022-04-06T15:53:13-04:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

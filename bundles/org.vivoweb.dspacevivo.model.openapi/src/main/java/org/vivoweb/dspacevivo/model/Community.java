@@ -26,7 +26,7 @@ import javax.validation.Valid;
 /**
  * Community
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-03-30T10:52:29.322-04:00[America/New_York]")public class Community   {
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-03-30T15:02:28.675-04:00[America/New_York]")public class Community   {
   @JsonProperty("id")
   private String id = null;
 

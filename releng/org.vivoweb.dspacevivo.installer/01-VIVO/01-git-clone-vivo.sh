@@ -16,8 +16,8 @@ cd $GIT_REPO
 git clone https://github.com/vivo-project/VIVO.git
 (cd VIVO; git checkout tags/vivo-$REL ) 
 git clone https://github.com/vivo-project/Vitro.git
-(cd vitro; git checkout tags/vitro-$REL ) 
+(cd Vitro; git checkout tags/vitro-$REL ) 
 git clone https://github.com/vivo-project/VIVO-languages.git
 (cd VIVO-languages; git checkout tags/vivo-languages-$REL )
-git https://github.com/vivo-project/Vitro-languages.git
+git clone https://github.com/vivo-project/Vitro-languages.git
 (cd Vitro-languages; git checkout tags/vitro-languages-$REL)
