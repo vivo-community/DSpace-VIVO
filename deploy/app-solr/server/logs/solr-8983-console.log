@@ -2,15 +2,15 @@ OpenJDK 64-Bit Server VM warning: Failed to reserve shared memory. (error = 1)
 OpenJDK 64-Bit Server VM warning: Failed to reserve shared memory. (error = 12)
 OpenJDK 64-Bit Server VM warning: Failed to reserve shared memory. (error = 12)
 OpenJDK 64-Bit Server VM warning: Failed to reserve shared memory. (error = 12)
-2022-04-13 19:56:49.198 INFO  (main) [   ] o.e.j.u.log Logging initialized @817ms to org.eclipse.jetty.util.log.Slf4jLog
-2022-04-13 19:56:49.382 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 1.8.0_312-8u312-b07-0ubuntu1~20.04-b07
-2022-04-13 19:56:49.393 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/app-solr/server/contexts/] at interval 0
-2022-04-13 19:56:49.615 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
-2022-04-13 19:56:49.625 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
-2022-04-13 19:56:49.625 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
-2022-04-13 19:56:49.626 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
-2022-04-13 19:56:49.681 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
-2022-04-13 19:56:49.722 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.11.1
-2022-04-13 19:56:49.722 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
-2022-04-13 19:56:49.722 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/app-solr
-2022-04-13 19:56:49.723 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2022-04-13T19:56:49.723Z
+2022-04-13 20:04:19.314 INFO  (main) [   ] o.e.j.u.log Logging initialized @820ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-04-13 20:04:19.484 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 1.8.0_312-8u312-b07-0ubuntu1~20.04-b07
+2022-04-13 20:04:19.495 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/app-solr/server/contexts/] at interval 0
+2022-04-13 20:04:19.717 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2022-04-13 20:04:19.726 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2022-04-13 20:04:19.726 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2022-04-13 20:04:19.727 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2022-04-13 20:04:19.777 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2022-04-13 20:04:19.801 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.11.1
+2022-04-13 20:04:19.802 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2022-04-13 20:04:19.802 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/app-solr
+2022-04-13 20:04:19.802 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2022-04-13T20:04:19.802Z

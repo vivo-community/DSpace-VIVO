@@ -1,81 +1,91 @@
-2022-04-13 15:57:13,570 INFO  [RevisionInfoBean] Revision info [build date: 22-04-13 19 h 56, level info: [[VIVO, 1.12.2, 898b504]]]
-2022-04-13 15:57:13,620 INFO  [ConfigurationModelsSetup] Reload firsttime files on start-up if changed: 'display', URI: 'http://vitro.mannlib.cornell.edu/default/vitro-kb-displayMetadata'
-2022-04-13 15:57:13,625 INFO  [RDFFilesLoader] Loading rdf/display/firsttime/PropertyConfig.n3
-2022-04-13 15:57:13,714 INFO  [RDFFilesLoader] Loading rdf/display/firsttime/PropertyConfigSupp.n3
-2022-04-13 15:57:13,716 INFO  [RDFFilesLoader] Loading rdf/display/firsttime/application.owl
-2022-04-13 15:57:13,740 INFO  [RDFFilesLoader] Loading rdf/display/firsttime/menu.n3
-2022-04-13 15:57:13,744 INFO  [RDFFilesLoader] Loading rdf/display/firsttime/pageList_editableStatements.n3
-2022-04-13 15:57:13,747 INFO  [RDFFilesLoader] Loading rdf/display/firsttime/profilePageType.n3
-2022-04-13 15:57:13,752 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/display/firsttime/PropertyConfig_en_US.nt
-2022-04-13 15:57:13,765 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/display/firsttime/aboutPage.n3
-2022-04-13 15:57:13,767 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/display/firsttime/menu_en_US.nt
-2022-04-13 15:57:13,803 INFO  [RDFFilesLoader] Loading rdf/display/everytime/dataGetterLabels.n3
-2022-04-13 15:57:13,804 INFO  [RDFFilesLoader] Loading rdf/display/everytime/displayModelListViews.rdf
-2022-04-13 15:57:13,806 INFO  [RDFFilesLoader] Loading rdf/display/everytime/homePageDataGetters.n3
-2022-04-13 15:57:13,807 INFO  [RDFFilesLoader] Loading rdf/display/everytime/localeSelectionGUI.n3
-2022-04-13 15:57:13,807 INFO  [RDFFilesLoader] Loading rdf/display/everytime/n3ModelChangePreprocessors.n3
-2022-04-13 15:57:13,808 INFO  [RDFFilesLoader] Loading rdf/display/everytime/orcidInterfaceDataGetters.n3
-2022-04-13 15:57:13,809 INFO  [RDFFilesLoader] Loading rdf/display/everytime/pageList.n3
-2022-04-13 15:57:13,810 INFO  [RDFFilesLoader] Loading rdf/display/everytime/permissions.n3
-2022-04-13 15:57:13,813 INFO  [RDFFilesLoader] Loading rdf/display/everytime/searchIndexerConfigurationVitro.n3
-2022-04-13 15:57:13,818 INFO  [RDFFilesLoader] Loading rdf/display/everytime/searchIndexerConfigurationVivo.n3
-2022-04-13 15:57:13,822 INFO  [RDFFilesLoader] Loading rdf/display/everytime/vitroSearchProhibited.n3
-2022-04-13 15:57:13,822 INFO  [RDFFilesLoader] Loading rdf/display/everytime/vivoConceptDataGetters.n3
-2022-04-13 15:57:13,825 INFO  [RDFFilesLoader] Loading rdf/display/everytime/vivoListViewConfig.rdf
-2022-04-13 15:57:13,833 INFO  [RDFFilesLoader] Loading rdf/display/everytime/vivoOrganizationDataGetters.n3
-2022-04-13 15:57:13,835 INFO  [RDFFilesLoader] Loading rdf/display/everytime/vivoQrCodeDataGetter.n3
-2022-04-13 15:57:13,836 INFO  [RDFFilesLoader] Loading rdf/display/everytime/vivoSearchProhibited.n3
-2022-04-13 15:57:13,841 INFO  [RDFFilesLoader] Loading rdf/displayTbox/everytime/displayTBOX.n3
-2022-04-13 15:57:13,846 INFO  [RDFFilesLoader] Loading rdf/displayDisplay/everytime/displayDisplay.n3
-2022-04-13 15:57:13,849 INFO  [ConfigurationModelsSetup] Reload firsttime files on start-up if changed: 'auth', URI: 'http://vitro.mannlib.cornell.edu/default/vitro-kb-userAccounts'
-2022-04-13 15:57:13,852 INFO  [RDFFilesLoader] Loading rdf/auth/everytime/permission_config.n3
-2022-04-13 15:57:13,857 INFO  [ContentModelSetup] Reload firsttime files on start-up if changed: 'applicationMetadata', URI: 'http://vitro.mannlib.cornell.edu/default/vitro-kb-applicationMetadata'
-2022-04-13 15:57:13,859 INFO  [RDFFilesLoader] Loading rdf/applicationMetadata/firsttime/classgroups.rdf
-2022-04-13 15:57:13,865 INFO  [RDFFilesLoader] Loading rdf/applicationMetadata/firsttime/initialSiteConfig.rdf
-2022-04-13 15:57:13,869 INFO  [RDFFilesLoader] Loading rdf/applicationMetadata/firsttime/propertygroups.rdf
-2022-04-13 15:57:13,881 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/applicationMetadata/firsttime/classgroups_labels_en_US.nt
-2022-04-13 15:57:13,882 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/applicationMetadata/firsttime/propertygroups_labels_en_US.nt
-2022-04-13 15:57:13,887 INFO  [ContentModelSetup] Reload firsttime files on start-up if changed: 'abox', URI: 'http://vitro.mannlib.cornell.edu/default/vitro-kb-2'
-2022-04-13 15:57:13,889 INFO  [RDFFilesLoader] Loading rdf/abox/firsttime/geopolitical.ver1.1-11-18-11-individual-labels.rdf
-2022-04-13 15:57:13,924 INFO  [ContentModelSetup] Reload firsttime files on start-up if changed: 'tbox', URI: 'http://vitro.mannlib.cornell.edu/default/asserted-tbox'
-2022-04-13 15:57:13,925 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/tbox/firsttime/initialTBoxAnnotations_en_US.nt
-2022-04-13 15:57:13,945 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/tbox/firsttime/vitroAnnotations_en_US.n3
-2022-04-13 15:57:13,951 INFO  [RDFFilesLoader] Loading rdf/tbox/firsttime/vitroAnnotations.n3
-2022-04-13 15:57:15,332 INFO  [FileGraphSetup] Read 9 abox file graphs
-2022-04-13 15:57:16,706 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/tbox/filegraph/dspace.ttl because graphs are not isomorphic
-2022-04-13 15:57:16,727 INFO  [FileGraphSetup] dbModel: 7081 ; fileModel: 7081
-2022-04-13 15:57:19,197 INFO  [FileGraphSetup] Read 6 tbox file graphs
-2022-04-13 15:57:19,197 INFO  [FileGraphSetup] a full recompute of the Abox will be performed because the filegraph abox(s) and/or tbox(s) have changed or are being read for the first time.
-2022-04-13 15:57:21,480 INFO  [JFactTBoxReasonerModule] Waiting for initial TBox reasoning to complete
-2022-04-13 15:57:21,754 WARN  [SAXParsers] http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit not supported by parser type org.apache.xerces.jaxp.SAXParserImpl, error message: Property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' is not recognized.
-2022-04-13 15:57:21,755 WARN  [SAXParsers] entityExpansionLimit not supported by parser type org.apache.xerces.jaxp.SAXParserImpl, error message: Property 'entityExpansionLimit' is not recognized.
-2022-04-13 15:57:22,139 ERROR [OWLRDFConsumer] Entity not properly recognized, missing triples in input? http://org.semanticweb.owlapi/error#Error1 for type Class
-2022-04-13 15:57:22,142 ERROR [OWLRDFConsumer] Entity not properly recognized, missing triples in input? http://org.semanticweb.owlapi/error#Error2 for type Class
-2022-04-13 15:57:24,506 INFO  [DisableSameAs] owl:sameAs disabled in SimpleReasoner.
-2022-04-13 15:57:24,506 INFO  [SimpleReasonerSetup] starting ABox inference recompute in a separate thread.
-2022-04-13 15:57:24,510 INFO  [ABoxRecomputer] Recomputing ABox inferences.
-2022-04-13 15:57:24,510 INFO  [ABoxRecomputer] Finding individuals in ABox.
-2022-04-13 15:57:25,081 INFO  [ABoxRecomputer] Recomputing inferences for 561 individuals
-2022-04-13 15:57:25,093 INFO  [IndexHistory] PAUSE, 22-04-13 15:57, []
-2022-04-13 15:57:25,181 INFO  [IndexHistory] STARTUP, 22-04-13 15:57, []
-2022-04-13 15:57:25,185 INFO  [FreemarkerSetup] Freemarker templating system initialized.
-2022-04-13 15:57:25,281 INFO  [VClassGroupCache] VClassGroupCache added to context
-2022-04-13 15:57:25,282 INFO  [VClassGroupCache] VClassGroupCache set to listen to events from IndexBuilder
-2022-04-13 15:57:25,288 INFO  [StartupManager] Called 'contextInitialized' on all listeners.
-2022-04-13 15:57:25,349 INFO  [JSessionStripFilter] Filtering: no jsessionids will be generated.
-2022-04-13 15:57:26,239 WARN  [beans] Overriding freemarker.ext.beans.BeansWrapper.finetuneMethodAppearance is deprecated and will be banned sometimes in the future. Use setMethodAppearanceFineTuner instead.
-2022-04-13 15:57:27,368 INFO  [ABoxRecomputer] Finished recomputing inferences
-2022-04-13 15:57:27,369 INFO  [IndexHistory] UNPAUSE, 22-04-13 15:57, []
-2022-04-13 15:57:27,371 INFO  [IndexHistory] REBUILD_REQUESTED, 22-04-13 15:57, []
-2022-04-13 15:57:27,414 INFO  [IndexHistory] START_REBUILD, 22-04-13 15:57, [documentsBefore=0, documentsAfter=0]
-2022-04-13 15:57:27,519 INFO  [IndexHistory] START_URIS, 22-04-13 15:57, [excluded=0, deleted=0, updated=0, remaining=1476, total=1476]
-2022-04-13 15:57:34,878 WARN  [ConcurrentUpdateSolrClient] No more runners, but queue still has 1 adding more runners to process remaining requests on queue
-2022-04-13 15:57:35,977 INFO  [IndexHistory] STOP_URIS, 22-04-13 15:57, [excluded=1080, deleted=0, updated=396, remaining=0, total=1476]
-2022-04-13 15:57:36,205 INFO  [IndexHistory] STOP_REBUILD, 22-04-13 15:57, [documentsBefore=0, documentsAfter=396]
-2022-04-13 15:58:10,992 INFO  [IndexHistory] SHUTDOWN_REQUESTED, 22-04-13 15:57, []
-2022-04-13 15:58:10,995 INFO  [IndexHistory] SHUTDOWN_COMPLETE, 22-04-13 15:58, []
-2022-04-13 15:58:10,995 INFO  [SimpleReasonerSetup] received contextDestroyed notification
-2022-04-13 15:58:10,995 INFO  [SimpleReasonerSetup] sending stop request to SimpleReasoner
-2022-04-13 15:58:10,995 INFO  [SimpleReasonerSetup] sending stop request to simpleReasonerTBoxListener
-2022-04-13 15:58:10,996 INFO  [BasicTBoxReasonerDriver] Waiting for TBox reasoner to terminate.
-2022-04-13 15:58:11,005 INFO  [StartupManager] Called 'contextDestroyed' on all listeners.
+2022-04-13 16:04:34,561 INFO  [RevisionInfoBean] Revision info [build date: 22-04-13 20 h 03, level info: [[VIVO, 1.12.2, 592ffc5]]]
+2022-04-13 16:04:34,596 INFO  [RDFFilesLoader] Loading rdf/display/firsttime/PropertyConfig.n3
+2022-04-13 16:04:39,287 INFO  [RDFFilesLoader] Loading rdf/display/firsttime/PropertyConfigSupp.n3
+2022-04-13 16:04:39,301 INFO  [RDFFilesLoader] Loading rdf/display/firsttime/application.owl
+2022-04-13 16:04:39,486 INFO  [RDFFilesLoader] Loading rdf/display/firsttime/menu.n3
+2022-04-13 16:04:39,643 INFO  [RDFFilesLoader] Loading rdf/display/firsttime/pageList_editableStatements.n3
+2022-04-13 16:04:39,669 INFO  [RDFFilesLoader] Loading rdf/display/firsttime/profilePageType.n3
+2022-04-13 16:04:39,713 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/display/firsttime/PropertyConfig_en_US.nt
+2022-04-13 16:04:40,054 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/display/firsttime/aboutPage.n3
+2022-04-13 16:04:40,112 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/display/firsttime/menu_en_US.nt
+2022-04-13 16:04:44,044 INFO  [RDFFilesLoader] Loading rdf/display/everytime/dataGetterLabels.n3
+2022-04-13 16:04:44,045 INFO  [RDFFilesLoader] Loading rdf/display/everytime/displayModelListViews.rdf
+2022-04-13 16:04:44,047 INFO  [RDFFilesLoader] Loading rdf/display/everytime/homePageDataGetters.n3
+2022-04-13 16:04:44,048 INFO  [RDFFilesLoader] Loading rdf/display/everytime/localeSelectionGUI.n3
+2022-04-13 16:04:44,048 INFO  [RDFFilesLoader] Loading rdf/display/everytime/n3ModelChangePreprocessors.n3
+2022-04-13 16:04:44,049 INFO  [RDFFilesLoader] Loading rdf/display/everytime/orcidInterfaceDataGetters.n3
+2022-04-13 16:04:44,049 INFO  [RDFFilesLoader] Loading rdf/display/everytime/pageList.n3
+2022-04-13 16:04:44,050 INFO  [RDFFilesLoader] Loading rdf/display/everytime/permissions.n3
+2022-04-13 16:04:44,051 INFO  [RDFFilesLoader] Loading rdf/display/everytime/searchIndexerConfigurationVitro.n3
+2022-04-13 16:04:44,053 INFO  [RDFFilesLoader] Loading rdf/display/everytime/searchIndexerConfigurationVivo.n3
+2022-04-13 16:04:44,054 INFO  [RDFFilesLoader] Loading rdf/display/everytime/vitroSearchProhibited.n3
+2022-04-13 16:04:44,055 INFO  [RDFFilesLoader] Loading rdf/display/everytime/vivoConceptDataGetters.n3
+2022-04-13 16:04:44,055 INFO  [RDFFilesLoader] Loading rdf/display/everytime/vivoListViewConfig.rdf
+2022-04-13 16:04:44,062 INFO  [RDFFilesLoader] Loading rdf/display/everytime/vivoOrganizationDataGetters.n3
+2022-04-13 16:04:44,066 INFO  [RDFFilesLoader] Loading rdf/display/everytime/vivoQrCodeDataGetter.n3
+2022-04-13 16:04:44,067 INFO  [RDFFilesLoader] Loading rdf/display/everytime/vivoSearchProhibited.n3
+2022-04-13 16:04:44,074 INFO  [RDFFilesLoader] Loading rdf/displayTbox/everytime/displayTBOX.n3
+2022-04-13 16:04:44,078 INFO  [RDFFilesLoader] Loading rdf/displayDisplay/everytime/displayDisplay.n3
+2022-04-13 16:04:44,081 INFO  [RDFFilesLoader] Loading rdf/auth/everytime/permission_config.n3
+2022-04-13 16:04:44,084 INFO  [RDFFilesLoader] Loading rdf/applicationMetadata/firsttime/classgroups.rdf
+2022-04-13 16:04:44,091 INFO  [RDFFilesLoader] Loading rdf/applicationMetadata/firsttime/initialSiteConfig.rdf
+2022-04-13 16:04:44,094 INFO  [RDFFilesLoader] Loading rdf/applicationMetadata/firsttime/propertygroups.rdf
+2022-04-13 16:04:44,106 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/applicationMetadata/firsttime/classgroups_labels_en_US.nt
+2022-04-13 16:04:44,106 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/applicationMetadata/firsttime/propertygroups_labels_en_US.nt
+2022-04-13 16:04:44,814 INFO  [RDFFilesLoader] Loading rdf/abox/firsttime/geopolitical.ver1.1-11-18-11-individual-labels.rdf
+2022-04-13 16:04:45,706 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/tbox/firsttime/initialTBoxAnnotations_en_US.nt
+2022-04-13 16:04:48,066 INFO  [RDFFilesLoader] Loading rdf/i18n/en_US/tbox/firsttime/vitroAnnotations_en_US.n3
+2022-04-13 16:04:48,419 INFO  [RDFFilesLoader] Loading rdf/tbox/firsttime/vitroAnnotations.n3
+2022-04-13 16:05:02,223 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/abox/filegraph/academicDegree.rdf because graphs are not isomorphic
+2022-04-13 16:05:02,225 INFO  [FileGraphSetup] dbModel: 0 ; fileModel: 454
+2022-04-13 16:05:02,276 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/abox/filegraph/continents.n3 because graphs are not isomorphic
+2022-04-13 16:05:02,277 INFO  [FileGraphSetup] dbModel: 0 ; fileModel: 7
+2022-04-13 16:05:02,286 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/abox/filegraph/dateTimeValuePrecision.owl because graphs are not isomorphic
+2022-04-13 16:05:02,286 INFO  [FileGraphSetup] dbModel: 0 ; fileModel: 8
+2022-04-13 16:05:02,296 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/abox/filegraph/documentStatus.owl because graphs are not isomorphic
+2022-04-13 16:05:02,297 INFO  [FileGraphSetup] dbModel: 0 ; fileModel: 22
+2022-04-13 16:05:03,156 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/abox/filegraph/geopolitical.abox.ver1.1-11-18-11.owl because graphs are not isomorphic
+2022-04-13 16:05:03,164 INFO  [FileGraphSetup] dbModel: 0 ; fileModel: 22317
+2022-04-13 16:05:03,737 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/abox/filegraph/us-states.rdf because graphs are not isomorphic
+2022-04-13 16:05:03,739 INFO  [FileGraphSetup] dbModel: 0 ; fileModel: 228
+2022-04-13 16:05:03,755 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/abox/filegraph/validation.n3 because graphs are not isomorphic
+2022-04-13 16:05:03,756 INFO  [FileGraphSetup] dbModel: 0 ; fileModel: 1
+2022-04-13 16:05:03,763 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/abox/filegraph/vocabularySource.n3 because graphs are not isomorphic
+2022-04-13 16:05:03,764 INFO  [FileGraphSetup] dbModel: 0 ; fileModel: 8
+2022-04-13 16:05:03,827 INFO  [FileGraphSetup] Read 9 abox file graphs
+2022-04-13 16:05:05,163 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/tbox/filegraph/dspace.ttl because graphs are not isomorphic
+2022-04-13 16:05:05,170 INFO  [FileGraphSetup] dbModel: 0 ; fileModel: 7081
+2022-04-13 16:05:05,447 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/tbox/filegraph/ontologies.owl because graphs are not isomorphic
+2022-04-13 16:05:05,451 INFO  [FileGraphSetup] dbModel: 0 ; fileModel: 21
+2022-04-13 16:05:05,486 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/tbox/filegraph/vitro-0.7.owl because graphs are not isomorphic
+2022-04-13 16:05:05,488 INFO  [FileGraphSetup] dbModel: 0 ; fileModel: 71
+2022-04-13 16:05:05,617 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/tbox/filegraph/vitroPublic.owl because graphs are not isomorphic
+2022-04-13 16:05:05,620 INFO  [FileGraphSetup] dbModel: 0 ; fileModel: 27
+2022-04-13 16:05:05,986 INFO  [FileGraphSetup] Updating /home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO-V2/00-GIT/DSpace-VIVO/deploy/vivo-home/rdf/tbox/filegraph/vivo.owl because graphs are not isomorphic
+2022-04-13 16:05:05,989 INFO  [FileGraphSetup] dbModel: 0 ; fileModel: 6815
+2022-04-13 16:05:06,182 INFO  [FileGraphSetup] Read 6 tbox file graphs
+2022-04-13 16:05:06,182 INFO  [FileGraphSetup] a full recompute of the Abox will be performed because the filegraph abox(s) and/or tbox(s) have changed or are being read for the first time.
+2022-04-13 16:05:07,412 INFO  [KnowledgeBaseUpdater] The application is starting with an empty database. An indication will be added to the database that a knowledge base migration to the current version is not required.
+2022-04-13 16:05:10,873 INFO  [JFactTBoxReasonerModule] Waiting for initial TBox reasoning to complete
+2022-04-13 16:05:11,290 WARN  [SAXParsers] http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit not supported by parser type org.apache.xerces.jaxp.SAXParserImpl, error message: Property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' is not recognized.
+2022-04-13 16:05:11,291 WARN  [SAXParsers] entityExpansionLimit not supported by parser type org.apache.xerces.jaxp.SAXParserImpl, error message: Property 'entityExpansionLimit' is not recognized.
+2022-04-13 16:05:11,878 ERROR [OWLRDFConsumer] Entity not properly recognized, missing triples in input? http://org.semanticweb.owlapi/error#Error1 for type Class
+2022-04-13 16:05:11,882 ERROR [OWLRDFConsumer] Entity not properly recognized, missing triples in input? http://org.semanticweb.owlapi/error#Error2 for type Class
+2022-04-13 16:05:20,875 INFO  [JFactTBoxReasonerModule] Waiting for initial TBox reasoning to complete
+2022-04-13 16:05:22,893 INFO  [DisableSameAs] owl:sameAs disabled in SimpleReasoner.
+2022-04-13 16:05:22,894 INFO  [SimpleReasonerSetup] ABox inference recompute required.
+2022-04-13 16:05:22,895 INFO  [ABoxRecomputer] Recomputing ABox inferences.
+2022-04-13 16:05:22,895 INFO  [ABoxRecomputer] Finding individuals in ABox.
+2022-04-13 16:05:23,189 INFO  [ABoxRecomputer] Recomputing inferences for 559 individuals
+2022-04-13 16:05:24,584 INFO  [ABoxRecomputer] Finished recomputing inferences
+2022-04-13 16:05:25,619 INFO  [IndexHistory] STARTUP, 22-04-13 16:04, []
+2022-04-13 16:05:25,622 INFO  [FreemarkerSetup] Freemarker templating system initialized.
+2022-04-13 16:05:25,673 INFO  [IndexHistory] START_REBUILD, 22-04-13 16:05, [documentsBefore=0, documentsAfter=0]
+2022-04-13 16:05:25,698 INFO  [VClassGroupCache] VClassGroupCache added to context
+2022-04-13 16:05:25,698 INFO  [VClassGroupCache] VClassGroupCache set to listen to events from IndexBuilder
+2022-04-13 16:05:25,704 INFO  [StartupManager] Called 'contextInitialized' on all listeners.
+2022-04-13 16:05:25,773 INFO  [JSessionStripFilter] Filtering: no jsessionids will be generated.
+2022-04-13 16:05:25,815 INFO  [IndexHistory] START_URIS, 22-04-13 16:05, [excluded=0, deleted=0, updated=0, remaining=1474, total=1474]
+2022-04-13 16:05:26,585 WARN  [beans] Overriding freemarker.ext.beans.BeansWrapper.finetuneMethodAppearance is deprecated and will be banned sometimes in the future. Use setMethodAppearanceFineTuner instead.
+2022-04-13 16:05:35,695 INFO  [IndexHistory] STOP_URIS, 22-04-13 16:05, [excluded=1080, deleted=0, updated=394, remaining=0, total=1474]
+2022-04-13 16:05:35,900 INFO  [IndexHistory] STOP_REBUILD, 22-04-13 16:05, [documentsBefore=0, documentsAfter=394]

@@ -1,3 +1,4 @@
 /apache-tomcat*tar.gz*
 /solr-*.tgz*
 /lib/
+/app-tomcat/
