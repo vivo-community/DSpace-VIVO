@@ -16,7 +16,7 @@
 		<relativePath>..</relativePath>
 	</parent>
 
-	<name>VIVO API</name>
+	<name>DSPACE-VIVO API</name>
 
 	<dependencies>
 		<dependency>
@@ -131,9 +131,12 @@
 						</goals>
 						<configuration>
 							<sources>
-								<source>src/main/java</source>
+<!-- 								<source>src/main/java</source> -->
 								<source>${vivo-project-dir}/api/src/main/java</source>
 							</sources>
+							<excludes>
+                    			<exclude>{vivo-project-dir}/api/src/main/java/org/vivoweb/webapp/controller/freemarker/CreateAndLinkResourceController.java</exclude>
+                  			</excludes>
 						</configuration>
 					</execution>
 				</executions>
