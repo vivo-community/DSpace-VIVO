@@ -35,10 +35,13 @@ public class HarvesterRunner {
   public void harvest() throws JsonProcessingException {
     ObjectMapper mp = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
     Iterator<Item> harvestItemsItr = dh.harvestItems();
+    int count = 0;
     if (harvestItemsItr != null) {
       while (harvestItemsItr.hasNext()) {
+        count ++;
         Item next = harvestItemsItr.next();
         System.out.println("new Item harvested...");
+        System.out.println(" "+count);
         System.out.println(mp.writeValueAsString(next));
       }
     }

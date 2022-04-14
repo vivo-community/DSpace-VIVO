@@ -11,6 +11,10 @@ public abstract class DspaceHarvester {
     this.conf = conf;
   }
 
+  public Properties getConf() {
+      return conf;
+  }
+
   public abstract void connect();
   public abstract Iterator<Item> harvestItems();
 }

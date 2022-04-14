@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
+import java.util.Properties;
 import javax.xml.namespace.NamespaceContext;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -47,10 +48,17 @@ public class OAIPMHResponse {
   private String rawResponse;
   private Document xmlResponse;
   private static String XSLT_FILENAME = "src/main/resources/aoi_dc.xslt";
+  private Properties prop;
 
   public OAIPMHResponse(String rawResponse) {
     this.rawResponse = rawResponse;
     parse();
+  }
+
+  public OAIPMHResponse(String rawResponse, Properties p) {
+    this.rawResponse = rawResponse;
+    parse();
+    this.prop = p;
   }
 
   private void parse() {
@@ -90,9 +98,11 @@ public class OAIPMHResponse {
     this.xmlResponse = xmlResponse;
   }
 
-  public static Item modelItem(Document doc, Document head) {
+  public Item modelItem(Document doc, Document head) {
     Document result = doc;
     Item resp = new Item();
+
+    resp.setDspaceIsPartOfCollectionID(new ArrayList());
     Elements listh = head.getElementsByTag("header");
     for (Element e : listh.get(0).children()) {
       String htex = e.text();
@@ -100,7 +110,8 @@ public class OAIPMHResponse {
       if ("identifier".equals(htag)) {
         resp.setId(htex.split(":")[2]);
       } else if ("setSpec".equals(htag) && htex.contains("col")) {
-        //resp.setDspaceIsPartOfCollectionID(htex);
+        resp.getDspaceIsPartOfCollectionID().add(htex);
+
       }
 
     }
@@ -108,6 +119,7 @@ public class OAIPMHResponse {
     Elements list = result.getElementsByTag("oai_dc");
 
     String id = resp.getId();
+    String uri = this.prop.getProperty("uriPrefix") + id;
     resp.setListOfStatementLiterals(new ArrayList());
     for (Element e : list.get(0).children()) {
       String text = e.text();
@@ -122,7 +134,7 @@ public class OAIPMHResponse {
           break;
         default:
           StatementLiteral statementLiteral = new StatementLiteral();
-          statementLiteral.setSubjectUri(id);
+          statementLiteral.setSubjectUri(uri);
           statementLiteral.setPredicateUri(tag.replace("dc:", "http://purl.org/dc/terms/"));
           statementLiteral.setObjectLiteral(text);
           statementLiteral.setLiteralType(null);
@@ -196,7 +208,7 @@ public class OAIPMHResponse {
     return extracttransform(xmlDocument);
   }
 
-  public static List<Item> extracttransform(org.w3c.dom.Document xmlDocument) throws XPathExpressionException, TransformerException {
+  public List<Item> extracttransform(org.w3c.dom.Document xmlDocument) throws XPathExpressionException, TransformerException {
     List<Item> resp = Lists.newArrayList();
     XPath xPath = XPathFactory.newInstance().newXPath();
     xPath.setNamespaceContext(new NamespaceContext() {
