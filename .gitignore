@@ -1,6 +1,7 @@
 deploy/app-solr/
 deploy/app-tomcat/
 deploy/vivo-home/
+deploy/translator/
 deploy/lib/
 !.mvn/wrapper/maven-wrapper.jar
 

@@ -22,7 +22,7 @@ import javax.validation.Valid;
 /**
  * Statement
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-04-07T06:06:42.412-04:00[America/New_York]")public class Statement   {
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-04-20T15:46:18.807-04:00[America/New_York]")public class Statement   {
   @JsonProperty("dspaceType")
   private String dspaceType = "statement";
 
@@ -55,7 +55,7 @@ import javax.validation.Valid;
    * @return subjectUri
    **/
   @JsonProperty("subjectUri")
-  @Schema(example = "http://localhost:4000/handle/123456789/3", required = true, description = "")
+  @Schema(example = "http://dspacevivo.vivoweb.org/individual/123456789_62", required = true, description = "")
   @NotNull
   public String getSubjectUri() {
     return subjectUri;
@@ -95,7 +95,7 @@ import javax.validation.Valid;
    * @return objectUri
    **/
   @JsonProperty("objectUri")
-  @Schema(example = "http://localhost:4000/handle/123456789/3", required = true, description = "")
+  @Schema(example = "http://dspacevivo.vivoweb.org/individual/123456789_68", required = true, description = "")
   @NotNull
   public String getObjectUri() {
     return objectUri;

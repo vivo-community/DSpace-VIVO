@@ -1,6 +1,8 @@
 package org.vivoweb.dspacevivo.vocab.util;
 
+
 import org.apache.commons.io.output.ByteArrayOutputStream;
+import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.riot.Lang;
 import org.apache.jena.riot.RDFDataMgr;
@@ -41,6 +43,7 @@ public class ParserHelper {
 			" PREFIX  bibo: <http://purl.org/ontology/bibo/> \n"+
 			" PREFIX  obo:  <http://purl.obolibrary.org/obo/> \n"+
 			" PREFIX  dspace:  <http://vivoweb.org/ontology/dspace#> \n"+
+			" PREFIX  dc: <http://purl.org/dc/elements/1.1/> \n"+
 			" PREFIX  ro:   <http://purl.obolibrary.org/obo/ro.owl#> \n";
 	
     public static PrefixMapping getVIVOPrefixes() {
@@ -84,6 +87,7 @@ public class ParserHelper {
         globalPrefixMapping.setNsPrefix("crdc-ccrd-data", "http://purl.org/uqam.ca/vocabulary/crdc-ccrd/individual#");
         globalPrefixMapping.setNsPrefix("crdc-data", "http://purl.org/uqam.ca/vocabulary/crdc-ccrd/individual#");
         globalPrefixMapping.setNsPrefix("crdc-ccrd", "http://purl.org/uqam.ca/vocabulary/crdc_ccrd#");
+        globalPrefixMapping.setNsPrefix("dc", "http://purl.org/dc/elements/1.1/");
         globalPrefixMapping.setNsPrefix("dspace", DSPACE.NS);    	
         return globalPrefixMapping;
     }
@@ -96,4 +100,13 @@ public class ParserHelper {
 		ByteArrayOutputStream modelString = new ByteArrayOutputStream();
 		RDFDataMgr.write(System.out, aModel, Lang.TURTLE) ;
     }
+	public static XSDDatatype parseDataType(String literalType) {
+		String lt = literalType.replace("xsd:", "").replace("http://www.w3.org/2001/XMLSchema#", "");
+		return new XSDDatatype(lt);
+	}
+	public static void main(String[] args) {
+		XSDDatatype val = ParserHelper.parseDataType("xsd:string");
+		System.out.println(val);
+		
+	}
 }

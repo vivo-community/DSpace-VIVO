@@ -26,24 +26,24 @@ import javax.validation.Valid;
 /**
  * Item
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-04-07T06:06:42.412-04:00[America/New_York]")public class Item   {
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-04-20T15:46:18.807-04:00[America/New_York]")public class Item   {
   @JsonProperty("dspaceType")
   private String dspaceType = "item";
 
   @JsonProperty("id")
   private String id = null;
 
-  @JsonProperty("dspaceBitstreamURL")
-  private String dspaceBitstreamURL = null;
-
-  @JsonProperty("dspaceIsPartOfCollectionID")
-  private List<String> dspaceIsPartOfCollectionID = null;
-
   @JsonProperty("uri")
   private String uri = null;
 
   @JsonProperty("url")
   private String url = null;
+
+  @JsonProperty("dspaceBitstreamURL")
+  private String dspaceBitstreamURL = null;
+
+  @JsonProperty("dspaceIsPartOfCollectionID")
+  private List<String> dspaceIsPartOfCollectionID = null;
 
   @JsonProperty("listOfStatements")
   private List<Statement> listOfStatements = null;
@@ -71,7 +71,7 @@ import javax.validation.Valid;
    * @return id
    **/
   @JsonProperty("id")
-  @Schema(example = "123456789/4", required = true, description = "")
+  @Schema(example = "12345678968", required = true, description = "")
   @NotNull
   public String getId() {
     return id;
@@ -79,6 +79,46 @@ import javax.validation.Valid;
 
   public void setId(String id) {
     this.id = id;
+  }
+
+  public Item uri(String uri) {
+    this.uri = uri;
+    return this;
+  }
+
+  /**
+   * Get uri
+   * @return uri
+   **/
+  @JsonProperty("uri")
+  @Schema(example = "http://dspacevivo.vivoweb.org/individual/123456789_68", required = true, description = "")
+  @NotNull
+  public String getUri() {
+    return uri;
+  }
+
+  public void setUri(String uri) {
+    this.uri = uri;
+  }
+
+  public Item url(String url) {
+    this.url = url;
+    return this;
+  }
+
+  /**
+   * Get url
+   * @return url
+   **/
+  @JsonProperty("url")
+  @Schema(example = "http://localhost:8080/server/rdf/resource/123456789/68", required = true, description = "")
+  @NotNull
+  public String getUrl() {
+    return url;
+  }
+
+  public void setUrl(String url) {
+    this.url = url;
   }
 
   public Item dspaceBitstreamURL(String dspaceBitstreamURL) {
@@ -91,7 +131,7 @@ import javax.validation.Valid;
    * @return dspaceBitstreamURL
    **/
   @JsonProperty("dspaceBitstreamURL")
-  @Schema(example = "http://localhost:4000/bitstream/123456789/3/1/pdf1.pdf", required = true, description = "")
+  @Schema(example = "http://localhost:4000/bitstream/123456789/68/1/bubble-chart-line.png", required = true, description = "")
   @NotNull
   public String getDspaceBitstreamURL() {
     return dspaceBitstreamURL;
@@ -126,46 +166,6 @@ import javax.validation.Valid;
 
   public void setDspaceIsPartOfCollectionID(List<String> dspaceIsPartOfCollectionID) {
     this.dspaceIsPartOfCollectionID = dspaceIsPartOfCollectionID;
-  }
-
-  public Item uri(String uri) {
-    this.uri = uri;
-    return this;
-  }
-
-  /**
-   * Get uri
-   * @return uri
-   **/
-  @JsonProperty("uri")
-  @Schema(example = "http://localhost:4000/handle/123456789/3", required = true, description = "")
-  @NotNull
-  public String getUri() {
-    return uri;
-  }
-
-  public void setUri(String uri) {
-    this.uri = uri;
-  }
-
-  public Item url(String url) {
-    this.url = url;
-    return this;
-  }
-
-  /**
-   * Get url
-   * @return url
-   **/
-  @JsonProperty("url")
-  @Schema(example = "http://localhost:4000/items/948d534a-e1d9-41b2-bb23-1ae2fe9cff4f", required = true, description = "")
-  @NotNull
-  public String getUrl() {
-    return url;
-  }
-
-  public void setUrl(String url) {
-    this.url = url;
   }
 
   public Item listOfStatements(List<Statement> listOfStatements) {
@@ -236,17 +236,17 @@ import javax.validation.Valid;
     Item item = (Item) o;
     return Objects.equals(this.dspaceType, item.dspaceType) &&
         Objects.equals(this.id, item.id) &&
-        Objects.equals(this.dspaceBitstreamURL, item.dspaceBitstreamURL) &&
-        Objects.equals(this.dspaceIsPartOfCollectionID, item.dspaceIsPartOfCollectionID) &&
         Objects.equals(this.uri, item.uri) &&
         Objects.equals(this.url, item.url) &&
+        Objects.equals(this.dspaceBitstreamURL, item.dspaceBitstreamURL) &&
+        Objects.equals(this.dspaceIsPartOfCollectionID, item.dspaceIsPartOfCollectionID) &&
         Objects.equals(this.listOfStatements, item.listOfStatements) &&
         Objects.equals(this.listOfStatementLiterals, item.listOfStatementLiterals);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(dspaceType, id, dspaceBitstreamURL, dspaceIsPartOfCollectionID, uri, url, listOfStatements, listOfStatementLiterals);
+    return Objects.hash(dspaceType, id, uri, url, dspaceBitstreamURL, dspaceIsPartOfCollectionID, listOfStatements, listOfStatementLiterals);
   }
 
 
@@ -257,10 +257,10 @@ import javax.validation.Valid;
     
     sb.append("    dspaceType: ").append(toIndentedString(dspaceType)).append("\n");
     sb.append("    id: ").append(toIndentedString(id)).append("\n");
-    sb.append("    dspaceBitstreamURL: ").append(toIndentedString(dspaceBitstreamURL)).append("\n");
-    sb.append("    dspaceIsPartOfCollectionID: ").append(toIndentedString(dspaceIsPartOfCollectionID)).append("\n");
     sb.append("    uri: ").append(toIndentedString(uri)).append("\n");
     sb.append("    url: ").append(toIndentedString(url)).append("\n");
+    sb.append("    dspaceBitstreamURL: ").append(toIndentedString(dspaceBitstreamURL)).append("\n");
+    sb.append("    dspaceIsPartOfCollectionID: ").append(toIndentedString(dspaceIsPartOfCollectionID)).append("\n");
     sb.append("    listOfStatements: ").append(toIndentedString(listOfStatements)).append("\n");
     sb.append("    listOfStatementLiterals: ").append(toIndentedString(listOfStatementLiterals)).append("\n");
     sb.append("}");

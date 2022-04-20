@@ -29,7 +29,6 @@ export VIVO_PROJECT=$GIT_REPO/VIVO
 export VITRO_PROJECT=$GIT_REPO/Vitro
 export LIB=$DEPLOY/lib
 export TARGET_HOME=$BUNDLES/org.vivoweb.dspacevivo.model.openapi/target
-
 ###################################################################
 ## HOME directory of the various packages
 
@@ -37,14 +36,23 @@ export INSTALLER_HOME=$RELENG/org.vivoweb.dspacevivo.installer
 export VOCAB_HOME=$BUNDLES/org.vivoweb.dspacevivo.model.ontologie
 export METAMODEL_HOME=$BUNDLES/org.vivoweb.dspacevivo.model.openapi
 export DSPACEVIVO_HOME=$BUNDLES/org.vivoweb.dspacevivo.vivo
+
 ###################################################################
 ## VIVO Installation Variables
 export VIVO_APP_NAME=vivo-dspace
+export API_APP_NAME=dspace-vivo-dex
 export CATALINA_HOME=$DEPLOY/app-tomcat
 export SOLR_DIR=$DEPLOY/app-solr
 export VIVO_HOME=$DEPLOY/vivo-home
-
 export PATH=$CATALINA_HOME/bin:$SOLR_DIR/bin:$PATH
+
+###################################################################
+## Useful variables for Jena (sparql, json2rdf, xml2json and others)
+export TRANSLATOR_HOME=$DEPLOY/translator
+export JENA_HOME=$TRANSLATOR_HOME
+export JENA_CP=$JENA_HOME/lib
+export PATH=$JENA_HOME/bin:$PATH
+
 
 
 

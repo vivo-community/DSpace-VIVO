@@ -27,7 +27,7 @@ import javax.validation.Valid;
 /**
  * Repository
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-04-07T06:06:42.412-04:00[America/New_York]")public class Repository   {
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-04-20T15:46:18.807-04:00[America/New_York]")public class Repository   {
   @JsonProperty("dspaceType")
   private String dspaceType = "repository";
 
@@ -66,7 +66,7 @@ import javax.validation.Valid;
    * @return id
    **/
   @JsonProperty("id")
-  @Schema(example = "123456789/0", required = true, description = "")
+  @Schema(example = "1234567890", required = true, description = "")
   @NotNull
   public String getId() {
     return id;

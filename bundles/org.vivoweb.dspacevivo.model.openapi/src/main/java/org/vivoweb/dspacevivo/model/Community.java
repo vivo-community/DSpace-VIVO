@@ -28,7 +28,7 @@ import javax.validation.Valid;
 /**
  * Community
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-04-07T06:06:42.412-04:00[America/New_York]")public class Community   {
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-04-20T15:46:18.807-04:00[America/New_York]")public class Community   {
   @JsonProperty("dspaceType")
   private String dspaceType = "community";
 
@@ -147,7 +147,7 @@ import javax.validation.Valid;
    * @return hasCollection
    **/
   @JsonProperty("hasCollection")
-  @Schema(example = "123456789/2", description = "")
+  @Schema(example = "1234567892", description = "")
   @Valid
   public List<Collection> getHasCollection() {
     return hasCollection;

@@ -21,6 +21,7 @@ import org.apache.jena.shared.PrefixMapping;
 import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.XSD;
+import org.vivoweb.dspacevivo.model.Item;
 import org.vivoweb.dspacevivo.model.Repository;
 import org.vivoweb.dspacevivo.model.Statement;
 import org.vivoweb.dspacevivo.model.StatementLiteral;
@@ -39,7 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
  * @author heon
  *
  */
-public class RepositoryParser {
+public class DspaceRepositoryParser {
 
 	/**
 	 * @param args
@@ -49,7 +50,6 @@ public class RepositoryParser {
 		Repository repo = new Repository();
 		repo.setId("123456789_0");
 		repo.setUri("http://localhost:8080/server/rdf/resource/123456789/0");
-		repo.addHasCommunityIdItem("123456789_1");
 		Statement stmt = new Statement();
 		stmt.setSubjectUri("dspace:123456789_0");
 		stmt.setPredicateUri("dcterms:hasPart");
@@ -64,7 +64,7 @@ public class RepositoryParser {
 		repo.addListOfStatementLiteralsItem(stmtLit);
 		String prettyRepo = DSpaceObjectMapperHelper.map(repo);
 
-		RepositoryParser parser = new RepositoryParser();
+		DspaceRepositoryParser parser = new DspaceRepositoryParser();
 		System.out.println(prettyRepo);
 		Model repoModel = parser.parse(repo);
 		
@@ -73,7 +73,7 @@ public class RepositoryParser {
 
 	}
 	/*
-	 * Exemple de résultat attendu
+	 * Example of expected result
 	 * 
 <http://localhost:8080/vivo/individual/n4148>
         a                       obo:BFO_0000031 , obo:IAO_0000030 , bibo:Document , obo:BFO_0000001 , obo:BFO_0000002 , p1:Repository , owl:Thing ;

@@ -64,14 +64,15 @@
             <artifactId>jackson-annotations</artifactId>
         </dependency>
         <dependency>
-                <groupId>org.vivoweb.dspacevivo</groupId>
-                <artifactId>org.vivoweb.dspacevivo.model.ontologie</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>org.vivoweb.dspacevivo</groupId>
             <artifactId>org.vivoweb.dspacevivo.model.openapi</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+        	<groupId>org.vivoweb.dspacevivo</groupId>
+        	<artifactId>
+        		org.vivoweb.dspacevivo.model.ontologie
+        	</artifactId>
         </dependency>
     </dependencies>
 </project>

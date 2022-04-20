@@ -22,7 +22,7 @@ import javax.validation.Valid;
 /**
  * StatementLiteral
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-04-07T06:06:42.412-04:00[America/New_York]")public class StatementLiteral   {
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-04-20T15:46:18.807-04:00[America/New_York]")public class StatementLiteral   {
   @JsonProperty("dspaceType")
   private String dspaceType = "statementLiteral";
 
@@ -58,7 +58,7 @@ import javax.validation.Valid;
    * @return subjectUri
    **/
   @JsonProperty("subjectUri")
-  @Schema(example = "http://localhost:4000/handle/123456789/3", required = true, description = "")
+  @Schema(example = "http://dspacevivo.vivoweb.org/individual/123456789_68", required = true, description = "")
   @NotNull
   public String getSubjectUri() {
     return subjectUri;
@@ -78,7 +78,7 @@ import javax.validation.Valid;
    * @return predicateUri
    **/
   @JsonProperty("predicateUri")
-  @Schema(example = "dc:creator", required = true, description = "")
+  @Schema(example = "dcterms:title", required = true, description = "")
   @NotNull
   public String getPredicateUri() {
     return predicateUri;
@@ -98,7 +98,7 @@ import javax.validation.Valid;
    * @return objectLiteral
    **/
   @JsonProperty("objectLiteral")
-  @Schema(example = "Michel Héon", required = true, description = "")
+  @Schema(example = "some title", required = true, description = "")
   @NotNull
   public String getObjectLiteral() {
     return objectLiteral;

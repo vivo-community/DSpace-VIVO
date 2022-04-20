@@ -16,7 +16,7 @@
 		<relativePath>..</relativePath>
 	</parent>
 
-	<name>VIVO Web App</name>
+	<name>DSpace-VIVO Web App</name>
 
 	<build>
 
