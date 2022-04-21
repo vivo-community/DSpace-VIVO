@@ -4,20 +4,17 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
+import org.vivoweb.dspacevivo.model.Collection;
 import org.vivoweb.dspacevivo.model.Item;
 
-public class ItemItr implements Iterator<Item> {
+public class CollectionItr implements Iterator<Collection> {
 
     private DspaceOAI dspaceHarvester;
-    private List<Item> oaiPage = null;
-    private Item nextItem = null;
-    private boolean finalValue;
-    private List<String> setsList = null;
+    private List<Collection> oaiPage = null;
+    private Item nextCollection = null;
 
-    public ItemItr(DspaceOAI hr) {
+    public CollectionItr(DspaceOAI hr) {
         this.dspaceHarvester = hr;
-        this.finalValue = false;
-        setsList = new ArrayList();
     }
 
     @Override
@@ -28,7 +25,7 @@ public class ItemItr implements Iterator<Item> {
         OAIPMHResponse oaipmhResponse;
         boolean hasNext = false;
         boolean iterate = false;
-        if (!finalValue) {
+        if (!this.dspaceHarvester.isEmpty()) {
             String responseXML = null;
             do {
                 try {
@@ -36,12 +33,21 @@ public class ItemItr implements Iterator<Item> {
                             this.dspaceHarvester.getResumptionToken(), this.dspaceHarvester.getIdentifier());
 
                     oaipmhResponse = new OAIPMHResponse(responseXML, dspaceHarvester.getConf());
-                    oaiPage = oaipmhResponse.modelItemsxoai();
-                    this.dspaceHarvester.setRecoverSets(new ArrayList());
-                    for (String spec : oaipmhResponse.getSetSpec()) {
-                        if (!this.dspaceHarvester.getRecoverSets().contains(spec)) {
-                            this.dspaceHarvester.getRecoverSets().add(spec);
+                    oaiPage = oaipmhResponse.modelCollections();
+
+                    for (Collection col : oaiPage) {
+                        String id = col.getId();
+
+                        col.setHasItem(new ArrayList());
+                        Iterator<Item> harvestItemsItr = this.dspaceHarvester.harvestItems();
+                        this.dspaceHarvester.setSet(id);
+                        System.out.println(this.dspaceHarvester.getSet());
+                        while (harvestItemsItr.hasNext()) {
+                            col.getHasItem().add(harvestItemsItr.next());
+
                         }
+                        this.dspaceHarvester.getRecoverSets().removeIf(element -> (element.startsWith("col")));
+                        col.setIsPartOfCommunityID(this.dspaceHarvester.getRecoverSets());
 
                     }
                 } catch (Exception ex) {
@@ -53,7 +59,7 @@ public class ItemItr implements Iterator<Item> {
                     this.dspaceHarvester.setResumptionToken(resumptionToken.get());
                 } else {
                     this.dspaceHarvester.setResumptionToken(null);
-                    finalValue = true;
+                    this.dspaceHarvester.setEmpty(true);
 
                 }
 
@@ -70,8 +76,8 @@ public class ItemItr implements Iterator<Item> {
     }
 
     @Override
-    public Item next() {
-        Item get = oaiPage.get(0);
+    public Collection next() {
+        Collection get = oaiPage.get(0);
         oaiPage.remove(get);
 
         return get;

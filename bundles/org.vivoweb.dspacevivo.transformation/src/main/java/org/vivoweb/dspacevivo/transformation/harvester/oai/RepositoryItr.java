@@ -4,20 +4,18 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
+import org.vivoweb.dspacevivo.model.Community;
 import org.vivoweb.dspacevivo.model.Item;
+import org.vivoweb.dspacevivo.model.Repository;
 
-public class ItemItr implements Iterator<Item> {
+public class RepositoryItr implements Iterator<Repository> {
 
     private DspaceOAI dspaceHarvester;
-    private List<Item> oaiPage = null;
-    private Item nextItem = null;
-    private boolean finalValue;
-    private List<String> setsList = null;
+    private List<Repository> oaiPage = null;
+    private Item nextRepository = null;
 
-    public ItemItr(DspaceOAI hr) {
+    public RepositoryItr(DspaceOAI hr) {
         this.dspaceHarvester = hr;
-        this.finalValue = false;
-        setsList = new ArrayList();
     }
 
     @Override
@@ -28,7 +26,7 @@ public class ItemItr implements Iterator<Item> {
         OAIPMHResponse oaipmhResponse;
         boolean hasNext = false;
         boolean iterate = false;
-        if (!finalValue) {
+        if (!this.dspaceHarvester.isEmpty()) {
             String responseXML = null;
             do {
                 try {
@@ -36,14 +34,18 @@ public class ItemItr implements Iterator<Item> {
                             this.dspaceHarvester.getResumptionToken(), this.dspaceHarvester.getIdentifier());
 
                     oaipmhResponse = new OAIPMHResponse(responseXML, dspaceHarvester.getConf());
-                    oaiPage = oaipmhResponse.modelItemsxoai();
-                    this.dspaceHarvester.setRecoverSets(new ArrayList());
-                    for (String spec : oaipmhResponse.getSetSpec()) {
-                        if (!this.dspaceHarvester.getRecoverSets().contains(spec)) {
-                            this.dspaceHarvester.getRecoverSets().add(spec);
-                        }
+
+                    oaiPage = oaipmhResponse.modelRepository();
+
+                    Iterator<Community> CommunityItr = this.dspaceHarvester.harvestCommunity();
+                    Repository base = oaiPage.get(0);
+                    base.setHasCommunity(new ArrayList());
+                    while (CommunityItr.hasNext()) {
+                        Community com = CommunityItr.next();
+                        base.getHasCommunity().add(com);
 
                     }
+
                 } catch (Exception ex) {
                     return hasNext;
                 }
@@ -53,7 +55,7 @@ public class ItemItr implements Iterator<Item> {
                     this.dspaceHarvester.setResumptionToken(resumptionToken.get());
                 } else {
                     this.dspaceHarvester.setResumptionToken(null);
-                    finalValue = true;
+                    this.dspaceHarvester.setEmpty(true);
 
                 }
 
@@ -70,8 +72,8 @@ public class ItemItr implements Iterator<Item> {
     }
 
     @Override
-    public Item next() {
-        Item get = oaiPage.get(0);
+    public Repository next() {
+        Repository get = oaiPage.get(0);
         oaiPage.remove(get);
 
         return get;
