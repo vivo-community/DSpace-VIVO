@@ -10,6 +10,7 @@
 # Email         : heon.michel@uqam.ca
 ###################################################################
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
-source $SCRIPT_DIR/../00-env.sh
-cd $DSPACEVIVO_HOME
-mvn clean -s installer/settings.xml 
+source $SCRIPT_DIR/00-env.sh
+cd $CATALINA_HOME/webapps
+rm -rf $VIVO_APP_NAME
+

@@ -9,7 +9,7 @@
 # Email         : heon.michel@uqam.ca
 ###################################################################
 export LOC_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
-source $LOC_SCRIPT_DIR/../../../releng/org.vivoweb.dspacevivo.installer/00-env.sh
+source $LOC_SCRIPT_DIR/00-env.sh
 
 ############################################################
 # Help                                                     #

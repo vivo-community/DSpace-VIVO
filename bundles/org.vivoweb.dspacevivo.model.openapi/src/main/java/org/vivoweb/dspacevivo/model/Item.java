@@ -26,7 +26,7 @@ import javax.validation.Valid;
 /**
  * Item
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-04-20T15:46:18.807-04:00[America/New_York]")public class Item   {
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-04-21T05:48:40.062-04:00[America/New_York]")public class Item   {
   @JsonProperty("dspaceType")
   private String dspaceType = "item";
 

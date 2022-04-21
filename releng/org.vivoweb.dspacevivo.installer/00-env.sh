@@ -35,7 +35,9 @@ export TARGET_HOME=$BUNDLES/org.vivoweb.dspacevivo.model.openapi/target
 export INSTALLER_HOME=$RELENG/org.vivoweb.dspacevivo.installer
 export VOCAB_HOME=$BUNDLES/org.vivoweb.dspacevivo.model.ontologie
 export METAMODEL_HOME=$BUNDLES/org.vivoweb.dspacevivo.model.openapi
+export TRANSFORM_HOME=$BUNDLES/org.vivoweb.dspacevivo.transformation
 export DSPACEVIVO_HOME=$BUNDLES/org.vivoweb.dspacevivo.vivo
+export DSPACEVIVO_PKG_HOME=$BUNDLES/org.vivoweb.dspacevivo
 
 ###################################################################
 ## VIVO Installation Variables
@@ -51,7 +53,13 @@ export PATH=$CATALINA_HOME/bin:$SOLR_DIR/bin:$PATH
 export TRANSLATOR_HOME=$DEPLOY/translator
 export JENA_HOME=$TRANSLATOR_HOME
 export JENA_CP=$JENA_HOME/lib
-export PATH=$JENA_HOME/bin:$PATH
+export PATH=$JENA_HOME/bin:$DSPACEVIVO_PKG_HOME/script:$PATH
+
+###################################################################
+## Useful variables extracted from runtime.properties
+export RUNTIME_PROP=$VIVO_HOME/config/runtime.properties
+export ROOT_USER="${ROOT_USER:=$(grep 'rootUser.emailAddress' < $RUNTIME_PROP | tr -d ' ' | cut -f 2 -d "=")}"
+export ROOT_PASSWD="${ROOT_PASSWD:=$(grep 'rootUser.password =' < $RUNTIME_PROP | tr -d ' ' | cut -f 2 -d "=")}"
 
 
 

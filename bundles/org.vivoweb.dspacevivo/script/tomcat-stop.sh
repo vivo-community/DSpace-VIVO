@@ -10,6 +10,6 @@
 # Email         : heon.michel@uqam.ca
 ###################################################################
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
-source $SCRIPT_DIR/../00-env.sh
+source $SCRIPT_DIR/00-env.sh
 cd $CATALINA_HOME
-./bin/catalina.sh jpda start
+./bin/catalina.sh stop

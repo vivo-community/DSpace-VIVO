@@ -10,6 +10,14 @@
 # Email         : heon.michel@uqam.ca
 ###################################################################
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
-source $SCRIPT_DIR/../00-env.sh
-cd $SOLR_DIR
-./bin/solr stop
+source $SCRIPT_DIR/00-env.sh
+VIVO_URL=http://localhost:8080/$VIVO_APP_NAME
+#!/bin/bash
+if which xdg-open > /dev/null
+then
+  xdg-open $VIVO_URL
+elif which gnome-open > /dev/null
+then
+  gnome-open $VIVO_URL
+fi
+

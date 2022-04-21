@@ -10,6 +10,6 @@
 # Email         : heon.michel@uqam.ca
 ###################################################################
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
-source $SCRIPT_DIR/../00-env.sh
+source $SCRIPT_DIR/00-env.sh
 cd $SOLR_DIR
-./bin/solr start
+./bin/solr stop

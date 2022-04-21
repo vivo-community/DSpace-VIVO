@@ -100,6 +100,10 @@ public class ParserHelper {
 		ByteArrayOutputStream modelString = new ByteArrayOutputStream();
 		RDFDataMgr.write(System.out, aModel, Lang.TURTLE) ;
     }
+    public static void dumpStdoutModelNtriples(Model aModel) {
+		ByteArrayOutputStream modelString = new ByteArrayOutputStream();
+		RDFDataMgr.write(System.out, aModel, Lang.NTRIPLES) ;
+    }
 	public static XSDDatatype parseDataType(String literalType) {
 		String lt = literalType.replace("xsd:", "").replace("http://www.w3.org/2001/XMLSchema#", "");
 		return new XSDDatatype(lt);

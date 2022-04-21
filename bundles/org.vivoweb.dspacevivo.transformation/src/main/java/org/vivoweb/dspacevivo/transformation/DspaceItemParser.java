@@ -106,7 +106,7 @@ public class DspaceItemParser {
         vcard:url               "http://dspace.org/1234567/0"^^xsd:anyURI .
 
 	 */
-	private Model parse(Item anItem) {
+	public Model parse(Item anItem) {
 		Model model = ModelFactory.createDefaultModel();
 		PrefixMapping prefixMapping = ParserHelper.getVIVOPrefixes();
 		model.setNsPrefixes(prefixMapping);
