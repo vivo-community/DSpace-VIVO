@@ -2,7 +2,7 @@
 
 ###################################################################
 # Script Name   :
-# Description   :
+# Description   : see https://wiki.lyrasis.org/display/VIVODOC110x/SPARQL+Update+API
 # Args          : 
 # Author       	: Michel Héon PhD
 # Institution   : Université du Québec à Montréal

@@ -9,9 +9,17 @@
 # Copyright     : Université du Québec à Montréal (c) 2022
 # Email         : heon.michel@uqam.ca
 ###################################################################
-export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
-source $SCRIPT_DIR/../../../releng/org.vivoweb.dspacevivo.installer/00-env.sh
-export PATH=$LOC_SCRIPT_DIR:$PATH
+export MAIN_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
+###################################################################
+## Need java 11 or higher
+
+JAVA_VERSION=$(java -version 2>&1 | head -1 | cut -d'"' -f2 | sed '/^1\./s///' | cut -d'.' -f1)
+if (( 11 > $JAVA_VERSION )); then
+    echo please using java 11 or higher
+    exit 1
+fi
+source $MAIN_SCRIPT_DIR/../../../releng/org.vivoweb.dspacevivo.installer/00-env.sh
+export PATH=$MAIN_SCRIPT_DIR:$PATH
 export INSTALLER_HOME=$RELENG/org.vivoweb.dspacevivo.installer
 export VOCAB_HOME=$BUNDLES/org.vivoweb.dspacevivo.model.ontologie
 export METAMODEL_HOME=$BUNDLES/org.vivoweb.dspacevivo.model.openapi

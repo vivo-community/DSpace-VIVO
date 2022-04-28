@@ -10,11 +10,9 @@
 # Email         : heon.michel@uqam.ca
 ###################################################################
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
-source $SCRIPT_DIR/00-env.sh
-
-
-###################################################################
-## Start TOMCAT
-
-cd $CATALINA_HOME
-./bin/catalina.sh jpda start
+source $SCRIPT_DIR/../00-env.sh
+cd $GIT_REPO
+git clone -b dspace-7.2.x https://github.com/DSpace/DSpace.git
+git clone https://github.com/DSpace/dspace-angular.git
+cd dspace-angular
+git checkout tags/dspace-7.2

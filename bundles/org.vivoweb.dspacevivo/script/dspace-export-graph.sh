@@ -2,7 +2,7 @@
 
 ###################################################################
 # Script Name   :
-# Description   :
+# Description   : export all data in DPSACE in TURTLE
 # Args          : 
 # Author       	: Michel Héon PhD
 # Institution   : Université du Québec à Montréal
@@ -11,10 +11,5 @@
 ###################################################################
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $SCRIPT_DIR/00-env.sh
+dspace rdfizer -n -c -o
 
-
-###################################################################
-## Start TOMCAT
-
-cd $CATALINA_HOME
-./bin/catalina.sh jpda start

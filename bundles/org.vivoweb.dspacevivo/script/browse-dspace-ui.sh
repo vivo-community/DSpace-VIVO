@@ -11,10 +11,13 @@
 ###################################################################
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $SCRIPT_DIR/00-env.sh
+VIVO_URL=http://localhost:4000
+#!/bin/bash
+if which xdg-open > /dev/null
+then
+  xdg-open $VIVO_URL
+elif which gnome-open > /dev/null
+then
+  gnome-open $VIVO_URL
+fi
 
-
-###################################################################
-## Start TOMCAT
-
-cd $CATALINA_HOME
-./bin/catalina.sh jpda start

@@ -11,10 +11,4 @@
 ###################################################################
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $SCRIPT_DIR/00-env.sh
-
-
-###################################################################
-## Start TOMCAT
-
-cd $CATALINA_HOME
-./bin/catalina.sh jpda start
+sudo systemctl status postgresql.service
