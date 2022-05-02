@@ -49,7 +49,7 @@ public class RepositoryParser {
 		Repository repo = new Repository();
 		repo.setId("123456789_0");
 		repo.setUri("http://localhost:8080/server/rdf/resource/123456789/0");
-		repo.addHasCommunityIdItem("123456789_1");
+		//repo.addHasCommunityIdItem("123456789_1");
 		Statement stmt = new Statement();
 		stmt.setSubjectUri("dspace:123456789_0");
 		stmt.setPredicateUri("dcterms:hasPart");
