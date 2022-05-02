@@ -59,8 +59,12 @@ public class ItemItr implements Iterator<Item> {
 
                 if (!oaiPage.isEmpty()) {
                     hasNext = true;
+                    iterate = false;
                 } else if (this.dspaceHarvester.getResumptionToken() != null) {
                     iterate = true;
+                } else {
+                    hasNext = false;
+                    iterate = false;
                 }
 
             } while (iterate);

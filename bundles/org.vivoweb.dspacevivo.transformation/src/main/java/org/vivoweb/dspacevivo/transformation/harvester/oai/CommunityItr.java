@@ -72,8 +72,12 @@ public class CommunityItr implements Iterator<Community> {
 
                 if (!oaiPage.isEmpty()) {
                     hasNext = true;
+                    iterate = false;
                 } else if (this.dspaceHarvester.getResumptionToken() != null) {
                     iterate = true;
+                } else {
+                    hasNext = false;
+                    iterate = false;
                 }
 
             } while (iterate);
