@@ -41,7 +41,6 @@ public class CollectionItr implements Iterator<Collection> {
                         col.setHasItem(new ArrayList());
                         Iterator<Item> harvestItemsItr = this.dspaceHarvester.harvestItems();
                         this.dspaceHarvester.setSet(id);
-                        System.out.println(this.dspaceHarvester.getSet());
                         while (harvestItemsItr.hasNext()) {
                             col.getHasItem().add(harvestItemsItr.next());
 
@@ -83,7 +82,6 @@ public class CollectionItr implements Iterator<Collection> {
     public Collection next() {
         Collection get = oaiPage.get(0);
         oaiPage.remove(get);
-
         return get;
     }
 

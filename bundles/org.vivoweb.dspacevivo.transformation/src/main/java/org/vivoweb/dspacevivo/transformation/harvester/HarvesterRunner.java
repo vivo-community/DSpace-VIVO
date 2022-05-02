@@ -14,29 +14,29 @@ import org.vivoweb.dspacevivo.model.Item;
 import org.vivoweb.dspacevivo.model.Repository;
 import org.vivoweb.dspacevivo.transformation.harvester.config.HarvesterConfiguration;
 import org.vivoweb.dspacevivo.transformation.harvester.oai.DspaceOAI;
+import org.vivoweb.dspacevivo.transformation.harvester.restv7.RESTv7Harvester;
 
 public class HarvesterRunner {
 
-    private static Logger log = LoggerFactory.getLogger(HarvesterRunner.class);
+    private static Logger logger = LoggerFactory.getLogger(HarvesterRunner.class);
     private DspaceHarvester dh = null;
 
     public void init() throws IOException {
         Properties conf = HarvesterConfiguration.getConf();
         switch (conf.getProperty("type")) {
             case "RESTv7":
-                //dh = new Dspace7REST(conf);
-                break;
-            case "SPARQL":
-                //dh = new SPARQLHarvester(conf);
+                logger.info("Connecting to REST endpoint");
+                dh = new RESTv7Harvester(conf);
                 break;
             case "OAI":
+                logger.info("Connecting to OAI-PMH endpoint");
                 dh = new DspaceOAI(conf);
                 break;
         }
         dh.connect();
     }
 
-    public void harvest() throws JsonProcessingException {
+    public void harvestItems() throws JsonProcessingException {
         ObjectMapper mp = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         Iterator<Item> harvestItemsItr = dh.harvestItems();
         int count = 0;
@@ -44,14 +44,14 @@ public class HarvesterRunner {
             while (harvestItemsItr.hasNext()) {
                 count++;
                 Item next = harvestItemsItr.next();
-                System.out.println("new Item harvested...");
-                System.out.println(" " + count);
-                System.out.println(mp.writeValueAsString(next));
+                logger.info("new Item harvested...");
+                logger.info(" " + count);
+                logger.info(mp.writeValueAsString(next));
             }
         }
     }
 
-    public void harvestCollection() throws JsonProcessingException {
+    public void harvestCollections() throws JsonProcessingException {
         ObjectMapper mp = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         Iterator<Collection> harvestCollection = dh.harvestCollection();
         int count = 0;
@@ -59,14 +59,14 @@ public class HarvesterRunner {
             while (harvestCollection.hasNext()) {
                 count++;
                 Collection next = harvestCollection.next();
-                System.out.println("new Collection harvested...");
-                System.out.println(" " + count);
-                System.out.println(mp.writeValueAsString(next));
+                logger.info("new Collection harvested...");
+                logger.info(" " + count);
+                logger.info(mp.writeValueAsString(next));
             }
         }
     }
 
-    public void harvestCommunity() throws JsonProcessingException {
+    public void harvestCommunities() throws JsonProcessingException {
         ObjectMapper mp = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         Iterator<Community> harvestCommunity = dh.harvestCommunity();
         int count = 0;
@@ -74,14 +74,14 @@ public class HarvesterRunner {
             while (harvestCommunity.hasNext()) {
                 count++;
                 Community next = harvestCommunity.next();
-                System.out.println("new Community harvested...");
-                System.out.println(" " + count);
-                System.out.println(mp.writeValueAsString(next));
+                logger.info("new Community harvested...");
+                logger.info(" " + count);
+                logger.info(mp.writeValueAsString(next));
             }
         }
     }
 
-    public void harvestRepository() throws JsonProcessingException {
+    public void harvestRepositories() throws JsonProcessingException {
         ObjectMapper mp = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         Iterator<Repository> harvestRepository = dh.harvestRepository();
         int count = 0;
@@ -89,9 +89,9 @@ public class HarvesterRunner {
             while (harvestRepository.hasNext()) {
                 count++;
                 Repository next = harvestRepository.next();
-                System.out.println("new Repository harvested...");
-                System.out.println(" " + count);
-                System.out.println(mp.writeValueAsString(next));
+                logger.info("new Repository harvested...");
+                logger.info(" " + count);
+                logger.info(mp.writeValueAsString(next));
             }
         }
     }
