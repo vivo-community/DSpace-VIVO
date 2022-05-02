@@ -23,8 +23,11 @@
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P )"
 export BUNDLES=$(cd $SCRIPT_DIR/../../bundles; pwd -P)
 export RELENG=$(cd $SCRIPT_DIR/../../releng; pwd -P)
+export DEPLOY=$(cd $SCRIPT_DIR/../../deploy; pwd -P)
 export GIT_REPO=$(cd $SCRIPT_DIR/../../../; pwd -P)
-export LIB=$BUNDLES/lib
+export VIVO_PROJECT=$GIT_REPO/VIVO
+export VITRO_PROJECT=$GIT_REPO/Vitro
+export LIB=$DEPLOY/lib
 export TARGET_HOME=$BUNDLES/org.vivoweb.dspacevivo.model.openapi/target
 
 ###################################################################
@@ -33,5 +36,15 @@ export TARGET_HOME=$BUNDLES/org.vivoweb.dspacevivo.model.openapi/target
 export INSTALLER_HOME=$RELENG/org.vivoweb.dspacevivo.installer
 export VOCAB_HOME=$BUNDLES/org.vivoweb.dspacevivo.model.ontologie
 export METAMODEL_HOME=$BUNDLES/org.vivoweb.dspacevivo.model.openapi
+export DSPACEVIVO_HOME=$BUNDLES/org.vivoweb.dspacevivo.vivo
+###################################################################
+## VIVO Installation Variables
+export VIVO_APP_NAME=vivo-dspace
+export CATALINA_HOME=$DEPLOY/app-tomcat
+export SOLR_DIR=$DEPLOY/app-solr
+export VIVO_HOME=$DEPLOY/vivo-home
+
+export PATH=$CATALINA_HOME/bin:$SOLR_DIR/bin:$PATH
+
 
 
