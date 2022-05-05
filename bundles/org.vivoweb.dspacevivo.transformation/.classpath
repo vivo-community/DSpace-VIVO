@@ -16,7 +16,16 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO/SPRINT-3/00-GIT/DSpace-VIVO/bundles/org.vivoweb.dspacevivo.model.ontologie/target/org.vivoweb.dspacevivo.model.ontologie-0.0.1-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="/org.vivoweb.dspacevivo.model.ontologie/target/org.vivoweb.dspacevivo.model.ontologie-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

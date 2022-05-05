@@ -4,7 +4,9 @@ deploy/vivo-home/
 deploy/translator/
 deploy/dspace/
 deploy/dspace-ui/
+deploy/dspace-angular/
 deploy/lib/
+
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###

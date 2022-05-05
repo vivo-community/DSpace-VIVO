@@ -81,11 +81,6 @@
             </dependency>
             <dependency>
                 <groupId>org.vivoweb.dspacevivo</groupId>
-                <artifactId>ca.uqam.dspace2vivo.model.ontologie</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>org.vivoweb.dspacevivo</groupId>
                 <artifactId>org.vivoweb.dspacevivo.model.ontologie</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
