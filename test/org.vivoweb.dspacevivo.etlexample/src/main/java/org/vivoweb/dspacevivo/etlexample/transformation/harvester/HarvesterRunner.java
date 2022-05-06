@@ -68,17 +68,21 @@ public class HarvesterRunner {
             while (harvestItemsItr.hasNext()) {
                 count++;
                 Item item = harvestItemsItr.next();
-                logger.info("DSpace Extraction ..."+item.getId());
+                logger.info("DSpace Extraction "+count+ " ..."+item.getId());
                 String itemJson = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(item);
                 String extractedFileName = extractDir+"/"+item.getId().replaceAll("[^a-zA-Z0-9]", "_")+".json"; 
                 String transformedFileName = transformDir+"/"+item.getId().replaceAll("[^a-zA-Z0-9]", "_")+".ntriples"; 
                 logger.info("Write to "+extractedFileName); 
                 Files.write(Paths.get(extractedFileName), itemJson.getBytes(StandardCharsets.UTF_8));
-                logger.info("DSpace-VIVO Transforation ..."+item.getId());
+                logger.info("DSpace-VIVO Transformation ..."+item.getId());
                 Model repoModel = dspaceVioItemparser.parse(item);
                 String stringModel = ParserHelper.dumpModelNtriples(repoModel);
                 Files.write(Paths.get(transformedFileName), stringModel.getBytes(StandardCharsets.UTF_8));
                 logger.info(transformedFileName);
+                if (count > 50 ) {
+                    logger.info("Done!");
+                    System.exit(0);
+            }
             }
         }
     }

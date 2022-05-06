@@ -19,6 +19,7 @@ import org.apache.jena.shared.PrefixMapping;
 import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
+import org.apache.jena.vocabulary.XSD;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.vivoweb.dspacevivo.model.Item;
@@ -127,6 +128,12 @@ public class DspaceItemParser {
         model.add(anItemURI, RDF.type, VIVO.Dataset);
         model.add(anItemURI, VITRO.mostSpecificType, DSPACE.Item);
         model.add(anItemURI, OBO.ARG_2000028, anItemURI_vcard );
+        try {
+            Literal biteStream = ResourceFactory.createTypedLiteral(anItem.getDspaceBitstreamURL(),XSDDatatype.XSDanyURI);
+            model.add(anItemURI, DSPACE.hasBitstream, biteStream );
+        } catch (Exception e) {
+        }
+
 
         /*
          * Construct VCARD king Statement
@@ -208,9 +215,14 @@ public class DspaceItemParser {
                 } else {
                     aLiteral = ResourceFactory.createPlainLiteral(obj);
                 }
+                
                 if (pred.contains("title") && pred.contains("terms")) {
                     model.add(model.createResource(subj),RDFS.label, aLiteral);
-                }
+                } else if (pred.contains("description") && pred.contains("terms")) {
+                    model.add(model.createResource(subj),BIBO.abstract_, aLiteral);
+                } else if (pred.contains("description") && pred.contains("terms")) {
+                    model.add(model.createResource(subj),BIBO.abstract_, aLiteral);
+                } 
                 model.add(model.createResource(subj),model.createProperty(pred), aLiteral);
             }
         }

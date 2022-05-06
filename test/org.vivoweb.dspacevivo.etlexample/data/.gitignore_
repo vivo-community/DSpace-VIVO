@@ -1,0 +1,6 @@
+/extract/*
+/transform/*
+/transform_doc_type/*
+/transform_expertises/*
+/transform_person/*
+/transform_person_expertises/*

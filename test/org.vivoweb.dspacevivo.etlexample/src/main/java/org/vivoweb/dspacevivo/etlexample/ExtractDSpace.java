@@ -24,6 +24,7 @@ public class ExtractDSpace {
         //runner.harvestCollections();
         logger.info("Harvesting Repositories...");
         //runner.harvestRepositories();
+        logger.info("... DONE");
     }
 
 }
