@@ -55,9 +55,28 @@ public class RESTv7Harvester extends DspaceHarvester {
                 .asJson()).getBody();
     }
 
+    public JsonNode getCollectionPage(int page, int size) {
+        return updateCSRF(Unirest.get(this.conf.getProperty("endpoint") + "/core/collections?page=" + page + "&size=" + size)
+                .header("X-XSRF-TOKEN", this.csrfToken)
+                .header("Authorization", this.authToken)
+                .asJson()).getBody();
+    }
+
+    public JsonNode getCommunityPage(int page, int size) {
+        return updateCSRF(Unirest.get(this.conf.getProperty("endpoint") + "/core/communities?page=" + page + "&size=" + size)
+                .header("X-XSRF-TOKEN", this.csrfToken)
+                .header("Authorization", this.authToken)
+                .asJson()).getBody();
+    }
+
     @Override
     public Iterator<Item> harvestItems() {
         return new ItemItr((this));
+    }
+
+    @Override
+    public Iterator<Collection> harvestCollection() {
+        return new CollectionItr((this));
     }
 
     private JsonNode calllinks(String link) {
@@ -95,16 +114,101 @@ public class RESTv7Harvester extends DspaceHarvester {
 
     }
 
-    @Override
-    public Iterator<Community> harvestCommunity() {
-        //TODO
-        throw new UnsupportedOperationException("Not supported yet.");
+    public Collection getCollection(JSONObject jsonObject) {
+        Collection resp = new Collection();
+
+        resp.setId(jsonObject.getString("id"));
+        resp.setUri(this.conf.getProperty("uriPrefix") + jsonObject.getString("handle"));
+        resp.setUrl(jsonObject.getJSONObject("_links").getJSONObject("self").getString("href"));
+
+        JsonNode body = calllinks(jsonObject.getJSONObject("_links").getJSONObject("parentCommunity").getString("href"));
+
+        resp.setIsPartOfCommunityID(Lists.newArrayList());
+
+        if (body.getObject().has("metadata")) {
+
+            resp.getIsPartOfCommunityID().add(body.getObject().getJSONObject("metadata").getJSONArray("dc.identifier.uri").getJSONObject(0).getString("value"));
+
+        }
+
+        JsonNode bodyItems = calllinks(jsonObject.getJSONObject("_links").getJSONObject("harvester").getString("href"));
+
+        resp.setListOfStatements(Lists.newArrayList());
+        resp.setListOfStatementLiterals(Lists.newArrayList());
+
+        List<Object> metadataMapping = metadataMapping(resp.getUri(), jsonObject.getJSONObject("metadata"));
+        for (Object obj : metadataMapping) {
+            if (obj instanceof StatementLiteral) {
+                resp.getListOfStatementLiterals().add((StatementLiteral) obj);
+            } else {
+                resp.getListOfStatements().add((Statement) obj);
+            }
+        }
+
+        return resp;
+    }
+
+    public Community getCommunity(JSONObject jsonObject) {
+        Community resp = new Community();
+
+        resp.setId(jsonObject.getString("id"));
+        resp.setUri(this.conf.getProperty("uriPrefix") + jsonObject.getString("handle"));
+        resp.setUrl(jsonObject.getJSONObject("_links").getJSONObject("self").getString("href"));
+
+        JsonNode parent = calllinks(jsonObject.getJSONObject("_links").getJSONObject("parentCommunity").getString("href"));
+
+        resp.setIsSubcommunityOfID(Lists.newArrayList());
+
+        if (parent.getObject().has("metadata")) {
+
+            //resp.setIsSubcommunityOfID().add(body.getObject().getJSONObject("metadata").getJSONArray("dc.identifier.uri").getJSONObject(0).getString("value"));
+            resp.getIsSubcommunityOfID().add(parent.getObject().getJSONObject("metadata").getJSONArray("dc.identifier.uri").getJSONObject(0).getString("value"));
+        }
+
+        JsonNode subcom = calllinks(jsonObject.getJSONObject("_links").getJSONObject("subcommunities").getString("href"));
+        resp.hasSubCommunity(Lists.newArrayList());
+
+        if (subcom.getObject().has("_embedded")) {
+            JSONArray jsonArray = subcom.getObject().getJSONObject("_embedded").getJSONArray("subcommunities");
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject jsonObjectcom = jsonArray.getJSONObject(i);
+                Community community = this.getCommunity(jsonObjectcom);
+                resp.getHasSubCommunity().add(community);
+            }
+
+        }
+
+        JsonNode collections = calllinks(jsonObject.getJSONObject("_links").getJSONObject("collections").getString("href"));
+        resp.setHasCollection(Lists.newArrayList());
+
+        if (collections.getObject().has("_embedded")) {
+            JSONArray jsonArray = collections.getObject().getJSONObject("_embedded").getJSONArray("collections");
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject jsonObjectcol = jsonArray.getJSONObject(i);
+                Collection collection = this.getCollection(jsonObjectcol);
+                resp.getHasCollection().add(collection);
+            }
+
+        }
+
+        resp.setListOfStatements(Lists.newArrayList());
+        resp.setListOfStatementLiterals(Lists.newArrayList());
+        List<Object> metadataMapping = metadataMapping(resp.getUri(), jsonObject.getJSONObject("metadata"));
+        for (Object obj : metadataMapping) {
+            if (obj instanceof StatementLiteral) {
+                resp.getListOfStatementLiterals().add((StatementLiteral) obj);
+            } else {
+                resp.getListOfStatements().add((Statement) obj);
+            }
+        }
+
+        return resp;
     }
 
     @Override
-    public Iterator<Collection> harvestCollection() {
+    public Iterator<Community> harvestCommunity() {
         //TODO
-        throw new UnsupportedOperationException("Not supported yet.");
+        return new CommunityItr((this));
     }
 
     @Override
