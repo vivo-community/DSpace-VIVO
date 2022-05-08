@@ -13,7 +13,7 @@
         <version>1.12.2</version>
         <relativePath>..</relativePath>
     </parent>
-    <name>VIVO Install Home</name>
+    <name>DSpace-VIVO Install Home</name>
     <properties>
         <default-theme>wilma</default-theme>
     </properties>

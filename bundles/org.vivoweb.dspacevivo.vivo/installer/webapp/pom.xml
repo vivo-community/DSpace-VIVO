@@ -14,7 +14,7 @@
         <relativePath>..</relativePath>
     </parent>
     
-    <name>VIVO Install Web App</name>
+    <name>DSpace-VIVO Install Web App</name>
 
     <profiles>
         <profile>

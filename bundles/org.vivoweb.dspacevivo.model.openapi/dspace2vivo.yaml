@@ -74,6 +74,7 @@ paths:
                 $ref: "#/components/schemas/Error"
   /dspace/collection:
     post:
+      deprecated: true
       tags:
       - DSpace
       summary: "Translate DSpace-Collection metadata to VIVO"
@@ -181,7 +182,7 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Collection'
-          example: 123456789/2
+          example: 123456789_2
         hasSubCommunity:
           type: array
           items:
@@ -213,7 +214,7 @@ components:
           default: repository
         id:
           type: string
-          example: 123456789/0
+          example: 123456789_0
         uri:
           type: string
           example: "http://localhost:4000/handle/123456789/0"    
@@ -244,19 +245,20 @@ components:
           default: item
         id:
           type: string
-          example: 123456789/4
+          example: 123456789_68
+        uri:
+          type: string
+          example: http://dspacevivo.vivoweb.org/individual/123456789_68
+        url:
+          type: string
+          example: http://localhost:8080/server/rdf/resource/123456789/68
         dspaceBitstreamURL:
           type: string
-          example: http://localhost:4000/bitstream/123456789/3/1/pdf1.pdf
+          example: http://localhost:4000/bitstream/123456789/68/1/bubble-chart-line.png
         dspaceIsPartOfCollectionID:
           items:
             type: string
-        uri:
-          type: string
-          example: http://localhost:4000/handle/123456789/3
-        url:
-          type: string
-          example: http://localhost:4000/items/948d534a-e1d9-41b2-bb23-1ae2fe9cff4f
+            example: 123456789_62
         listOfStatements:
           type: array
           items:
@@ -278,13 +280,13 @@ components:
           default: statement
         subjectUri:
           type: string
-          example: http://localhost:4000/handle/123456789/3
+          example: http://dspacevivo.vivoweb.org/individual/123456789_62
         predicateUri:
           type: string
           example: dcterms:isPartOf
         objectUri:
           type: string
-          example: http://localhost:4000/handle/123456789/3
+          example: http://dspacevivo.vivoweb.org/individual/123456789_68
     StatementLiteral:
       type: object
       required:
@@ -299,13 +301,13 @@ components:
           default: statementLiteral
         subjectUri:
           type: string
-          example: http://localhost:4000/handle/123456789/3
+          example: http://dspacevivo.vivoweb.org/individual/123456789_68
         predicateUri:
           type: string
-          example: dc:creator
+          example: dcterms:title
         objectLiteral:
           type: string
-          example: "Michel Héon"
+          example: "some title"
         literalType:
           type: string
           example: "xsd:string"

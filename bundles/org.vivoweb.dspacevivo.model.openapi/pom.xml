@@ -3,6 +3,13 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>org.vivoweb.dspacevivo.model.openapi</artifactId>
+    <parent>
+        <groupId>org.vivoweb.dspacevivo</groupId>
+        <artifactId>org.vivoweb.dspacevivo.installer</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../../releng/org.vivoweb.dspacevivo.installer</relativePath>
+    </parent>
+
     <licenses>
         <license>
             <name>BSD 3-Clause License</name>
@@ -23,46 +30,46 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <jackson.version>2.12.1</jackson.version>
-        <skipApiGen>false</skipApiGen>
-        <package.vocab>org.vivoweb.dspacevivo</package.vocab>
-        <jackson-jaxrs-version>2.9.1</jackson-jaxrs-version>
-        <swagger-core-version>2.1.12</swagger-core-version>
-        <validation-api-version>2.0.2</validation-api-version>
-        <jakarta-ws-rs-api-version>2.1.6</jakarta-ws-rs-api-version>
-        <coverage.complexity.minimum>0.60</coverage.complexity.minimum>
-        <coverage.line.minimum>0.0</coverage.line.minimum>
+        <ant-version>1.10.11</ant-version>
+        <bnd-version>5.1.2</bnd-version>
+        <classgraph-version>4.8.117</classgraph-version>
+        <commons-lang-version>3.7</commons-lang-version>
+        <commons-io-version>2.7</commons-io-version>
+        <commons-codec-version>1.15</commons-codec-version>
         <coverage.missed.classes>3</coverage.missed.classes>
-        <joda-version>1.9.2</joda-version>
-        <joda-time-version>2.9.9</joda-time-version>
-        <snakeyaml-version>1.27</snakeyaml-version>
+        <coverage.complexity.minimum>0.90</coverage.complexity.minimum>
+        <coverage.line.minimum>0.90</coverage.line.minimum>
+        <enforcer-plugin-version>3.0.0-M2</enforcer-plugin-version>
+        <failsafe-plugin-version>2.22.2</failsafe-plugin-version>
+        <guava-version>30.1-jre</guava-version>
+        <httpcomponents-version>4.5.13</httpcomponents-version>
+        <jackson.version>2.12.1</jackson.version>
+        <jackson-jaxrs-version>2.9.1</jackson-jaxrs-version>
+        <jakarta-ws-rs-api-version>2.1.6</jakarta-ws-rs-api-version>
         <jakarta.ws-version>2.1.6</jakarta.ws-version>
         <jakarta.xml.bind-api-version>2.3.3</jakarta.xml.bind-api-version>
         <jakarta.activation-api-version>1.2.2</jakarta.activation-api-version>
-        <bnd-version>5.1.2</bnd-version>
-        <servlet-api-version>4.0.3</servlet-api-version>
         <jersey2-version>2.26</jersey2-version>
-        <junit-version>4.13.1</junit-version>
-        <logback-version>1.2.9</logback-version>
-        <classgraph-version>4.8.117</classgraph-version>
-        <guava-version>30.1-jre</guava-version>
-        <ant-version>1.10.11</ant-version>
-        <commons-lang-version>3.7</commons-lang-version>
-        <commons-io-version>2.7</commons-io-version>
-        <slf4j-version>1.7.25</slf4j-version>
         <jetty-version>9.4.43.v20210629</jetty-version>
+        <junit-version>4.13.1</junit-version>
+        <mockito-version>2.28.2</mockito-version>
+        <swagger-core-version>2.1.12</swagger-core-version>
+        <validation-api-version>2.0.2</validation-api-version>
+        <joda-version>1.9.2</joda-version>
+        <joda-time-version>2.9.9</joda-time-version>
+        <logback-version>1.2.9</logback-version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <snakeyaml-version>1.27</snakeyaml-version>
+        <servlet-api-version>4.0.3</servlet-api-version>
+        <slf4j-version>1.7.25</slf4j-version>
         <testng-version>7.3.0</testng-version>
         <mockito-version>2.28.2</mockito-version>
         <rest-assured-version>4.3.2</rest-assured-version>
-        <httpcomponents-version>4.5.13</httpcomponents-version>
-        <commons-codec-version>1.15</commons-codec-version>
         <surefire-version>2.21.0</surefire-version>
-        <enforcer-plugin-version>3.0.0-M2</enforcer-plugin-version>
-        <failsafe-plugin-version>2.22.2</failsafe-plugin-version>
-        <coverage.complexity.minimum>0.90</coverage.complexity.minimum>
-        <coverage.line.minimum>0.90</coverage.line.minimum>
-        <coverage.missed.classes>0</coverage.missed.classes>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <skipApiGen>false</skipApiGen>
+        <tomcat.skipCopy>true</tomcat.skipCopy>
+        <package.vocab>org.vivoweb.dspacevivo</package.vocab>
         <sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</sonatypeOssDistMgmtSnapshotsUrl>
     </properties>
     <build>
@@ -123,6 +130,30 @@
                         </goals>
                         <configuration>
                             <skipTests>true</skipTests>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <id>copy-resources-local-tomcat</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <skip>${tomcat.skipCopy}</skip>
+                            <outputDirectory>${tomcat-dir}/${app-name}</outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>target/${project.artifactId}-${project.version}</directory>
+                                    <filtering>false</filtering>
+                                </resource>
+                            </resources>
                         </configuration>
                     </execution>
                 </executions>
@@ -296,7 +327,7 @@
             <artifactId>swagger-parser-v3</artifactId>
             <version>2.0.30</version>
         </dependency>
-                <dependency>
+        <dependency>
             <groupId>org.apache.jena</groupId>
             <artifactId>jena-core</artifactId>
         </dependency>
@@ -318,13 +349,13 @@
             <artifactId>apache-jena</artifactId>
             <type>pom</type>
         </dependency>
-        
-            <dependency>
-                <groupId>org.testng</groupId>
-                <artifactId>testng</artifactId>
-                <version>${testng-version}</version>
-                <scope>test</scope>
-            </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng-version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
@@ -455,10 +486,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    <parent>
-        <groupId>org.vivoweb.dspacevivo</groupId>
-        <artifactId>org.vivoweb.dspacevivo.installer</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../../releng/org.vivoweb.dspacevivo.installer</relativePath>
-    </parent>
 </project>

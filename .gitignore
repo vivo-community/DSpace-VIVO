@@ -1,7 +1,12 @@
 deploy/app-solr/
 deploy/app-tomcat/
 deploy/vivo-home/
+deploy/translator/
+deploy/dspace/
+deploy/dspace-ui/
+deploy/dspace-angular/
 deploy/lib/
+
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -29,6 +34,8 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+.classpath
+.env
 
 # External tool builders
 .externalToolBuilders/

@@ -38,6 +38,13 @@
             <organization>Cornell University</organization>
             <organizationUrl>https://github.com/fereira</organizationUrl>
         </developer>
+        <developer>
+            <name>Michel Héon PhD</name>
+            <email>heon.michel@uqam.ca</email>
+            <organization>Université du Québec à Montréal</organization>
+            <organizationUrl>https://uqam.ca</organizationUrl>
+            <url>https://www.linkedin.com/in/michelheon</url>
+        </developer>
     </developers>
 
     <!-- The SCM repository location is used by Continuum to update against 
