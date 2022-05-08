@@ -1,0 +1,1040 @@
+id,collection,dc.contributor.author,dc.contributor[],dc.creator[en_US],dc.date.accessioned,dc.date.accessioned[],dc.date.available,dc.date.available[],dc.date.created,dc.date.created[en_US],dc.date.issued,dc.date.issued[],dc.date.updated,dc.description.abstract,dc.description.abstract[],dc.description.abstract[en],dc.description.abstract[en_US],dc.description.provenance[en],dc.description.sponsorship[en],dc.description.sponsorship[en_US],dc.description[en],dc.description[en_US],dc.identifier,dc.identifier.citation[en_US],dc.identifier.issn,dc.identifier.issn[en_US],dc.identifier.uri,dc.language.iso[en],dc.language.iso[en_US],dc.language[en_US],dc.publisher[],dc.publisher[en_US],dc.relation.ispartofseries,dc.rights.uri[*],dc.rights.uri[],dc.rights[*],dc.rights[en],dc.rights[en_US],dc.subject[],dc.subject[en_US],dc.title,dc.title.alternative[en_US],dc.title[],dc.title[en],dc.title[en_US],dc.type[en],dc.type[en_US]
+"c949db1d-19f4-46ac-9702-84624d11d396","10673/2",,,"Doe, Jane L","1650-06-26T19:58:25Z",,"1650-06-26T19:58:25Z",,,,"1650-06-26",,,,,,"This is really just a sample abstract. If it was a real abstract it would contain useful information about this test document. Sorry though, nothing useful in this paragraph. You probably shouldn't have even bothered to read it!","Made available in DSpace on 2012-06-26T19:58:25Z (GMT). No. of bitstreams: 2
+test_ppt.ppt: 12707328 bytes, checksum: a353fc7d29b3c558c986f7463a41efd3 (MD5)
+test_ppt.pptx: 12468572 bytes, checksum: 599305edb4ebee329667f2c35b14d1d6 (MD5)||Restored into DSpace on 2013-06-13T09:17:34Z (GMT).||Restored into DSpace on 2013-06-13T11:04:16Z (GMT).||Restored into DSpace on 2018-01-07T00:01:14Z (GMT).||Restored into DSpace on 2019-03-22T20:50:44Z (GMT).||Restored into DSpace on 2022-04-24T00:00:13Z (GMT).",,,,,,,,"123456789","http://hdl.handle.net/10673/6",,,"en",,,,,,,,"© Jane Doe",,"keyword1||keyword2||keyword3",,,,,"Test PowerPoint Document",,"text"
+"1ec6a77a-60b5-4376-85a5-9b419a4634ec","10673/2",,,"Smith, Samuel G",,"2012-06-26T20:02:09Z",,"2012-06-26T20:02:09Z",,,,"2012-06-26",,,"This is a sample abstract.  But, to fill up some space, here's ""Hello"" in several different languages : (Chinese) 你好 , 
+(Georgian) გამარჯობა , (Greek) Γεια σας , (Hindi) नमस्ते , (Korean) 여보세요 , (Japanese) こんにちは , (Russian) привет , (Thai) สวัสดี",,,"Made available in DSpace on 2012-06-26T20:02:09Z (GMT). No. of bitstreams: 2
+test_word.doc: 26112 bytes, checksum: b75a07d9b478c88e12207ae2c916c49a (MD5)
+test_word.docx: 10308 bytes, checksum: a380dbf8151b69d5baddd61363a7ca32 (MD5)||Restored into DSpace on 2013-06-13T09:17:35Z (GMT).||Restored into DSpace on 2013-06-13T11:04:16Z (GMT).||Restored into DSpace on 2018-01-07T00:01:16Z (GMT).||Restored into DSpace on 2019-03-22T20:50:46Z (GMT).||Restored into DSpace on 2022-04-24T00:00:14Z (GMT).",,,,,,,,"123456789","http://hdl.handle.net/10673/7",,,"en",,,,,,,,"© Sam Smith",,"keyword1||keyword2||keyword3",,,,,"Test Word Document",,"text"
+"0f15c8c4-fdb7-44b6-9095-f29d560fa188","10673/2",,,"Nelson, Sandra K","2002-06-26T19:58:25Z",,"2002-06-26T19:58:25Z",,,,"2002-06-26",,,,,,"This abstract is really quite great. It grabs your attention at just the right spots, and holds it all the way until the end! Yep. Great abstracts do that.","Made available in DSpace on 2012-06-26T19:58:25Z (GMT). No. of bitstreams: 2
+test_word.docx: 10201 bytes, checksum: 499b0e1e3936582ca4981163db5442b9 (MD5)
+test_pdf.pdf: 31302 bytes, checksum: 1b19a552a54b9390652530277fcf6c0f (MD5)||Restored into DSpace on 2013-06-13T09:17:34Z (GMT).||Restored into DSpace on 2013-06-13T11:04:16Z (GMT).||Restored into DSpace on 2018-01-07T00:01:15Z (GMT).||Restored into DSpace on 2019-03-22T20:50:45Z (GMT).||Restored into DSpace on 2022-04-24T00:00:13Z (GMT).",,,,,,,,"123456789","http://hdl.handle.net/10673/5",,,"en",,,,,,,,"© Sandra Nelson",,"keyword1||keyword2||keyword3",,,,,"Test PDF Document",,"text"
+"8568d504-e9ff-4f69-9603-a025d73737f0","10673/2",,,"Doe, John F","1992-06-26T19:58:24Z",,"1992-06-26T19:58:24Z",,,,"1992-06-26",,,,,,"This is really just a sample abstract.  But, Í’vé thrown ïn a cõuple of spëciâl charactèrs för êxtrå fuñ!","Made available in DSpace on 2012-06-26T19:58:24Z (GMT). No. of bitstreams: 2
+test_excel.xls: 17408 bytes, checksum: 58164febbcfe7b59b45fd093d87d4e42 (MD5)
+test_excel.xlsx: 8466 bytes, checksum: 6b03054fce80a5bc4256f11bccbed9bd (MD5)||Restored into DSpace on 2013-06-13T09:17:32Z (GMT).||Restored into DSpace on 2013-06-13T11:04:14Z (GMT).||Restored into DSpace on 2018-01-07T00:01:12Z (GMT).||Restored into DSpace on 2019-03-22T20:50:41Z (GMT).||Restored into DSpace on 2022-04-24T00:00:12Z (GMT).",,,,,,,,"123456789","http://hdl.handle.net/10673/3",,,"en",,,,,,,,"© John Doe",,"keyword1||keyword2||keyword3",,,,,"Test Excel Document",,"text"
+"f26347d3-d7a2-4ac7-acf6-f16ce777fe38","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-13T12:17:28Z||2019-03-22T21:26:03Z",,"2008-08-13T12:17:28Z||2019-03-22T21:26:03Z",,"2008",,"2008-08-13T12:17:28Z",,,,,"This module will introduce the concept of metadata, and why it is used. Following that, the metadata support in DSpace will be explained along with how metadata is encoded and stored. The metadata registry which holds the metadata will be shown, and the out-of-the-box metadata schema will be examined. Finally the module will show how to add a new metadata schema, along with a practical exercise to add a new term to the Dublin core scheme included with DSpace.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-13T12:17:17Z
+No. of bitstreams: 4
+Module - An introduction to metadata in DSpace.doc: 486912 bytes, checksum: fc29710f99fe1e3f61a551c19dc45cdc (MD5)
+Module - An introduction to metadata in DSpace.pdf: 959840 bytes, checksum: ada55a2c314b738d4fbfaea07fce4b8f (MD5)
+Module - An introduction to DSpace (slides).ppt: 1903616 bytes, checksum: 20f3913a8068ad21db84eb60c9095128 (MD5)
+Module - An introduction to metadata in DSpace (slides).pdf: 348206 bytes, checksum: 51ccb450a3a2a61125a397b3cbc41d60 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-13T12:17:28Z (GMT) No. of bitstreams: 4
+Module - An introduction to metadata in DSpace.doc: 486912 bytes, checksum: fc29710f99fe1e3f61a551c19dc45cdc (MD5)
+Module - An introduction to metadata in DSpace.pdf: 959840 bytes, checksum: ada55a2c314b738d4fbfaea07fce4b8f (MD5)
+Module - An introduction to DSpace (slides).ppt: 1903616 bytes, checksum: 20f3913a8068ad21db84eb60c9095128 (MD5)
+Module - An introduction to metadata in DSpace (slides).pdf: 348206 bytes, checksum: 51ccb450a3a2a61125a397b3cbc41d60 (MD5)||Made available in DSpace on 2008-08-13T12:17:28Z (GMT). No. of bitstreams: 4
+Module - An introduction to metadata in DSpace.doc: 486912 bytes, checksum: fc29710f99fe1e3f61a551c19dc45cdc (MD5)
+Module - An introduction to metadata in DSpace.pdf: 959840 bytes, checksum: ada55a2c314b738d4fbfaea07fce4b8f (MD5)
+Module - An introduction to DSpace (slides).ppt: 1903616 bytes, checksum: 20f3913a8068ad21db84eb60c9095128 (MD5)
+Module - An introduction to metadata in DSpace (slides).pdf: 348206 bytes, checksum: 51ccb450a3a2a61125a397b3cbc41d60 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:26:02Z
+No. of bitstreams: 8
+Module - An introduction to metadata in DSpace (slides).pdf: 348371 bytes, checksum: f30f9c4c75505d923d3f12a3ba3ad9fa (MD5)
+Module - An introduction to metadata in DSpace (slides).ppt: 648704 bytes, checksum: 8ab55aecef8dd543ac4ea4bc2820973d (MD5)
+Module - An introduction to metadata in DSpace.pdf: 959840 bytes, checksum: 3f918ca841b49520d94bde31fc42d061 (MD5)
+Module - An introduction to metadata in DSpace.doc: 486912 bytes, checksum: 0a9ddd9cea226559885fc6a4c61693bd (MD5)
+Module - An introduction to metadata in DSpace.doc.txt: 2900 bytes, checksum: ff770ef186141efc9f7043f3cceb26ce (MD5)
+Module - An introduction to metadata in DSpace.pdf.txt: 3435 bytes, checksum: c1c76dc2a4ff98e0231ec6e543625832 (MD5)
+Module - An introduction to metadata in DSpace (slides).pdf.txt: 2731 bytes, checksum: 9e2852c412a0c182956b7beac732a585 (MD5)
+Module - An introduction to metadata in DSpace (slides).ppt.txt: 2681 bytes, checksum: 95da54c50004d16cbc43bb27228aed5d (MD5)||Made available in DSpace on 2019-03-22T21:26:03Z (GMT). No. of bitstreams: 8
+Module - An introduction to metadata in DSpace (slides).pdf: 348371 bytes, checksum: f30f9c4c75505d923d3f12a3ba3ad9fa (MD5)
+Module - An introduction to metadata in DSpace (slides).ppt: 648704 bytes, checksum: 8ab55aecef8dd543ac4ea4bc2820973d (MD5)
+Module - An introduction to metadata in DSpace.pdf: 959840 bytes, checksum: 3f918ca841b49520d94bde31fc42d061 (MD5)
+Module - An introduction to metadata in DSpace.doc: 486912 bytes, checksum: 0a9ddd9cea226559885fc6a4c61693bd (MD5)
+Module - An introduction to metadata in DSpace.doc.txt: 2900 bytes, checksum: ff770ef186141efc9f7043f3cceb26ce (MD5)
+Module - An introduction to metadata in DSpace.pdf.txt: 3435 bytes, checksum: c1c76dc2a4ff98e0231ec6e543625832 (MD5)
+Module - An introduction to metadata in DSpace (slides).pdf.txt: 2731 bytes, checksum: 9e2852c412a0c182956b7beac732a585 (MD5)
+Module - An introduction to metadata in DSpace (slides).ppt.txt: 2681 bytes, checksum: 95da54c50004d16cbc43bb27228aed5d (MD5)
+  Previous issue date: 2008-08-13T12:17:28Z||Restored into DSpace on 2022-04-24T00:00:18Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/55","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - An Introduction to Metadata in DSpace",,"Text",
+"7b8a9198-6000-4604-898e-9671e2fc9b8f","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-13T12:43:53Z||2019-03-22T21:26:57Z",,"2008-08-13T12:43:53Z||2019-03-22T21:26:57Z",,"2008",,"2008-08-13T12:43:53Z",,,,,"This module will introduce the concept of users and groups in DSpace. Users require accounts to be able to log in and submit or edit items. Logical collections of users can be placed in groups to make administration easier. Some users have additional rights that let them administrate the software. These concepts are explained in this module.
+Users and groups are explained more in-depth in the module 'User management and authentication'.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-13T12:43:45Z
+No. of bitstreams: 4
+Module - An introduction to users and groups.doc: 518144 bytes, checksum: 5632c676d8787143d4a76b8e9bcac440 (MD5)
+Module - An introduction to users and groups.pdf: 986975 bytes, checksum: 641d7809d462593145edf4a8317d0892 (MD5)
+Module - An introduction to users and groups (slides).ppt: 308736 bytes, checksum: 868e8b783e78a06a142d897f8b2459fc (MD5)
+Module - An introduction to users and groups (slides).pdf: 259089 bytes, checksum: 023744044e9d261ad3b22cb0a87f4cfa (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-13T12:43:53Z (GMT) No. of bitstreams: 4
+Module - An introduction to users and groups.doc: 518144 bytes, checksum: 5632c676d8787143d4a76b8e9bcac440 (MD5)
+Module - An introduction to users and groups.pdf: 986975 bytes, checksum: 641d7809d462593145edf4a8317d0892 (MD5)
+Module - An introduction to users and groups (slides).ppt: 308736 bytes, checksum: 868e8b783e78a06a142d897f8b2459fc (MD5)
+Module - An introduction to users and groups (slides).pdf: 259089 bytes, checksum: 023744044e9d261ad3b22cb0a87f4cfa (MD5)||Made available in DSpace on 2008-08-13T12:43:53Z (GMT). No. of bitstreams: 4
+Module - An introduction to users and groups.doc: 518144 bytes, checksum: 5632c676d8787143d4a76b8e9bcac440 (MD5)
+Module - An introduction to users and groups.pdf: 986975 bytes, checksum: 641d7809d462593145edf4a8317d0892 (MD5)
+Module - An introduction to users and groups (slides).ppt: 308736 bytes, checksum: 868e8b783e78a06a142d897f8b2459fc (MD5)
+Module - An introduction to users and groups (slides).pdf: 259089 bytes, checksum: 023744044e9d261ad3b22cb0a87f4cfa (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:26:56Z
+No. of bitstreams: 8
+Module - An introduction to users and groups.doc.txt: 6400 bytes, checksum: 212d159d7bf93c19ef89c56a7213109c (MD5)
+Module - An introduction to users and groups.pdf.txt: 7259 bytes, checksum: 0b00fc6002c7cd0af091242a9d7e8d2f (MD5)
+Module - An introduction to users and groups (slides).pdf.txt: 2497 bytes, checksum: dc35ad1463d0402776fbb834c7bac53f (MD5)
+Module - An introduction to users and groups (slides).ppt.txt: 2434 bytes, checksum: a0c74445a2ca6885c8b1bcaf8e2ca350 (MD5)
+Module - An introduction to users and groups (slides).pdf: 257071 bytes, checksum: ce947ebe12d58f61360251a21e90e2fb (MD5)
+Module - An introduction to users and groups (slides).ppt: 308736 bytes, checksum: f4963da01f8d6ae81f2a4055fc4768fc (MD5)
+Module - An introduction to users and groups.pdf: 988584 bytes, checksum: 52753b813d4082ea5e4760fd24fe7f04 (MD5)
+Module - An introduction to users and groups.doc: 518144 bytes, checksum: f6bf5d6ad2bb12e1942b6d9880859b09 (MD5)||Made available in DSpace on 2019-03-22T21:26:57Z (GMT). No. of bitstreams: 8
+Module - An introduction to users and groups.doc.txt: 6400 bytes, checksum: 212d159d7bf93c19ef89c56a7213109c (MD5)
+Module - An introduction to users and groups.pdf.txt: 7259 bytes, checksum: 0b00fc6002c7cd0af091242a9d7e8d2f (MD5)
+Module - An introduction to users and groups (slides).pdf.txt: 2497 bytes, checksum: dc35ad1463d0402776fbb834c7bac53f (MD5)
+Module - An introduction to users and groups (slides).ppt.txt: 2434 bytes, checksum: a0c74445a2ca6885c8b1bcaf8e2ca350 (MD5)
+Module - An introduction to users and groups (slides).pdf: 257071 bytes, checksum: ce947ebe12d58f61360251a21e90e2fb (MD5)
+Module - An introduction to users and groups (slides).ppt: 308736 bytes, checksum: f4963da01f8d6ae81f2a4055fc4768fc (MD5)
+Module - An introduction to users and groups.pdf: 988584 bytes, checksum: 52753b813d4082ea5e4760fd24fe7f04 (MD5)
+Module - An introduction to users and groups.doc: 518144 bytes, checksum: f6bf5d6ad2bb12e1942b6d9880859b09 (MD5)
+  Previous issue date: 2008-08-13T12:43:53Z||Restored into DSpace on 2022-04-24T00:00:19Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/56","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - An Introduction to Users and Groups",,"Text",
+"ff5076e0-eff0-4068-831b-2ca80052b0ab","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-13T12:08:44Z||2019-03-22T21:24:57Z",,"2008-08-13T12:08:44Z||2019-03-22T21:24:57Z",,"2008",,"2008-08-13T12:08:44Z",,,,,"This module will introduce DSpace, its history, and the DSpace Foundation. The module will introduce what DSpace is and what it can be used for. It will then describe the development of DSpace over time, and talk about the DSpace Foundation which now oversees the running of DSpace. The open source development model used by DSpace will also be described.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-13T12:08:36Z
+No. of bitstreams: 4
+Module - An introduction to DSpace.pdf: 1397669 bytes, checksum: 34349389d3979bee14a57366b5e6a021 (MD5)
+Module - An introduction to DSpace.pdf: 1397669 bytes, checksum: 34349389d3979bee14a57366b5e6a021 (MD5)
+Module - An introduction to DSpace (slides).ppt: 1903616 bytes, checksum: 20f3913a8068ad21db84eb60c9095128 (MD5)
+Module - An introduction to DSpace (slides).pdf: 668627 bytes, checksum: e268f920d830f65e19bb2783e1e9d3bc (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-13T12:08:44Z (GMT) No. of bitstreams: 4
+Module - An introduction to DSpace.pdf: 1397669 bytes, checksum: 34349389d3979bee14a57366b5e6a021 (MD5)
+Module - An introduction to DSpace.pdf: 1397669 bytes, checksum: 34349389d3979bee14a57366b5e6a021 (MD5)
+Module - An introduction to DSpace (slides).ppt: 1903616 bytes, checksum: 20f3913a8068ad21db84eb60c9095128 (MD5)
+Module - An introduction to DSpace (slides).pdf: 668627 bytes, checksum: e268f920d830f65e19bb2783e1e9d3bc (MD5)||Made available in DSpace on 2008-08-13T12:08:44Z (GMT). No. of bitstreams: 4
+Module - An introduction to DSpace.pdf: 1397669 bytes, checksum: 34349389d3979bee14a57366b5e6a021 (MD5)
+Module - An introduction to DSpace.pdf: 1397669 bytes, checksum: 34349389d3979bee14a57366b5e6a021 (MD5)
+Module - An introduction to DSpace (slides).ppt: 1903616 bytes, checksum: 20f3913a8068ad21db84eb60c9095128 (MD5)
+Module - An introduction to DSpace (slides).pdf: 668627 bytes, checksum: e268f920d830f65e19bb2783e1e9d3bc (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:24:56Z
+No. of bitstreams: 8
+Module - An introduction to DSpace (slides).pdf: 668809 bytes, checksum: 7095b46b04e0f2edc4a9a6695743d3a0 (MD5)
+Module - An introduction to DSpace (slides).ppt: 1903616 bytes, checksum: d9f568e6f0bc98bb3aae39df95b4bd94 (MD5)
+Module - An introduction to DSpace.pdf: 1397686 bytes, checksum: c1c4012e37bd1bf2698fddef8a40b2a5 (MD5)
+Module - An introduction to DSpace.doc: 785408 bytes, checksum: b900ca018b7476019b1cd1c8220a780c (MD5)
+Module - An introduction to DSpace.doc.txt: 8187 bytes, checksum: 7f8b460e36ac89f95e29286a43565dec (MD5)
+Module - An introduction to DSpace.pdf.txt: 9081 bytes, checksum: a72969ed20f2198848b20d388b60bf98 (MD5)
+Module - An introduction to DSpace (slides).pdf.txt: 3725 bytes, checksum: e3a42faeef8d174b413dfa05f9674c9e (MD5)
+Module - An introduction to DSpace (slides).ppt.txt: 3630 bytes, checksum: 0825d6b588f701251925d37fd0f3b05d (MD5)||Made available in DSpace on 2019-03-22T21:24:57Z (GMT). No. of bitstreams: 8
+Module - An introduction to DSpace (slides).pdf: 668809 bytes, checksum: 7095b46b04e0f2edc4a9a6695743d3a0 (MD5)
+Module - An introduction to DSpace (slides).ppt: 1903616 bytes, checksum: d9f568e6f0bc98bb3aae39df95b4bd94 (MD5)
+Module - An introduction to DSpace.pdf: 1397686 bytes, checksum: c1c4012e37bd1bf2698fddef8a40b2a5 (MD5)
+Module - An introduction to DSpace.doc: 785408 bytes, checksum: b900ca018b7476019b1cd1c8220a780c (MD5)
+Module - An introduction to DSpace.doc.txt: 8187 bytes, checksum: 7f8b460e36ac89f95e29286a43565dec (MD5)
+Module - An introduction to DSpace.pdf.txt: 9081 bytes, checksum: a72969ed20f2198848b20d388b60bf98 (MD5)
+Module - An introduction to DSpace (slides).pdf.txt: 3725 bytes, checksum: e3a42faeef8d174b413dfa05f9674c9e (MD5)
+Module - An introduction to DSpace (slides).ppt.txt: 3630 bytes, checksum: 0825d6b588f701251925d37fd0f3b05d (MD5)
+  Previous issue date: 2008-08-13T12:08:44Z||Restored into DSpace on 2022-04-24T00:00:17Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/54","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - An Introduction to DSpace",,"Text",
+"080aa16a-cbcc-4cf5-a8af-861ac85f97da","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-13T12:52:48Z||2019-03-22T21:28:09Z",,"2008-08-13T12:52:48Z||2019-03-22T21:28:09Z",,"2008",,"2008-08-13T12:52:48Z",,,,,"This module follows on from the module 'User management and authentication options' which introduced the concepts of authentication and LDAP. This module will cover the process of configuring DSpace to authenticate users with an LDAP server. Troubleshooting tools will be introduced to assist with the integration.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-13T12:52:42Z
+No. of bitstreams: 4
+Module - Configuring LDAP.doc: 716288 bytes, checksum: 6aac03438de7b50862a6081a899a6fd1 (MD5)
+Module - Configuring LDAP.pdf: 1318076 bytes, checksum: e55bc75de10969d93a0e97fe9142888a (MD5)
+Module - Configuring LDAP - slides.ppt: 695808 bytes, checksum: e946f2249cc2dcec51057425c02bdeb5 (MD5)
+Module - Configuring LDAP - slides.pdf: 536737 bytes, checksum: 0a751d617e2307690ad68230d24f62b4 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-13T12:52:48Z (GMT) No. of bitstreams: 4
+Module - Configuring LDAP.doc: 716288 bytes, checksum: 6aac03438de7b50862a6081a899a6fd1 (MD5)
+Module - Configuring LDAP.pdf: 1318076 bytes, checksum: e55bc75de10969d93a0e97fe9142888a (MD5)
+Module - Configuring LDAP - slides.ppt: 695808 bytes, checksum: e946f2249cc2dcec51057425c02bdeb5 (MD5)
+Module - Configuring LDAP - slides.pdf: 536737 bytes, checksum: 0a751d617e2307690ad68230d24f62b4 (MD5)||Made available in DSpace on 2008-08-13T12:52:48Z (GMT). No. of bitstreams: 4
+Module - Configuring LDAP.doc: 716288 bytes, checksum: 6aac03438de7b50862a6081a899a6fd1 (MD5)
+Module - Configuring LDAP.pdf: 1318076 bytes, checksum: e55bc75de10969d93a0e97fe9142888a (MD5)
+Module - Configuring LDAP - slides.ppt: 695808 bytes, checksum: e946f2249cc2dcec51057425c02bdeb5 (MD5)
+Module - Configuring LDAP - slides.pdf: 536737 bytes, checksum: 0a751d617e2307690ad68230d24f62b4 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:28:09Z
+No. of bitstreams: 8
+Module - Configuring LDAP.doc.txt: 7716 bytes, checksum: 3a4674aea920ef66201a2083a3d2c593 (MD5)
+Module - Configuring LDAP.pdf.txt: 8345 bytes, checksum: a85bd9c5acf3e9984330d80d362ceaee (MD5)
+Module - Configuring LDAP (slides).pdf.txt: 2411 bytes, checksum: 3898290b2680c258f20bb60edcd8bef7 (MD5)
+Module - Configuring LDAP (slides).ppt.txt: 2328 bytes, checksum: 6c722a7e067deb6c4602c7efe80a128e (MD5)
+Module - Configuring LDAP (slides).pdf: 531196 bytes, checksum: feaed94ffbca243273e4690853e03ff6 (MD5)
+Module - Configuring LDAP (slides).ppt: 691712 bytes, checksum: 1694f6b0f9ea550cbcbe442d65c75162 (MD5)
+Module - Configuring LDAP.pdf: 1216847 bytes, checksum: a802734c03e7ffbdacdab85c95d56e6a (MD5)
+Module - Configuring LDAP.doc: 645120 bytes, checksum: 73183c107753d9ff9ee9bb1f8c08fe1c (MD5)||Made available in DSpace on 2019-03-22T21:28:09Z (GMT). No. of bitstreams: 8
+Module - Configuring LDAP.doc.txt: 7716 bytes, checksum: 3a4674aea920ef66201a2083a3d2c593 (MD5)
+Module - Configuring LDAP.pdf.txt: 8345 bytes, checksum: a85bd9c5acf3e9984330d80d362ceaee (MD5)
+Module - Configuring LDAP (slides).pdf.txt: 2411 bytes, checksum: 3898290b2680c258f20bb60edcd8bef7 (MD5)
+Module - Configuring LDAP (slides).ppt.txt: 2328 bytes, checksum: 6c722a7e067deb6c4602c7efe80a128e (MD5)
+Module - Configuring LDAP (slides).pdf: 531196 bytes, checksum: feaed94ffbca243273e4690853e03ff6 (MD5)
+Module - Configuring LDAP (slides).ppt: 691712 bytes, checksum: 1694f6b0f9ea550cbcbe442d65c75162 (MD5)
+Module - Configuring LDAP.pdf: 1216847 bytes, checksum: a802734c03e7ffbdacdab85c95d56e6a (MD5)
+Module - Configuring LDAP.doc: 645120 bytes, checksum: 73183c107753d9ff9ee9bb1f8c08fe1c (MD5)
+  Previous issue date: 2008-08-13T12:52:48Z||Restored into DSpace on 2022-04-24T00:00:20Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/57","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - Configuring LDAP",,"Text",
+"9262c2cf-3e78-464e-9745-541f07d0c896","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-14T14:36:11Z||2019-03-22T21:36:39Z",,"2008-08-14T14:36:11Z||2019-03-22T21:36:39Z",,"2008",,"2008-08-14T14:36:11Z",,,,,"This module will introduce the item submission workflows available in DSpace. Workflows allow submissions to be checked before entering the repository. Submissions may be checked for accuracy, in order to improve the metadata, or simply to decide if they are OK to be archived. The module will show the three workflow steps available in DSpace, along with details about adding, changing and removing them from the submission process of collections.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-14T14:36:01Z
+No. of bitstreams: 4
+Module - Item submission workflows.doc: 2160128 bytes, checksum: 6205f595015dd264b94a0930d18133a7 (MD5)
+Module - Item submission workflows.pdf: 1319472 bytes, checksum: 4e045e12d301b2452bb6c39bc588480f (MD5)
+Module - Item submission workflows (slides).ppt: 1499136 bytes, checksum: ea8175f976125c6a3b4531fbcf7abedf (MD5)
+Module - Item submission workflows (slides).pdf: 444207 bytes, checksum: 3d4038508c0447aabe78314bc3d08442 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-14T14:36:11Z (GMT) No. of bitstreams: 4
+Module - Item submission workflows.doc: 2160128 bytes, checksum: 6205f595015dd264b94a0930d18133a7 (MD5)
+Module - Item submission workflows.pdf: 1319472 bytes, checksum: 4e045e12d301b2452bb6c39bc588480f (MD5)
+Module - Item submission workflows (slides).ppt: 1499136 bytes, checksum: ea8175f976125c6a3b4531fbcf7abedf (MD5)
+Module - Item submission workflows (slides).pdf: 444207 bytes, checksum: 3d4038508c0447aabe78314bc3d08442 (MD5)||Made available in DSpace on 2008-08-14T14:36:11Z (GMT). No. of bitstreams: 4
+Module - Item submission workflows.doc: 2160128 bytes, checksum: 6205f595015dd264b94a0930d18133a7 (MD5)
+Module - Item submission workflows.pdf: 1319472 bytes, checksum: 4e045e12d301b2452bb6c39bc588480f (MD5)
+Module - Item submission workflows (slides).ppt: 1499136 bytes, checksum: ea8175f976125c6a3b4531fbcf7abedf (MD5)
+Module - Item submission workflows (slides).pdf: 444207 bytes, checksum: 3d4038508c0447aabe78314bc3d08442 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:36:38Z
+No. of bitstreams: 8
+Module - Item submission workflows.doc.txt: 7798 bytes, checksum: a456e12cc3b7c75ec069d828a4d910c6 (MD5)
+Module - Item submission workflows.pdf.txt: 8753 bytes, checksum: c312f71f20502dd27b19cfe7c9d2e3f0 (MD5)
+Module - Item submission workflows (slides).pdf.txt: 3317 bytes, checksum: 89ff634e26e504ed1530e7714b97ebd4 (MD5)
+Module - Item submission workflows (slides).ppt.txt: 3297 bytes, checksum: c669e4a2563a0d4121878b45208af1ab (MD5)
+Module - Item submission workflows (slides).pdf: 444207 bytes, checksum: 3d4038508c0447aabe78314bc3d08442 (MD5)
+Module - Item submission workflows (slides).ppt: 1499136 bytes, checksum: ea8175f976125c6a3b4531fbcf7abedf (MD5)
+Module - Item submission workflows.pdf: 1319472 bytes, checksum: 4e045e12d301b2452bb6c39bc588480f (MD5)
+Module - Item submission workflows.doc: 2160128 bytes, checksum: 6205f595015dd264b94a0930d18133a7 (MD5)||Made available in DSpace on 2019-03-22T21:36:39Z (GMT). No. of bitstreams: 8
+Module - Item submission workflows.doc.txt: 7798 bytes, checksum: a456e12cc3b7c75ec069d828a4d910c6 (MD5)
+Module - Item submission workflows.pdf.txt: 8753 bytes, checksum: c312f71f20502dd27b19cfe7c9d2e3f0 (MD5)
+Module - Item submission workflows (slides).pdf.txt: 3317 bytes, checksum: 89ff634e26e504ed1530e7714b97ebd4 (MD5)
+Module - Item submission workflows (slides).ppt.txt: 3297 bytes, checksum: c669e4a2563a0d4121878b45208af1ab (MD5)
+Module - Item submission workflows (slides).pdf: 444207 bytes, checksum: 3d4038508c0447aabe78314bc3d08442 (MD5)
+Module - Item submission workflows (slides).ppt: 1499136 bytes, checksum: ea8175f976125c6a3b4531fbcf7abedf (MD5)
+Module - Item submission workflows.pdf: 1319472 bytes, checksum: 4e045e12d301b2452bb6c39bc588480f (MD5)
+Module - Item submission workflows.doc: 2160128 bytes, checksum: 6205f595015dd264b94a0930d18133a7 (MD5)
+  Previous issue date: 2008-08-14T14:36:11Z||Restored into DSpace on 2022-04-24T00:00:28Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/64","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - Item Submission Workflows",,"Text",
+"c0d72c25-2b30-42cc-a7d2-d7199d694290","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-14T14:47:47Z||2019-03-22T21:37:34Z",,"2008-08-14T14:47:47Z||2019-03-22T21:37:34Z",,"2008",,"2008-08-14T14:47:47Z",,,,,"Items are one of the core concepts in DSpace. An item a representation of the files and metadata bought together to make an atomic unit. This module introduces items and the constituent parts of metadata, bundles and bitstreams. The module concludes with a description of the standard submission interface and a practical exercise to submit an item. This module introduces items, but does not cover aspects such as what metadata is, or why it is needed. This is covered in the module 'An introduction to metadata in DSpace'.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-14T14:47:40Z
+No. of bitstreams: 4
+Module - Items in DSpace.doc: 253440 bytes, checksum: 5ef121b9062d83890e2e8cce86085306 (MD5)
+Module - Items in DSpace.pdf: 671759 bytes, checksum: e3f85e29240e61f14f71a125814af80b (MD5)
+Module - Items in DSpace (slides).ppt: 349696 bytes, checksum: 6dc8f57cb5dd04041e5bf6ea6ca21444 (MD5)
+Module - Items in DSpace (slides).pdf: 239946 bytes, checksum: ee1290cacd78dc9bf838d2d812eb737a (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-14T14:47:47Z (GMT) No. of bitstreams: 4
+Module - Items in DSpace.doc: 253440 bytes, checksum: 5ef121b9062d83890e2e8cce86085306 (MD5)
+Module - Items in DSpace.pdf: 671759 bytes, checksum: e3f85e29240e61f14f71a125814af80b (MD5)
+Module - Items in DSpace (slides).ppt: 349696 bytes, checksum: 6dc8f57cb5dd04041e5bf6ea6ca21444 (MD5)
+Module - Items in DSpace (slides).pdf: 239946 bytes, checksum: ee1290cacd78dc9bf838d2d812eb737a (MD5)||Made available in DSpace on 2008-08-14T14:47:47Z (GMT). No. of bitstreams: 4
+Module - Items in DSpace.doc: 253440 bytes, checksum: 5ef121b9062d83890e2e8cce86085306 (MD5)
+Module - Items in DSpace.pdf: 671759 bytes, checksum: e3f85e29240e61f14f71a125814af80b (MD5)
+Module - Items in DSpace (slides).ppt: 349696 bytes, checksum: 6dc8f57cb5dd04041e5bf6ea6ca21444 (MD5)
+Module - Items in DSpace (slides).pdf: 239946 bytes, checksum: ee1290cacd78dc9bf838d2d812eb737a (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:37:34Z
+No. of bitstreams: 8
+Module - Items in DSpace.doc.txt: 4111 bytes, checksum: 75697d95085321356c342929b70df142 (MD5)
+Module - Items in DSpace.pdf.txt: 4496 bytes, checksum: 76c9e95f696cf9ea45072dc8ef9b0ac7 (MD5)
+Module - Items in DSpace (slides).pdf.txt: 1003 bytes, checksum: 3283d16c474fe0bd8865b13dca3ef3b7 (MD5)
+Module - Items in DSpace (slides).ppt.txt: 970 bytes, checksum: 062aaac3f804df114c00728d076845b3 (MD5)
+Module - Items in DSpace (slides).pdf: 239946 bytes, checksum: ee1290cacd78dc9bf838d2d812eb737a (MD5)
+Module - Items in DSpace (slides).ppt: 349696 bytes, checksum: 6dc8f57cb5dd04041e5bf6ea6ca21444 (MD5)
+Module - Items in DSpace.pdf: 671759 bytes, checksum: e3f85e29240e61f14f71a125814af80b (MD5)
+Module - Items in DSpace.doc: 253440 bytes, checksum: 5ef121b9062d83890e2e8cce86085306 (MD5)||Made available in DSpace on 2019-03-22T21:37:34Z (GMT). No. of bitstreams: 8
+Module - Items in DSpace.doc.txt: 4111 bytes, checksum: 75697d95085321356c342929b70df142 (MD5)
+Module - Items in DSpace.pdf.txt: 4496 bytes, checksum: 76c9e95f696cf9ea45072dc8ef9b0ac7 (MD5)
+Module - Items in DSpace (slides).pdf.txt: 1003 bytes, checksum: 3283d16c474fe0bd8865b13dca3ef3b7 (MD5)
+Module - Items in DSpace (slides).ppt.txt: 970 bytes, checksum: 062aaac3f804df114c00728d076845b3 (MD5)
+Module - Items in DSpace (slides).pdf: 239946 bytes, checksum: ee1290cacd78dc9bf838d2d812eb737a (MD5)
+Module - Items in DSpace (slides).ppt: 349696 bytes, checksum: 6dc8f57cb5dd04041e5bf6ea6ca21444 (MD5)
+Module - Items in DSpace.pdf: 671759 bytes, checksum: e3f85e29240e61f14f71a125814af80b (MD5)
+Module - Items in DSpace.doc: 253440 bytes, checksum: 5ef121b9062d83890e2e8cce86085306 (MD5)
+  Previous issue date: 2008-08-14T14:47:47Z||Restored into DSpace on 2022-04-24T00:00:29Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/65","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - Items in DSpace",,"Text",
+"b94d83d7-a7cd-4500-afc3-1b80a0a59d0d","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-13T13:21:21Z||2019-03-22T21:30:30Z",,"2008-08-13T13:21:21Z||2019-03-22T21:30:30Z",,"2008",,"2008-08-13T13:21:21Z",,,,,"This module provides information on installation of the DSpace software. Upon completing this module, users will have an understanding of what platforms DSpace can be hosted on, prerequisite software required to install DSpace and how to perform a DSpace installation. The module will conclude with a practical session installing the DSpace software.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-13T13:21:14Z
+No. of bitstreams: 4
+Module - DSpace Installation.doc: 821248 bytes, checksum: bd943b7081ce8e95c56c9c22175f2835 (MD5)
+Module - DSpace Installation.pdf: 1486837 bytes, checksum: e1edd15c0dfbf1beb604465d6b027f62 (MD5)
+Module - DSpace Installation (slides).ppt: 329216 bytes, checksum: c65c8f1e91dfa34751cfb485ae7984b7 (MD5)
+Module - DSpace Installation (slides).pdf: 373374 bytes, checksum: 7b79016fe9f3faad9aceee727d4d1a1b (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-13T13:21:21Z (GMT) No. of bitstreams: 4
+Module - DSpace Installation.doc: 821248 bytes, checksum: bd943b7081ce8e95c56c9c22175f2835 (MD5)
+Module - DSpace Installation.pdf: 1486837 bytes, checksum: e1edd15c0dfbf1beb604465d6b027f62 (MD5)
+Module - DSpace Installation (slides).ppt: 329216 bytes, checksum: c65c8f1e91dfa34751cfb485ae7984b7 (MD5)
+Module - DSpace Installation (slides).pdf: 373374 bytes, checksum: 7b79016fe9f3faad9aceee727d4d1a1b (MD5)||Made available in DSpace on 2008-08-13T13:21:21Z (GMT). No. of bitstreams: 4
+Module - DSpace Installation.doc: 821248 bytes, checksum: bd943b7081ce8e95c56c9c22175f2835 (MD5)
+Module - DSpace Installation.pdf: 1486837 bytes, checksum: e1edd15c0dfbf1beb604465d6b027f62 (MD5)
+Module - DSpace Installation (slides).ppt: 329216 bytes, checksum: c65c8f1e91dfa34751cfb485ae7984b7 (MD5)
+Module - DSpace Installation (slides).pdf: 373374 bytes, checksum: 7b79016fe9f3faad9aceee727d4d1a1b (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:30:30Z
+No. of bitstreams: 8
+Module - DSpace Installation.doc.txt: 9406 bytes, checksum: 5a62707146ab2486f927477c01fedc7f (MD5)
+Module - DSpace Installation.pdf.txt: 10367 bytes, checksum: 21ae1e7c5beca387eb08ec5debfa0578 (MD5)
+Module - DSpace Installation (slides).pdf.txt: 3962 bytes, checksum: e4f7e1fb101251922bfabc7864709305 (MD5)
+Module - DSpace Installation (slides).ppt.txt: 5392 bytes, checksum: a7091eb4b8916240f00ff0a064bb0da2 (MD5)
+Module - DSpace Installation (slides).pdf: 373638 bytes, checksum: 662793ad0a4d52ac99f52904e303debe (MD5)
+Module - DSpace Installation (slides).ppt: 329216 bytes, checksum: e66fbb22fef9235671e09bfbafa45d55 (MD5)
+Module - DSpace Installation.pdf: 1450091 bytes, checksum: a84799aff276376b1bcfbf36b5ab897e (MD5)
+Module - DSpace Installation.doc: 822784 bytes, checksum: 6f26d2de0adb386cb3bf2f2e7665d37a (MD5)||Made available in DSpace on 2019-03-22T21:30:30Z (GMT). No. of bitstreams: 8
+Module - DSpace Installation.doc.txt: 9406 bytes, checksum: 5a62707146ab2486f927477c01fedc7f (MD5)
+Module - DSpace Installation.pdf.txt: 10367 bytes, checksum: 21ae1e7c5beca387eb08ec5debfa0578 (MD5)
+Module - DSpace Installation (slides).pdf.txt: 3962 bytes, checksum: e4f7e1fb101251922bfabc7864709305 (MD5)
+Module - DSpace Installation (slides).ppt.txt: 5392 bytes, checksum: a7091eb4b8916240f00ff0a064bb0da2 (MD5)
+Module - DSpace Installation (slides).pdf: 373638 bytes, checksum: 662793ad0a4d52ac99f52904e303debe (MD5)
+Module - DSpace Installation (slides).ppt: 329216 bytes, checksum: e66fbb22fef9235671e09bfbafa45d55 (MD5)
+Module - DSpace Installation.pdf: 1450091 bytes, checksum: a84799aff276376b1bcfbf36b5ab897e (MD5)
+Module - DSpace Installation.doc: 822784 bytes, checksum: 6f26d2de0adb386cb3bf2f2e7665d37a (MD5)
+  Previous issue date: 2008-08-13T13:21:21Z||Restored into DSpace on 2022-04-24T00:00:22Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,"This module refers to the 'Maven' build system introduced in DSpace version 1.5 and is not applicable to earlier versions.",,,,,,"http://hdl.handle.net/10673/59","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - DSpace Installation",,"Text",
+"3e8ec17b-4e7f-4772-a798-694537e9f114","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-13T14:24:47Z||2019-03-22T21:33:40Z",,"2008-08-13T14:24:47Z||2019-03-22T21:33:40Z",,"2008",,"2008-08-13T14:24:47Z",,,,,"This module provides information on how to get help and support with all aspects of the DSpace software. Upon completing this module, you will understand the help that is available from channels such as: the DSpace community, websites, Internet Relay Chat or DSpace system documentation. The module will also look at how errors should be reported to enable quick and efficient responses from the DSpace community.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-13T14:24:40Z
+No. of bitstreams: 4
+Module - How To Get Help.doc: 761344 bytes, checksum: 81b0f6d8e37a3e217ffd9b4ce16975ac (MD5)
+Module - How To Get Help.pdf: 1373170 bytes, checksum: f762122706a8bbe53cfe0f1e40441b36 (MD5)
+Module - How To Get Help (slides).ppt: 531456 bytes, checksum: 64dc6340bdf1dca0d4623c0dad1defbe (MD5)
+Module - How To Get Help (slides).pdf: 419735 bytes, checksum: a69514fca5793de0604e072a720075df (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-13T14:24:47Z (GMT) No. of bitstreams: 4
+Module - How To Get Help.doc: 761344 bytes, checksum: 81b0f6d8e37a3e217ffd9b4ce16975ac (MD5)
+Module - How To Get Help.pdf: 1373170 bytes, checksum: f762122706a8bbe53cfe0f1e40441b36 (MD5)
+Module - How To Get Help (slides).ppt: 531456 bytes, checksum: 64dc6340bdf1dca0d4623c0dad1defbe (MD5)
+Module - How To Get Help (slides).pdf: 419735 bytes, checksum: a69514fca5793de0604e072a720075df (MD5)||Made available in DSpace on 2008-08-13T14:24:47Z (GMT). No. of bitstreams: 4
+Module - How To Get Help.doc: 761344 bytes, checksum: 81b0f6d8e37a3e217ffd9b4ce16975ac (MD5)
+Module - How To Get Help.pdf: 1373170 bytes, checksum: f762122706a8bbe53cfe0f1e40441b36 (MD5)
+Module - How To Get Help (slides).ppt: 531456 bytes, checksum: 64dc6340bdf1dca0d4623c0dad1defbe (MD5)
+Module - How To Get Help (slides).pdf: 419735 bytes, checksum: a69514fca5793de0604e072a720075df (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:33:40Z
+No. of bitstreams: 8
+Module - How To Get Help.doc.txt: 5865 bytes, checksum: a8185d98df0b1572b3af8eedaec45db3 (MD5)
+Module - How To Get Help.pdf.txt: 6441 bytes, checksum: 10c50e366fe6df77f18ad840bc463d4e (MD5)
+Module - How To Get Help (slides).pdf.txt: 4537 bytes, checksum: 781fc9614096ab2ed16356042af6cdb3 (MD5)
+Module - How To Get Help (slides).ppt.txt: 4533 bytes, checksum: bd3a4c3cc745caeed2f2f568b75d4634 (MD5)
+Module - How To Get Help (slides).pdf: 419658 bytes, checksum: 6c732e4a72d5880e37067e254f47c6ec (MD5)
+Module - How To Get Help (slides).ppt: 531456 bytes, checksum: e860749164137f8128029075448d7702 (MD5)
+Module - How To Get Help.pdf: 1374181 bytes, checksum: 6de5f6adf24ceb8fe1d97c8337b86711 (MD5)
+Module - How To Get Help.doc: 761344 bytes, checksum: a980d9091a5a04efd0d2e322154b9b81 (MD5)||Made available in DSpace on 2019-03-22T21:33:40Z (GMT). No. of bitstreams: 8
+Module - How To Get Help.doc.txt: 5865 bytes, checksum: a8185d98df0b1572b3af8eedaec45db3 (MD5)
+Module - How To Get Help.pdf.txt: 6441 bytes, checksum: 10c50e366fe6df77f18ad840bc463d4e (MD5)
+Module - How To Get Help (slides).pdf.txt: 4537 bytes, checksum: 781fc9614096ab2ed16356042af6cdb3 (MD5)
+Module - How To Get Help (slides).ppt.txt: 4533 bytes, checksum: bd3a4c3cc745caeed2f2f568b75d4634 (MD5)
+Module - How To Get Help (slides).pdf: 419658 bytes, checksum: 6c732e4a72d5880e37067e254f47c6ec (MD5)
+Module - How To Get Help (slides).ppt: 531456 bytes, checksum: e860749164137f8128029075448d7702 (MD5)
+Module - How To Get Help.pdf: 1374181 bytes, checksum: 6de5f6adf24ceb8fe1d97c8337b86711 (MD5)
+Module - How To Get Help.doc: 761344 bytes, checksum: a980d9091a5a04efd0d2e322154b9b81 (MD5)
+  Previous issue date: 2008-08-13T14:24:47Z||Restored into DSpace on 2022-04-24T00:00:25Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/61","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - How to Get Help",,"Text",
+"ef2f078e-e025-4189-a353-f9ecb13a2848","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-13T13:00:54Z||2019-03-22T21:29:06Z",,"2008-08-13T13:00:54Z||2019-03-22T21:29:06Z",,"2008",,"2008-08-13T13:00:54Z",,,,,"This module describes how to configure some of the most common features used in DSpace. The module looks in detail at how the submission interface can be modified from the out of the box setup to suit an institutions needs. The module then continues with a look at email notifications & subscriptions, how to configure RSS feeds and concludes with an overview of the UNIX cron job and its use in DSpace.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-13T13:00:45Z
+No. of bitstreams: 4
+Module - DSpace Configuration.doc: 3157504 bytes, checksum: 8fc31f2745812570d7a441ea425c0462 (MD5)
+Module - DSpace Configuration.pdf: 3632170 bytes, checksum: bfab4552ac27f501622851e56ae9d6f0 (MD5)
+Module - DSpace Configuration (slides).ppt: 2442752 bytes, checksum: 2039bef6bd5de7b10dc6e923d1f5b144 (MD5)
+Module - DSpace Configuration (slides).pdf: 1006117 bytes, checksum: 6dd8bfc1d699939862167080ba6dc1e2 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-13T13:00:54Z (GMT) No. of bitstreams: 4
+Module - DSpace Configuration.doc: 3157504 bytes, checksum: 8fc31f2745812570d7a441ea425c0462 (MD5)
+Module - DSpace Configuration.pdf: 3632170 bytes, checksum: bfab4552ac27f501622851e56ae9d6f0 (MD5)
+Module - DSpace Configuration (slides).ppt: 2442752 bytes, checksum: 2039bef6bd5de7b10dc6e923d1f5b144 (MD5)
+Module - DSpace Configuration (slides).pdf: 1006117 bytes, checksum: 6dd8bfc1d699939862167080ba6dc1e2 (MD5)||Made available in DSpace on 2008-08-13T13:00:54Z (GMT). No. of bitstreams: 4
+Module - DSpace Configuration.doc: 3157504 bytes, checksum: 8fc31f2745812570d7a441ea425c0462 (MD5)
+Module - DSpace Configuration.pdf: 3632170 bytes, checksum: bfab4552ac27f501622851e56ae9d6f0 (MD5)
+Module - DSpace Configuration (slides).ppt: 2442752 bytes, checksum: 2039bef6bd5de7b10dc6e923d1f5b144 (MD5)
+Module - DSpace Configuration (slides).pdf: 1006117 bytes, checksum: 6dd8bfc1d699939862167080ba6dc1e2 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:29:06Z
+No. of bitstreams: 8
+Module - DSpace Configuration.doc.txt: 18805 bytes, checksum: 93128205ebb10180fa40522c5b52415d (MD5)
+Module - DSpace Configuration.pdf.txt: 20967 bytes, checksum: 8581afd241b151602d1b8477703ce58a (MD5)
+Module - DSpace Configuration (slides).pdf.txt: 11511 bytes, checksum: 55e8523e8206df9b1336e405c973c68d (MD5)
+Module - DSpace Configuration (slides).ppt.txt: 12696 bytes, checksum: d81a94f37bfc506adced185596c2c082 (MD5)
+Module - DSpace Configuration (slides).pdf: 1006036 bytes, checksum: df5624611dc582341bb1fc6a00b2fe63 (MD5)
+Module - DSpace Configuration (slides).ppt: 2442752 bytes, checksum: b82a853b9fee43c4acd34153cd0c158c (MD5)
+Module - DSpace Configuration.pdf: 3645167 bytes, checksum: 8a7e2c13855aaf8bc5edf8ea21d79469 (MD5)
+Module - DSpace Configuration.doc: 3163648 bytes, checksum: ebd854fc494f385f2d59469fb83c1d75 (MD5)||Made available in DSpace on 2019-03-22T21:29:06Z (GMT). No. of bitstreams: 8
+Module - DSpace Configuration.doc.txt: 18805 bytes, checksum: 93128205ebb10180fa40522c5b52415d (MD5)
+Module - DSpace Configuration.pdf.txt: 20967 bytes, checksum: 8581afd241b151602d1b8477703ce58a (MD5)
+Module - DSpace Configuration (slides).pdf.txt: 11511 bytes, checksum: 55e8523e8206df9b1336e405c973c68d (MD5)
+Module - DSpace Configuration (slides).ppt.txt: 12696 bytes, checksum: d81a94f37bfc506adced185596c2c082 (MD5)
+Module - DSpace Configuration (slides).pdf: 1006036 bytes, checksum: df5624611dc582341bb1fc6a00b2fe63 (MD5)
+Module - DSpace Configuration (slides).ppt: 2442752 bytes, checksum: b82a853b9fee43c4acd34153cd0c158c (MD5)
+Module - DSpace Configuration.pdf: 3645167 bytes, checksum: 8a7e2c13855aaf8bc5edf8ea21d79469 (MD5)
+Module - DSpace Configuration.doc: 3163648 bytes, checksum: ebd854fc494f385f2d59469fb83c1d75 (MD5)
+  Previous issue date: 2008-08-13T13:00:54Z||Restored into DSpace on 2022-04-24T00:00:21Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/58","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - DSpace Configuration",,"Text",
+"ac74b081-6cad-4e4a-823f-e943fd2898d8","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-13T13:55:05Z||2019-03-22T21:31:39Z",,"2008-08-13T13:55:05Z||2019-03-22T21:31:39Z",,"2008",,"2008-08-13T13:55:05Z",,,,,"This module will introduce the statistics available within DSpace, and the facilities that are available if you use Google Analytics with DSpace.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-13T13:54:57Z
+No. of bitstreams: 4
+Module - DSpace statistics and Google Analytics.doc: 861184 bytes, checksum: 19a6862d9aa3cc148022356f1eff1731 (MD5)
+Module - DSpace statistics and Google Analytics.pdf: 1010072 bytes, checksum: e7c2622b6cb2f6f7d954979d7a05ca33 (MD5)
+Module - DSpace statistics and Google Analytics (slides).ppt: 495616 bytes, checksum: f5ed058eae27b7b3906f3221d9b47a3d (MD5)
+Module - DSpace statistics and Google Analytics (slides).pdf: 306574 bytes, checksum: 45b99c9635ee56281284f10dc60b07b0 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-13T13:55:05Z (GMT) No. of bitstreams: 4
+Module - DSpace statistics and Google Analytics.doc: 861184 bytes, checksum: 19a6862d9aa3cc148022356f1eff1731 (MD5)
+Module - DSpace statistics and Google Analytics.pdf: 1010072 bytes, checksum: e7c2622b6cb2f6f7d954979d7a05ca33 (MD5)
+Module - DSpace statistics and Google Analytics (slides).ppt: 495616 bytes, checksum: f5ed058eae27b7b3906f3221d9b47a3d (MD5)
+Module - DSpace statistics and Google Analytics (slides).pdf: 306574 bytes, checksum: 45b99c9635ee56281284f10dc60b07b0 (MD5)||Made available in DSpace on 2008-08-13T13:55:05Z (GMT). No. of bitstreams: 4
+Module - DSpace statistics and Google Analytics.doc: 861184 bytes, checksum: 19a6862d9aa3cc148022356f1eff1731 (MD5)
+Module - DSpace statistics and Google Analytics.pdf: 1010072 bytes, checksum: e7c2622b6cb2f6f7d954979d7a05ca33 (MD5)
+Module - DSpace statistics and Google Analytics (slides).ppt: 495616 bytes, checksum: f5ed058eae27b7b3906f3221d9b47a3d (MD5)
+Module - DSpace statistics and Google Analytics (slides).pdf: 306574 bytes, checksum: 45b99c9635ee56281284f10dc60b07b0 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:31:38Z
+No. of bitstreams: 8
+Module - DSpace statistics and Google Analytics.doc.txt: 4459 bytes, checksum: 51337d82b2106f1b9b45bc64f0a538ab (MD5)
+Module - DSpace statistics and Google Analytics.pdf.txt: 5229 bytes, checksum: caa31f42df2e81ed7f186d3cf2c171d7 (MD5)
+Module - DSpace statistics and Google Analytics (slides).pdf.txt: 2318 bytes, checksum: 9b91356d6cc697f412d91c50e9007e69 (MD5)
+Module - DSpace statistics and Google Analytics (slides).ppt.txt: 2220 bytes, checksum: da0322a3d75e049c2941f3fca65dbd20 (MD5)
+Module - DSpace statistics and Google Analytics (slides).pdf: 306574 bytes, checksum: 45b99c9635ee56281284f10dc60b07b0 (MD5)
+Module - DSpace statistics and Google Analytics (slides).ppt: 495616 bytes, checksum: f5ed058eae27b7b3906f3221d9b47a3d (MD5)
+Module - DSpace statistics and Google Analytics.pdf: 1010072 bytes, checksum: e7c2622b6cb2f6f7d954979d7a05ca33 (MD5)
+Module - DSpace statistics and Google Analytics.doc: 861184 bytes, checksum: 19a6862d9aa3cc148022356f1eff1731 (MD5)||Made available in DSpace on 2019-03-22T21:31:39Z (GMT). No. of bitstreams: 8
+Module - DSpace statistics and Google Analytics.doc.txt: 4459 bytes, checksum: 51337d82b2106f1b9b45bc64f0a538ab (MD5)
+Module - DSpace statistics and Google Analytics.pdf.txt: 5229 bytes, checksum: caa31f42df2e81ed7f186d3cf2c171d7 (MD5)
+Module - DSpace statistics and Google Analytics (slides).pdf.txt: 2318 bytes, checksum: 9b91356d6cc697f412d91c50e9007e69 (MD5)
+Module - DSpace statistics and Google Analytics (slides).ppt.txt: 2220 bytes, checksum: da0322a3d75e049c2941f3fca65dbd20 (MD5)
+Module - DSpace statistics and Google Analytics (slides).pdf: 306574 bytes, checksum: 45b99c9635ee56281284f10dc60b07b0 (MD5)
+Module - DSpace statistics and Google Analytics (slides).ppt: 495616 bytes, checksum: f5ed058eae27b7b3906f3221d9b47a3d (MD5)
+Module - DSpace statistics and Google Analytics.pdf: 1010072 bytes, checksum: e7c2622b6cb2f6f7d954979d7a05ca33 (MD5)
+Module - DSpace statistics and Google Analytics.doc: 861184 bytes, checksum: 19a6862d9aa3cc148022356f1eff1731 (MD5)
+  Previous issue date: 2008-08-13T13:55:05Z||Restored into DSpace on 2022-04-24T00:00:23Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,"The statistics scripts mentioned in this module relate to the Java scripts introduced in DSpace version 1.5 and are different to the statistics scripts used in earlier versions of DSpace.",,,,,,"http://hdl.handle.net/10673/60","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - DSpace Statistics and Google Analytics",,"Text",
+"45cfe849-40b1-4f84-8cae-0761d5de04bf","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-14T15:28:27Z||2019-03-22T21:38:59Z",,"2008-08-14T15:28:27Z||2019-03-22T21:38:59Z",,"2008",,"2008-08-14T15:28:27Z",,,,,"This module looks at the concepts of Localization and Internationalization and the implications this has for the DSpace software. It explores what features DSpace can be customized to support multilingualism and how this can be done. The module concludes with a practical on enabling multilingualism support in DSpace.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-14T15:28:15Z
+No. of bitstreams: 4
+Module - Language Customisation.doc: 1437696 bytes, checksum: e23bcaaa14a16012806f87615d3e491f (MD5)
+Module - Language Customisation.pdf: 1495588 bytes, checksum: c4f7094120d607260c6651ec1636034a (MD5)
+Module - Language Customisation (slides).ppt: 1781248 bytes, checksum: 55fa37d2a8ae6616212f4106cb343d2b (MD5)
+Module - Language Customisation (slides).pdf: 516053 bytes, checksum: 7c972a464a8bbcc6868bfa9bd77a4280 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-14T15:28:27Z (GMT) No. of bitstreams: 4
+Module - Language Customisation.doc: 1437696 bytes, checksum: e23bcaaa14a16012806f87615d3e491f (MD5)
+Module - Language Customisation.pdf: 1495588 bytes, checksum: c4f7094120d607260c6651ec1636034a (MD5)
+Module - Language Customisation (slides).ppt: 1781248 bytes, checksum: 55fa37d2a8ae6616212f4106cb343d2b (MD5)
+Module - Language Customisation (slides).pdf: 516053 bytes, checksum: 7c972a464a8bbcc6868bfa9bd77a4280 (MD5)||Made available in DSpace on 2008-08-14T15:28:27Z (GMT). No. of bitstreams: 4
+Module - Language Customisation.doc: 1437696 bytes, checksum: e23bcaaa14a16012806f87615d3e491f (MD5)
+Module - Language Customisation.pdf: 1495588 bytes, checksum: c4f7094120d607260c6651ec1636034a (MD5)
+Module - Language Customisation (slides).ppt: 1781248 bytes, checksum: 55fa37d2a8ae6616212f4106cb343d2b (MD5)
+Module - Language Customisation (slides).pdf: 516053 bytes, checksum: 7c972a464a8bbcc6868bfa9bd77a4280 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:38:59Z
+No. of bitstreams: 8
+Module - Language Customisation (slides).pdf: 516236 bytes, checksum: f43cce7aaa88dd125ad78a69c2558d38 (MD5)
+Module - Language Customisation (slides).ppt: 1781248 bytes, checksum: 43682ab340e8fb796fc590a381e221f4 (MD5)
+Module - Language Customisation.pdf: 1498538 bytes, checksum: b7d63a47503a55ab4c34d61196bf9c95 (MD5)
+Module - Language Customisation.doc: 1438208 bytes, checksum: f5af0f4c87219a917d6496eb185b5ca9 (MD5)
+Module - Language Customisation.doc.txt: 5342 bytes, checksum: d2e786fa7ee0acbf50f8bfbc6be6cd40 (MD5)
+Module - Language Customisation.pdf.txt: 6071 bytes, checksum: f5c5982336aca914e58979e0c691f154 (MD5)
+Module - Language Customisation (slides).pdf.txt: 4379 bytes, checksum: 0e6668e22f2be9a86274a07a34cdcb75 (MD5)
+Module - Language Customisation (slides).ppt.txt: 4305 bytes, checksum: 39a39dc7f1d7bc11c596a758a1e1f35f (MD5)||Made available in DSpace on 2019-03-22T21:38:59Z (GMT). No. of bitstreams: 8
+Module - Language Customisation (slides).pdf: 516236 bytes, checksum: f43cce7aaa88dd125ad78a69c2558d38 (MD5)
+Module - Language Customisation (slides).ppt: 1781248 bytes, checksum: 43682ab340e8fb796fc590a381e221f4 (MD5)
+Module - Language Customisation.pdf: 1498538 bytes, checksum: b7d63a47503a55ab4c34d61196bf9c95 (MD5)
+Module - Language Customisation.doc: 1438208 bytes, checksum: f5af0f4c87219a917d6496eb185b5ca9 (MD5)
+Module - Language Customisation.doc.txt: 5342 bytes, checksum: d2e786fa7ee0acbf50f8bfbc6be6cd40 (MD5)
+Module - Language Customisation.pdf.txt: 6071 bytes, checksum: f5c5982336aca914e58979e0c691f154 (MD5)
+Module - Language Customisation (slides).pdf.txt: 4379 bytes, checksum: 0e6668e22f2be9a86274a07a34cdcb75 (MD5)
+Module - Language Customisation (slides).ppt.txt: 4305 bytes, checksum: 39a39dc7f1d7bc11c596a758a1e1f35f (MD5)
+  Previous issue date: 2008-08-14T15:28:27Z||Restored into DSpace on 2022-04-24T00:00:31Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/66","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - Language Customisation",,"Text",
+"7fcd84c4-d002-4189-b8f2-5ef8bf5fb6cd","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-13T14:34:33Z||2019-03-22T21:34:34Z",,"2008-08-13T14:34:33Z||2019-03-22T21:34:34Z",,"2008",,"2008-08-13T14:34:33Z",,,,,"Persistent Identifiers are an integral feature of repositories to assist with resource identification and preservation. This module will look at what persistent identifiers are, how they work and the benefits to using them in a DSpace repository. The module will then explore handles, the identifiers used for persistence in DSpace. The module will conclude with a look at how to apply for and configure a handle.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-13T14:34:27Z
+No. of bitstreams: 4
+Module - Identifiers.doc: 1036800 bytes, checksum: b6f7ee99e965e53e32cbe4b9b95037eb (MD5)
+Module - Identifiers.pdf: 1751296 bytes, checksum: c0c9fea80181fad98b6a75c171249b38 (MD5)
+Module - Identifiers (slides).ppt: 1101312 bytes, checksum: f3a97afaaf3e37a231dc744cfb4e7524 (MD5)
+Module - Identifiers (slides).pdf: 708075 bytes, checksum: e8ccbdc754e73d78dcf39c32e9927d9f (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-13T14:34:33Z (GMT) No. of bitstreams: 4
+Module - Identifiers.doc: 1036800 bytes, checksum: b6f7ee99e965e53e32cbe4b9b95037eb (MD5)
+Module - Identifiers.pdf: 1751296 bytes, checksum: c0c9fea80181fad98b6a75c171249b38 (MD5)
+Module - Identifiers (slides).ppt: 1101312 bytes, checksum: f3a97afaaf3e37a231dc744cfb4e7524 (MD5)
+Module - Identifiers (slides).pdf: 708075 bytes, checksum: e8ccbdc754e73d78dcf39c32e9927d9f (MD5)||Made available in DSpace on 2008-08-13T14:34:33Z (GMT). No. of bitstreams: 4
+Module - Identifiers.doc: 1036800 bytes, checksum: b6f7ee99e965e53e32cbe4b9b95037eb (MD5)
+Module - Identifiers.pdf: 1751296 bytes, checksum: c0c9fea80181fad98b6a75c171249b38 (MD5)
+Module - Identifiers (slides).ppt: 1101312 bytes, checksum: f3a97afaaf3e37a231dc744cfb4e7524 (MD5)
+Module - Identifiers (slides).pdf: 708075 bytes, checksum: e8ccbdc754e73d78dcf39c32e9927d9f (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:34:33Z
+No. of bitstreams: 8
+Module - Identifiers.doc.txt: 8310 bytes, checksum: 3e6262917b73ff51342f9334107f6425 (MD5)
+Module - Identifiers.pdf.txt: 9110 bytes, checksum: b20b5109a95667769475c66e324422e6 (MD5)
+Module - Identifiers (slides).pdf.txt: 4618 bytes, checksum: 7c088b34401ff3a4c94b55850f5fe8bf (MD5)
+Module - Identifiers (slides).ppt.txt: 5156 bytes, checksum: 1984f7ff2dde3cc56f4b55bdc4eed667 (MD5)
+Module - Identifiers (slides).pdf: 708073 bytes, checksum: 01e5e5afc8f86eb9e364f393afafb516 (MD5)
+Module - Identifiers (slides).ppt: 1101312 bytes, checksum: 040b469409a4648174f229787ff88320 (MD5)
+Module - Identifiers.pdf: 1751427 bytes, checksum: 788d52eb6111380a089f9c9cec729f1f (MD5)
+Module - Identifiers.doc: 1036800 bytes, checksum: b74f7aee0bb41ef3f9da1296c0bd51da (MD5)||Made available in DSpace on 2019-03-22T21:34:34Z (GMT). No. of bitstreams: 8
+Module - Identifiers.doc.txt: 8310 bytes, checksum: 3e6262917b73ff51342f9334107f6425 (MD5)
+Module - Identifiers.pdf.txt: 9110 bytes, checksum: b20b5109a95667769475c66e324422e6 (MD5)
+Module - Identifiers (slides).pdf.txt: 4618 bytes, checksum: 7c088b34401ff3a4c94b55850f5fe8bf (MD5)
+Module - Identifiers (slides).ppt.txt: 5156 bytes, checksum: 1984f7ff2dde3cc56f4b55bdc4eed667 (MD5)
+Module - Identifiers (slides).pdf: 708073 bytes, checksum: 01e5e5afc8f86eb9e364f393afafb516 (MD5)
+Module - Identifiers (slides).ppt: 1101312 bytes, checksum: 040b469409a4648174f229787ff88320 (MD5)
+Module - Identifiers.pdf: 1751427 bytes, checksum: 788d52eb6111380a089f9c9cec729f1f (MD5)
+Module - Identifiers.doc: 1036800 bytes, checksum: b74f7aee0bb41ef3f9da1296c0bd51da (MD5)
+  Previous issue date: 2008-08-13T14:34:33Z||Restored into DSpace on 2022-04-24T00:00:26Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/62","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - Identifiers",,"Text",
+"afb55977-cab4-4644-83b0-812c20e50415","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-14T14:13:55Z||2019-03-22T21:35:46Z",,"2008-08-14T14:13:55Z||2019-03-22T21:35:46Z",,"2008",,"2008-08-14T14:13:55Z",,,,,"This module introduces the import and export functionality in DSpace, specifically the batch import and export scripts.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-14T14:13:38Z
+No. of bitstreams: 4
+Module - Import and Export.doc: 460288 bytes, checksum: 760e7601d26f6d5a3e7a63f080b2bb80 (MD5)
+Module - Import and Export.pdf: 958265 bytes, checksum: d4970979f998f7ea20bb416a1c549acb (MD5)
+Module - Import and Export (slides).ppt: 317440 bytes, checksum: ee411a56ea45576d3b0708ebc3b038c3 (MD5)
+Module - Import and Export (slides).pdf: 386906 bytes, checksum: 24ff6f2df168d6dbd4a67d67d87e54d7 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-14T14:13:55Z (GMT) No. of bitstreams: 4
+Module - Import and Export.doc: 460288 bytes, checksum: 760e7601d26f6d5a3e7a63f080b2bb80 (MD5)
+Module - Import and Export.pdf: 958265 bytes, checksum: d4970979f998f7ea20bb416a1c549acb (MD5)
+Module - Import and Export (slides).ppt: 317440 bytes, checksum: ee411a56ea45576d3b0708ebc3b038c3 (MD5)
+Module - Import and Export (slides).pdf: 386906 bytes, checksum: 24ff6f2df168d6dbd4a67d67d87e54d7 (MD5)||Made available in DSpace on 2008-08-14T14:13:55Z (GMT). No. of bitstreams: 4
+Module - Import and Export.doc: 460288 bytes, checksum: 760e7601d26f6d5a3e7a63f080b2bb80 (MD5)
+Module - Import and Export.pdf: 958265 bytes, checksum: d4970979f998f7ea20bb416a1c549acb (MD5)
+Module - Import and Export (slides).ppt: 317440 bytes, checksum: ee411a56ea45576d3b0708ebc3b038c3 (MD5)
+Module - Import and Export (slides).pdf: 386906 bytes, checksum: 24ff6f2df168d6dbd4a67d67d87e54d7 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:35:46Z
+No. of bitstreams: 8
+Module - Import and Export.doc.txt: 4065 bytes, checksum: 15b8a1ba5468a5f73b0a9f212a7ce998 (MD5)
+Module - Import and Export.pdf.txt: 4585 bytes, checksum: 078d3c811c1ea10757e160e5ba1297d4 (MD5)
+Module - Import and Export (slides).pdf.txt: 3057 bytes, checksum: 9355ba61a460ef8b6545d95932197c83 (MD5)
+Module - Import and Export (slides).ppt.txt: 2986 bytes, checksum: 702fa50c7403faa122ee16b9473f1e1f (MD5)
+Module - Import and Export (slides).pdf: 386988 bytes, checksum: 577f9d53275eae143e14b7ff7fdcd354 (MD5)
+Module - Import and Export (slides).ppt: 317440 bytes, checksum: 1417533453e46ed383cb5e9c8adc7434 (MD5)
+Module - Import and Export.pdf: 961550 bytes, checksum: 39a0c7a11b617e6914bfc6b0b5b0f450 (MD5)
+Module - Import and Export.doc: 460288 bytes, checksum: 6b71948ef0426b3ac2a593282099bbaf (MD5)||Made available in DSpace on 2019-03-22T21:35:46Z (GMT). No. of bitstreams: 8
+Module - Import and Export.doc.txt: 4065 bytes, checksum: 15b8a1ba5468a5f73b0a9f212a7ce998 (MD5)
+Module - Import and Export.pdf.txt: 4585 bytes, checksum: 078d3c811c1ea10757e160e5ba1297d4 (MD5)
+Module - Import and Export (slides).pdf.txt: 3057 bytes, checksum: 9355ba61a460ef8b6545d95932197c83 (MD5)
+Module - Import and Export (slides).ppt.txt: 2986 bytes, checksum: 702fa50c7403faa122ee16b9473f1e1f (MD5)
+Module - Import and Export (slides).pdf: 386988 bytes, checksum: 577f9d53275eae143e14b7ff7fdcd354 (MD5)
+Module - Import and Export (slides).ppt: 317440 bytes, checksum: 1417533453e46ed383cb5e9c8adc7434 (MD5)
+Module - Import and Export.pdf: 961550 bytes, checksum: 39a0c7a11b617e6914bfc6b0b5b0f450 (MD5)
+Module - Import and Export.doc: 460288 bytes, checksum: 6b71948ef0426b3ac2a593282099bbaf (MD5)
+  Previous issue date: 2008-08-14T14:13:55Z||Restored into DSpace on 2022-04-24T00:00:27Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/63","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - Import and Export",,"Text",
+"1260dc5e-f376-49d5-abca-c30871b1a2e4","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-21T15:27:48Z||2019-03-22T21:44:18Z",,"2008-08-21T15:27:48Z||2019-03-22T21:44:18Z",,"2008",,"2008-08-21T15:27:48Z",,,,,"Communities and Collections are used within DSpace to provide the repository with an easily navigable structure often representing an institutions organizational makeup. This module will begin by describing what both a community and collection are and how they relate to each other. The module will then look at example structures that are often used within DSpace repositories, finally concluding with a practical exercise on creating a sample repository structure. This module will make reference to the repository structure, but does not cover aspects such as items or metadata. Further information on items can be found in the module 'An introduction to Items in DSpace'. Further information on metadata can be found in the module 'An introduction to metadata in DSpace'.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-21T15:27:40Z
+No. of bitstreams: 4
+Module - Repository Structure.doc: 645632 bytes, checksum: 54bab92869922fcafa627b8ac0fc763b (MD5)
+Module - Repository Structure.pdf: 1307178 bytes, checksum: 5bad23428ea9619a0ff47451ee52906c (MD5)
+Module - Repository Structure (slides).ppt: 974848 bytes, checksum: 17539d61a59898a9b00bb8771d708d35 (MD5)
+Module - Repository Structure (slides).pdf: 477073 bytes, checksum: 3ba6c044d378f48188592b6a0ebe6552 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-21T15:27:48Z (GMT) No. of bitstreams: 4
+Module - Repository Structure.doc: 645632 bytes, checksum: 54bab92869922fcafa627b8ac0fc763b (MD5)
+Module - Repository Structure.pdf: 1307178 bytes, checksum: 5bad23428ea9619a0ff47451ee52906c (MD5)
+Module - Repository Structure (slides).ppt: 974848 bytes, checksum: 17539d61a59898a9b00bb8771d708d35 (MD5)
+Module - Repository Structure (slides).pdf: 477073 bytes, checksum: 3ba6c044d378f48188592b6a0ebe6552 (MD5)||Made available in DSpace on 2008-08-21T15:27:48Z (GMT). No. of bitstreams: 4
+Module - Repository Structure.doc: 645632 bytes, checksum: 54bab92869922fcafa627b8ac0fc763b (MD5)
+Module - Repository Structure.pdf: 1307178 bytes, checksum: 5bad23428ea9619a0ff47451ee52906c (MD5)
+Module - Repository Structure (slides).ppt: 974848 bytes, checksum: 17539d61a59898a9b00bb8771d708d35 (MD5)
+Module - Repository Structure (slides).pdf: 477073 bytes, checksum: 3ba6c044d378f48188592b6a0ebe6552 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:44:18Z
+No. of bitstreams: 8
+Module - Repository Structure.doc.txt: 9648 bytes, checksum: 4e79a809ddd487953b571acaca5069a9 (MD5)
+Module - Repository Structure.pdf.txt: 10599 bytes, checksum: a63c3a5ade989541b9223dd42efb7f98 (MD5)
+Module - Repository Structure (slides).pdf.txt: 3459 bytes, checksum: 873041069c08d293d870248d93cfe9f5 (MD5)
+Module - Repository Structure (slides).ppt.txt: 3429 bytes, checksum: b7463fd1d70cb4317e7cd8459d6c1a23 (MD5)
+Module - Repository Structure (slides).pdf: 477073 bytes, checksum: 3ba6c044d378f48188592b6a0ebe6552 (MD5)
+Module - Repository Structure (slides).ppt: 974848 bytes, checksum: 17539d61a59898a9b00bb8771d708d35 (MD5)
+Module - Repository Structure.pdf: 1307178 bytes, checksum: 5bad23428ea9619a0ff47451ee52906c (MD5)
+Module - Repository Structure.doc: 645632 bytes, checksum: 54bab92869922fcafa627b8ac0fc763b (MD5)||Made available in DSpace on 2019-03-22T21:44:18Z (GMT). No. of bitstreams: 8
+Module - Repository Structure.doc.txt: 9648 bytes, checksum: 4e79a809ddd487953b571acaca5069a9 (MD5)
+Module - Repository Structure.pdf.txt: 10599 bytes, checksum: a63c3a5ade989541b9223dd42efb7f98 (MD5)
+Module - Repository Structure (slides).pdf.txt: 3459 bytes, checksum: 873041069c08d293d870248d93cfe9f5 (MD5)
+Module - Repository Structure (slides).ppt.txt: 3429 bytes, checksum: b7463fd1d70cb4317e7cd8459d6c1a23 (MD5)
+Module - Repository Structure (slides).pdf: 477073 bytes, checksum: 3ba6c044d378f48188592b6a0ebe6552 (MD5)
+Module - Repository Structure (slides).ppt: 974848 bytes, checksum: 17539d61a59898a9b00bb8771d708d35 (MD5)
+Module - Repository Structure.pdf: 1307178 bytes, checksum: 5bad23428ea9619a0ff47451ee52906c (MD5)
+Module - Repository Structure.doc: 645632 bytes, checksum: 54bab92869922fcafa627b8ac0fc763b (MD5)
+  Previous issue date: 2008-08-21T15:27:48Z||Restored into DSpace on 2022-04-24T00:00:40Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/72","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - Repository Structure",,"Text",
+"2ad010ef-dab1-49c4-826f-7b84a9792db5","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-21T15:41:47Z||2019-03-22T21:45:12Z",,"2008-08-21T15:41:47Z||2019-03-22T21:45:12Z",,"2008",,"2008-08-21T15:41:47Z",,,,,"This module initially looks at the submission process in further detail, specifically input-forms.xml. It details what the input-forms.xml file is and how it can be used to customize the DSpace submission process. The module will conclude with a practical on a simple modification to the DSpace submission process. This module builds on topics covered in modules 'Repository Structure' and 'Introduction to Items'. It is advised that you have completed these modules before continuing with this module.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-21T15:41:42Z
+No. of bitstreams: 4
+Module - Metadata Input Customisation.doc: 1150464 bytes, checksum: 125e4a58a2388026f855e29cd645cb1a (MD5)
+Module - Metadata Input Customisation.pdf: 1486442 bytes, checksum: b5ce3fb489b6c77eb8916f2fba25fa4d (MD5)
+Module - Metadata Input Customisation (slides).ppt: 1502720 bytes, checksum: 880b1b3875d86e3a992c15b11d75e26a (MD5)
+Module - Metadata Input Customisation (slides).pdf: 577654 bytes, checksum: 1f8bc9b670893747c4a42e8306866596 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-21T15:41:47Z (GMT) No. of bitstreams: 4
+Module - Metadata Input Customisation.doc: 1150464 bytes, checksum: 125e4a58a2388026f855e29cd645cb1a (MD5)
+Module - Metadata Input Customisation.pdf: 1486442 bytes, checksum: b5ce3fb489b6c77eb8916f2fba25fa4d (MD5)
+Module - Metadata Input Customisation (slides).ppt: 1502720 bytes, checksum: 880b1b3875d86e3a992c15b11d75e26a (MD5)
+Module - Metadata Input Customisation (slides).pdf: 577654 bytes, checksum: 1f8bc9b670893747c4a42e8306866596 (MD5)||Made available in DSpace on 2008-08-21T15:41:47Z (GMT). No. of bitstreams: 4
+Module - Metadata Input Customisation.doc: 1150464 bytes, checksum: 125e4a58a2388026f855e29cd645cb1a (MD5)
+Module - Metadata Input Customisation.pdf: 1486442 bytes, checksum: b5ce3fb489b6c77eb8916f2fba25fa4d (MD5)
+Module - Metadata Input Customisation (slides).ppt: 1502720 bytes, checksum: 880b1b3875d86e3a992c15b11d75e26a (MD5)
+Module - Metadata Input Customisation (slides).pdf: 577654 bytes, checksum: 1f8bc9b670893747c4a42e8306866596 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:45:12Z
+No. of bitstreams: 8
+Module - Metadata Input Customisation.doc.txt: 4196 bytes, checksum: b244f094b10f582cddd3ebb754844ace (MD5)
+Module - Metadata Input Customisation.pdf.txt: 4985 bytes, checksum: 38f59a84ee9bf6eb527470b1ae63c241 (MD5)
+Module - Metadata Input Customisation (slides).pdf.txt: 4872 bytes, checksum: b1b2ce108111c283c63d56594eccc609 (MD5)
+Module - Metadata Input Customisation (slides).ppt.txt: 5118 bytes, checksum: 314e4a0b46d76ec10bb2ad3473adebb6 (MD5)
+Module - Metadata Input Customisation (slides).pdf: 577654 bytes, checksum: 1f8bc9b670893747c4a42e8306866596 (MD5)
+Module - Metadata Input Customisation (slides).ppt: 1502720 bytes, checksum: 880b1b3875d86e3a992c15b11d75e26a (MD5)
+Module - Metadata Input Customisation.pdf: 1486442 bytes, checksum: b5ce3fb489b6c77eb8916f2fba25fa4d (MD5)
+Module - Metadata Input Customisation.doc: 1150464 bytes, checksum: 125e4a58a2388026f855e29cd645cb1a (MD5)||Made available in DSpace on 2019-03-22T21:45:12Z (GMT). No. of bitstreams: 8
+Module - Metadata Input Customisation.doc.txt: 4196 bytes, checksum: b244f094b10f582cddd3ebb754844ace (MD5)
+Module - Metadata Input Customisation.pdf.txt: 4985 bytes, checksum: 38f59a84ee9bf6eb527470b1ae63c241 (MD5)
+Module - Metadata Input Customisation (slides).pdf.txt: 4872 bytes, checksum: b1b2ce108111c283c63d56594eccc609 (MD5)
+Module - Metadata Input Customisation (slides).ppt.txt: 5118 bytes, checksum: 314e4a0b46d76ec10bb2ad3473adebb6 (MD5)
+Module - Metadata Input Customisation (slides).pdf: 577654 bytes, checksum: 1f8bc9b670893747c4a42e8306866596 (MD5)
+Module - Metadata Input Customisation (slides).ppt: 1502720 bytes, checksum: 880b1b3875d86e3a992c15b11d75e26a (MD5)
+Module - Metadata Input Customisation.pdf: 1486442 bytes, checksum: b5ce3fb489b6c77eb8916f2fba25fa4d (MD5)
+Module - Metadata Input Customisation.doc: 1150464 bytes, checksum: 125e4a58a2388026f855e29cd645cb1a (MD5)
+  Previous issue date: 2008-08-21T15:41:47Z||Restored into DSpace on 2022-04-24T00:00:41Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/73","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - Metadata Input Customisation",,"Text",
+"032c3ffe-28ff-4f45-a629-ca4a287c349d","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-14T15:44:16Z||2019-03-22T21:40:48Z",,"2008-08-14T15:44:16Z||2019-03-22T21:40:48Z",,"2008",,"2008-08-14T15:44:16Z",,,,,"This module builds upon the module 'An introduction to users and groups' which introduced the concept of authentication and authorization. The management of groups will be discussed, and this knowledge will be consolidated by creating a new administrator and adding and removing their administrative privileges. Advanced authentication options such as LDAP, Shibboleth and IP authentication will be briefly introduced.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-14T15:44:09Z
+No. of bitstreams: 4
+Module - User management and authentication options.doc: 930816 bytes, checksum: 0a15af18707f3f009a006e179143ce1b (MD5)
+Module - User management and authentication options.pdf: 1359292 bytes, checksum: 7cc48a66f2b35cb55434c710eb2e6d32 (MD5)
+Module - User management and authentication options (slides).ppt: 1021952 bytes, checksum: 6dcfd44686a0836d1d01f79897acc490 (MD5)
+Module - User management and authentication options (slides).pdf: 293691 bytes, checksum: bbfb5ab46b314137fe0659551ff89c15 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-14T15:44:16Z (GMT) No. of bitstreams: 4
+Module - User management and authentication options.doc: 930816 bytes, checksum: 0a15af18707f3f009a006e179143ce1b (MD5)
+Module - User management and authentication options.pdf: 1359292 bytes, checksum: 7cc48a66f2b35cb55434c710eb2e6d32 (MD5)
+Module - User management and authentication options (slides).ppt: 1021952 bytes, checksum: 6dcfd44686a0836d1d01f79897acc490 (MD5)
+Module - User management and authentication options (slides).pdf: 293691 bytes, checksum: bbfb5ab46b314137fe0659551ff89c15 (MD5)||Made available in DSpace on 2008-08-14T15:44:16Z (GMT). No. of bitstreams: 4
+Module - User management and authentication options.doc: 930816 bytes, checksum: 0a15af18707f3f009a006e179143ce1b (MD5)
+Module - User management and authentication options.pdf: 1359292 bytes, checksum: 7cc48a66f2b35cb55434c710eb2e6d32 (MD5)
+Module - User management and authentication options (slides).ppt: 1021952 bytes, checksum: 6dcfd44686a0836d1d01f79897acc490 (MD5)
+Module - User management and authentication options (slides).pdf: 293691 bytes, checksum: bbfb5ab46b314137fe0659551ff89c15 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:40:48Z
+No. of bitstreams: 8
+Module - User management and authentication options.doc.txt: 7544 bytes, checksum: bb836a3ba6d239a2c10d00fbaeee557b (MD5)
+Module - User management and authentication options.pdf.txt: 8595 bytes, checksum: 9c8fe09a062954d272735e8bef0a88ff (MD5)
+Module - User management and authentication options (slides).pdf.txt: 3223 bytes, checksum: 46d21b894805959d235ea991cf6c3931 (MD5)
+Module - User management and authentication options (slides).ppt.txt: 3144 bytes, checksum: f70ec17789fe5382021226c318e71d9b (MD5)
+Module - User management and authentication options (slides).pdf: 293691 bytes, checksum: bbfb5ab46b314137fe0659551ff89c15 (MD5)
+Module - User management and authentication options (slides).ppt: 1021952 bytes, checksum: 6dcfd44686a0836d1d01f79897acc490 (MD5)
+Module - User management and authentication options.pdf: 1359292 bytes, checksum: 7cc48a66f2b35cb55434c710eb2e6d32 (MD5)
+Module - User management and authentication options.doc: 930816 bytes, checksum: 0a15af18707f3f009a006e179143ce1b (MD5)||Made available in DSpace on 2019-03-22T21:40:48Z (GMT). No. of bitstreams: 8
+Module - User management and authentication options.doc.txt: 7544 bytes, checksum: bb836a3ba6d239a2c10d00fbaeee557b (MD5)
+Module - User management and authentication options.pdf.txt: 8595 bytes, checksum: 9c8fe09a062954d272735e8bef0a88ff (MD5)
+Module - User management and authentication options (slides).pdf.txt: 3223 bytes, checksum: 46d21b894805959d235ea991cf6c3931 (MD5)
+Module - User management and authentication options (slides).ppt.txt: 3144 bytes, checksum: f70ec17789fe5382021226c318e71d9b (MD5)
+Module - User management and authentication options (slides).pdf: 293691 bytes, checksum: bbfb5ab46b314137fe0659551ff89c15 (MD5)
+Module - User management and authentication options (slides).ppt: 1021952 bytes, checksum: 6dcfd44686a0836d1d01f79897acc490 (MD5)
+Module - User management and authentication options.pdf: 1359292 bytes, checksum: 7cc48a66f2b35cb55434c710eb2e6d32 (MD5)
+Module - User management and authentication options.doc: 930816 bytes, checksum: 0a15af18707f3f009a006e179143ce1b (MD5)
+  Previous issue date: 2008-08-14T15:44:16Z||Restored into DSpace on 2022-04-24T00:00:34Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/68","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - User management and authentication options",,"Text",
+"19857874-76f5-4c84-a9b0-1c273c821fcd","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-21T12:44:46Z||2019-03-22T21:42:37Z",,"2008-08-21T12:44:46Z||2019-03-22T21:42:37Z",,"2008",,"2008-08-21T12:44:46Z",,,,,"This module provides a basic technical overview of the DSpace software. The module will describe the three tiered  application architecture of DSpace and look at how this relates to the server architecture of DSpace. The module will then look at what aspects of a DSpace repository should be backed up for both disaster recovery and preservation.  The module will conclude with a look at the role of the repository administrator and the technical staff in configuring, managing and maintaining the repository.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-21T12:44:39Z
+No. of bitstreams: 4
+Module - Technical Basics.doc: 915968 bytes, checksum: 017c8b3dff42eebadc263fa25c600e9a (MD5)
+Module - Technical Basics.pdf: 1701144 bytes, checksum: 64414f9bc2374538a0195bccd42b25f6 (MD5)
+Module - Technical Basics (slides).ppt: 436736 bytes, checksum: 15c584d8067f72714faebb7c5e417bd1 (MD5)
+Module - Technical Basics (slides).pdf: 440851 bytes, checksum: 64f4c9428e0cd5c46ea6fd82e05267d0 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-21T12:44:46Z (GMT) No. of bitstreams: 4
+Module - Technical Basics.doc: 915968 bytes, checksum: 017c8b3dff42eebadc263fa25c600e9a (MD5)
+Module - Technical Basics.pdf: 1701144 bytes, checksum: 64414f9bc2374538a0195bccd42b25f6 (MD5)
+Module - Technical Basics (slides).ppt: 436736 bytes, checksum: 15c584d8067f72714faebb7c5e417bd1 (MD5)
+Module - Technical Basics (slides).pdf: 440851 bytes, checksum: 64f4c9428e0cd5c46ea6fd82e05267d0 (MD5)||Made available in DSpace on 2008-08-21T12:44:46Z (GMT). No. of bitstreams: 4
+Module - Technical Basics.doc: 915968 bytes, checksum: 017c8b3dff42eebadc263fa25c600e9a (MD5)
+Module - Technical Basics.pdf: 1701144 bytes, checksum: 64414f9bc2374538a0195bccd42b25f6 (MD5)
+Module - Technical Basics (slides).ppt: 436736 bytes, checksum: 15c584d8067f72714faebb7c5e417bd1 (MD5)
+Module - Technical Basics (slides).pdf: 440851 bytes, checksum: 64f4c9428e0cd5c46ea6fd82e05267d0 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:42:37Z
+No. of bitstreams: 8
+Module - Technical Basics.doc.txt: 13331 bytes, checksum: 62778aa3fd66d6dd673a4e03f543e371 (MD5)
+Module - Technical Basics.pdf.txt: 14435 bytes, checksum: ad431262646acbd179348b216c2c1505 (MD5)
+Module - Technical Basics (slides).pdf.txt: 4297 bytes, checksum: a6ed4aa6da0ac440b5c319591ca3b4ae (MD5)
+Module - Technical Basics (slides).ppt.txt: 4112 bytes, checksum: 18077623a64211ca0fff1b4debaf2ee7 (MD5)
+Module - Technical Basics (slides).pdf: 440851 bytes, checksum: 64f4c9428e0cd5c46ea6fd82e05267d0 (MD5)
+Module - Technical Basics (slides).ppt: 436736 bytes, checksum: 15c584d8067f72714faebb7c5e417bd1 (MD5)
+Module - Technical Basics.pdf: 1701144 bytes, checksum: 64414f9bc2374538a0195bccd42b25f6 (MD5)
+Module - Technical Basics.doc: 915968 bytes, checksum: 017c8b3dff42eebadc263fa25c600e9a (MD5)||Made available in DSpace on 2019-03-22T21:42:37Z (GMT). No. of bitstreams: 8
+Module - Technical Basics.doc.txt: 13331 bytes, checksum: 62778aa3fd66d6dd673a4e03f543e371 (MD5)
+Module - Technical Basics.pdf.txt: 14435 bytes, checksum: ad431262646acbd179348b216c2c1505 (MD5)
+Module - Technical Basics (slides).pdf.txt: 4297 bytes, checksum: a6ed4aa6da0ac440b5c319591ca3b4ae (MD5)
+Module - Technical Basics (slides).ppt.txt: 4112 bytes, checksum: 18077623a64211ca0fff1b4debaf2ee7 (MD5)
+Module - Technical Basics (slides).pdf: 440851 bytes, checksum: 64f4c9428e0cd5c46ea6fd82e05267d0 (MD5)
+Module - Technical Basics (slides).ppt: 436736 bytes, checksum: 15c584d8067f72714faebb7c5e417bd1 (MD5)
+Module - Technical Basics.pdf: 1701144 bytes, checksum: 64414f9bc2374538a0195bccd42b25f6 (MD5)
+Module - Technical Basics.doc: 915968 bytes, checksum: 017c8b3dff42eebadc263fa25c600e9a (MD5)
+  Previous issue date: 2008-08-21T12:44:46Z||Restored into DSpace on 2022-04-24T00:00:37Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/70","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - Technical Basics",,"Text",
+"67ab515a-c905-4663-b232-dd1595554992","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-22T08:29:03Z||2019-03-22T21:46:01Z",,"2008-08-22T08:29:03Z||2019-03-22T21:46:01Z",,"2008",,"2008-08-22T08:29:03Z",,,,,"This module gives an overview of the type of customization that can be performed on a DSpace repository user interface. The module will look at the two interfaces that DSpace 1.5 supports, the XMLUI and the JSPUI detailing what they are, how they differ and the benefits of each. The module will conclude with a look at some example repository interfaces.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-22T08:28:57Z
+No. of bitstreams: 4
+Module - Look and Feel Customisation.doc: 1923072 bytes, checksum: c050f56e088b90b3135e2c99e7d3d575 (MD5)
+Module - Look and Feel Customisation.pdf: 2278237 bytes, checksum: 5e1392f540f3cef165ca4d8796a57633 (MD5)
+Module - Look and Feel Customisation (slides).ppt: 2504192 bytes, checksum: dd924041fdd0182ac02982bba1cdab42 (MD5)
+Module - Look and Feel Customisation (slides).pdf: 1267805 bytes, checksum: 2a506d0200e57a9874036d356c9096a4 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-22T08:29:03Z (GMT) No. of bitstreams: 4
+Module - Look and Feel Customisation.doc: 1923072 bytes, checksum: c050f56e088b90b3135e2c99e7d3d575 (MD5)
+Module - Look and Feel Customisation.pdf: 2278237 bytes, checksum: 5e1392f540f3cef165ca4d8796a57633 (MD5)
+Module - Look and Feel Customisation (slides).ppt: 2504192 bytes, checksum: dd924041fdd0182ac02982bba1cdab42 (MD5)
+Module - Look and Feel Customisation (slides).pdf: 1267805 bytes, checksum: 2a506d0200e57a9874036d356c9096a4 (MD5)||Made available in DSpace on 2008-08-22T08:29:03Z (GMT). No. of bitstreams: 4
+Module - Look and Feel Customisation.doc: 1923072 bytes, checksum: c050f56e088b90b3135e2c99e7d3d575 (MD5)
+Module - Look and Feel Customisation.pdf: 2278237 bytes, checksum: 5e1392f540f3cef165ca4d8796a57633 (MD5)
+Module - Look and Feel Customisation (slides).ppt: 2504192 bytes, checksum: dd924041fdd0182ac02982bba1cdab42 (MD5)
+Module - Look and Feel Customisation (slides).pdf: 1267805 bytes, checksum: 2a506d0200e57a9874036d356c9096a4 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:46:01Z
+No. of bitstreams: 8
+Module - Look and Feel Customisation.doc.txt: 8221 bytes, checksum: fa9f7bf6bc2e0f2b0a21041b8de0263e (MD5)
+Module - Look and Feel Customisation.pdf.txt: 9476 bytes, checksum: 058557a4c4f6f96d396218c6533b1055 (MD5)
+Module - Look and Feel Customisation (slides).pdf.txt: 5035 bytes, checksum: 9930a90439d88858b5800e6b0023d3d0 (MD5)
+Module - Look and Feel Customisation (slides).ppt.txt: 4993 bytes, checksum: 9356fa3394dddad58fbbb3688cb0b2be (MD5)
+Module - Look and Feel Customisation (slides).pdf: 1267805 bytes, checksum: 2a506d0200e57a9874036d356c9096a4 (MD5)
+Module - Look and Feel Customisation (slides).ppt: 2504192 bytes, checksum: dd924041fdd0182ac02982bba1cdab42 (MD5)
+Module - Look and Feel Customisation.pdf: 2278237 bytes, checksum: 5e1392f540f3cef165ca4d8796a57633 (MD5)
+Module - Look and Feel Customisation.doc: 1923072 bytes, checksum: c050f56e088b90b3135e2c99e7d3d575 (MD5)||Made available in DSpace on 2019-03-22T21:46:01Z (GMT). No. of bitstreams: 8
+Module - Look and Feel Customisation.doc.txt: 8221 bytes, checksum: fa9f7bf6bc2e0f2b0a21041b8de0263e (MD5)
+Module - Look and Feel Customisation.pdf.txt: 9476 bytes, checksum: 058557a4c4f6f96d396218c6533b1055 (MD5)
+Module - Look and Feel Customisation (slides).pdf.txt: 5035 bytes, checksum: 9930a90439d88858b5800e6b0023d3d0 (MD5)
+Module - Look and Feel Customisation (slides).ppt.txt: 4993 bytes, checksum: 9356fa3394dddad58fbbb3688cb0b2be (MD5)
+Module - Look and Feel Customisation (slides).pdf: 1267805 bytes, checksum: 2a506d0200e57a9874036d356c9096a4 (MD5)
+Module - Look and Feel Customisation (slides).ppt: 2504192 bytes, checksum: dd924041fdd0182ac02982bba1cdab42 (MD5)
+Module - Look and Feel Customisation.pdf: 2278237 bytes, checksum: 5e1392f540f3cef165ca4d8796a57633 (MD5)
+Module - Look and Feel Customisation.doc: 1923072 bytes, checksum: c050f56e088b90b3135e2c99e7d3d575 (MD5)
+  Previous issue date: 2008-08-22T08:29:03Z||Restored into DSpace on 2022-04-24T00:00:43Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/74","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - Look and Feel Customisation",,"Text",
+"78a0c6d9-a90e-4ab8-9486-eea6e92b85a8","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-21T14:20:23Z||2019-03-22T21:43:29Z",,"2008-08-21T14:20:23Z||2019-03-22T21:43:29Z",,"2008",,"2008-08-21T14:20:23Z",,,,,"This module will introduce the concept of RSS feeds and their support in DSpace, the subscription alerting mechanism which allows users to be emailed when new content is added to particular collections, and the news items on the front page which can be edited by DSpace administrators.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-21T14:20:16Z
+No. of bitstreams: 4
+Module - RSS alerts and news.doc: 637952 bytes, checksum: 8ebbdce8cf0186252ae3ccfa18a575fc (MD5)
+Module - RSS alerts and news.pdf: 660339 bytes, checksum: 943f6609bd3b3610b34b799813c5e31f (MD5)
+Module - RSS alerts and news (slides).ppt: 492032 bytes, checksum: b741f96219c637c59ba6c61e02ee2ca2 (MD5)
+Module - RSS alerts and news (slides).pdf: 235488 bytes, checksum: aa59d86cb60d365e73df826cdae6d08e (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-21T14:20:23Z (GMT) No. of bitstreams: 4
+Module - RSS alerts and news.doc: 637952 bytes, checksum: 8ebbdce8cf0186252ae3ccfa18a575fc (MD5)
+Module - RSS alerts and news.pdf: 660339 bytes, checksum: 943f6609bd3b3610b34b799813c5e31f (MD5)
+Module - RSS alerts and news (slides).ppt: 492032 bytes, checksum: b741f96219c637c59ba6c61e02ee2ca2 (MD5)
+Module - RSS alerts and news (slides).pdf: 235488 bytes, checksum: aa59d86cb60d365e73df826cdae6d08e (MD5)||Made available in DSpace on 2008-08-21T14:20:23Z (GMT). No. of bitstreams: 4
+Module - RSS alerts and news.doc: 637952 bytes, checksum: 8ebbdce8cf0186252ae3ccfa18a575fc (MD5)
+Module - RSS alerts and news.pdf: 660339 bytes, checksum: 943f6609bd3b3610b34b799813c5e31f (MD5)
+Module - RSS alerts and news (slides).ppt: 492032 bytes, checksum: b741f96219c637c59ba6c61e02ee2ca2 (MD5)
+Module - RSS alerts and news (slides).pdf: 235488 bytes, checksum: aa59d86cb60d365e73df826cdae6d08e (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:43:28Z
+No. of bitstreams: 8
+Module - RSS alerts and news.doc.txt: 2521 bytes, checksum: 1d054941909ac4b6b355eba526af9472 (MD5)
+Module - RSS alerts and news.pdf.txt: 2855 bytes, checksum: d321d09543d79179cb793b9e52825f2a (MD5)
+Module - RSS alerts and news (slides).pdf.txt: 1022 bytes, checksum: c3501701a9050997e4f230da8b9a1d54 (MD5)
+Module - RSS alerts and news (slides).ppt.txt: 988 bytes, checksum: 90c5a4f5d2cd45a5154b4d4f9c72b154 (MD5)
+Module - RSS alerts and news (slides).pdf: 235488 bytes, checksum: aa59d86cb60d365e73df826cdae6d08e (MD5)
+Module - RSS alerts and news (slides).ppt: 492032 bytes, checksum: b741f96219c637c59ba6c61e02ee2ca2 (MD5)
+Module - RSS alerts and news.pdf: 660339 bytes, checksum: 943f6609bd3b3610b34b799813c5e31f (MD5)
+Module - RSS alerts and news.doc: 637952 bytes, checksum: 8ebbdce8cf0186252ae3ccfa18a575fc (MD5)||Made available in DSpace on 2019-03-22T21:43:29Z (GMT). No. of bitstreams: 8
+Module - RSS alerts and news.doc.txt: 2521 bytes, checksum: 1d054941909ac4b6b355eba526af9472 (MD5)
+Module - RSS alerts and news.pdf.txt: 2855 bytes, checksum: d321d09543d79179cb793b9e52825f2a (MD5)
+Module - RSS alerts and news (slides).pdf.txt: 1022 bytes, checksum: c3501701a9050997e4f230da8b9a1d54 (MD5)
+Module - RSS alerts and news (slides).ppt.txt: 988 bytes, checksum: 90c5a4f5d2cd45a5154b4d4f9c72b154 (MD5)
+Module - RSS alerts and news (slides).pdf: 235488 bytes, checksum: aa59d86cb60d365e73df826cdae6d08e (MD5)
+Module - RSS alerts and news (slides).ppt: 492032 bytes, checksum: b741f96219c637c59ba6c61e02ee2ca2 (MD5)
+Module - RSS alerts and news.pdf: 660339 bytes, checksum: 943f6609bd3b3610b34b799813c5e31f (MD5)
+Module - RSS alerts and news.doc: 637952 bytes, checksum: 8ebbdce8cf0186252ae3ccfa18a575fc (MD5)
+  Previous issue date: 2008-08-21T14:20:23Z||Restored into DSpace on 2022-04-24T00:00:38Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/71","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - RSS Feeds, Alerts and News",,"Text",
+"5b9e478d-fea6-4d5a-a1d8-8f164c0e54fc","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-14T15:51:57Z||2019-03-22T21:41:48Z",,"2008-08-14T15:51:57Z||2019-03-22T21:41:48Z",,"2008",,"2008-08-14T15:51:57Z",,,,,"This module introduces the SWORD (Simple Web-service Offering Repository Deposit) interface available in DSpace. SWORD allows remote systems (software or agents) to submit items via a common interface. This module introduces the concepts behind SWORD along with examples where it might be used.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-14T15:51:50Z
+No. of bitstreams: 4
+Module - SWORD basics.doc: 372224 bytes, checksum: 144250f15e58ec783ff18ae67adcb859 (MD5)
+Module - SWORD basics.pdf: 780975 bytes, checksum: 2b4bfccf954a6422f47ec566a366430d (MD5)
+Module - SWORD basics (slides).ppt: 453632 bytes, checksum: 39f2e6a21ecf96bcea2e206fd39a5f95 (MD5)
+Module - SWORD basics (slides).pdf: 274977 bytes, checksum: b32a59967ab464129880addb6ae2b4c1 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-14T15:51:57Z (GMT) No. of bitstreams: 4
+Module - SWORD basics.doc: 372224 bytes, checksum: 144250f15e58ec783ff18ae67adcb859 (MD5)
+Module - SWORD basics.pdf: 780975 bytes, checksum: 2b4bfccf954a6422f47ec566a366430d (MD5)
+Module - SWORD basics (slides).ppt: 453632 bytes, checksum: 39f2e6a21ecf96bcea2e206fd39a5f95 (MD5)
+Module - SWORD basics (slides).pdf: 274977 bytes, checksum: b32a59967ab464129880addb6ae2b4c1 (MD5)||Made available in DSpace on 2008-08-14T15:51:57Z (GMT). No. of bitstreams: 4
+Module - SWORD basics.doc: 372224 bytes, checksum: 144250f15e58ec783ff18ae67adcb859 (MD5)
+Module - SWORD basics.pdf: 780975 bytes, checksum: 2b4bfccf954a6422f47ec566a366430d (MD5)
+Module - SWORD basics (slides).ppt: 453632 bytes, checksum: 39f2e6a21ecf96bcea2e206fd39a5f95 (MD5)
+Module - SWORD basics (slides).pdf: 274977 bytes, checksum: b32a59967ab464129880addb6ae2b4c1 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:41:48Z
+No. of bitstreams: 8
+Module - SWORD basics.doc.txt: 2520 bytes, checksum: bd9f405efcdf1d1e703a9410cca188a4 (MD5)
+Module - SWORD basics.pdf.txt: 2831 bytes, checksum: 920ebaa5388b40c257aa894643f33581 (MD5)
+Module - SWORD basics (slides).pdf.txt: 1372 bytes, checksum: 532e648b67d0cdbcfecaf06a779c4004 (MD5)
+Module - SWORD basics (slides).ppt.txt: 1277 bytes, checksum: f3ed4a7f3bcd08598bf1f7e3311d37c5 (MD5)
+Module - SWORD basics (slides).pdf: 274977 bytes, checksum: b32a59967ab464129880addb6ae2b4c1 (MD5)
+Module - SWORD basics (slides).ppt: 453632 bytes, checksum: 39f2e6a21ecf96bcea2e206fd39a5f95 (MD5)
+Module - SWORD basics.pdf: 780975 bytes, checksum: 2b4bfccf954a6422f47ec566a366430d (MD5)
+Module - SWORD basics.doc: 372224 bytes, checksum: 144250f15e58ec783ff18ae67adcb859 (MD5)||Made available in DSpace on 2019-03-22T21:41:48Z (GMT). No. of bitstreams: 8
+Module - SWORD basics.doc.txt: 2520 bytes, checksum: bd9f405efcdf1d1e703a9410cca188a4 (MD5)
+Module - SWORD basics.pdf.txt: 2831 bytes, checksum: 920ebaa5388b40c257aa894643f33581 (MD5)
+Module - SWORD basics (slides).pdf.txt: 1372 bytes, checksum: 532e648b67d0cdbcfecaf06a779c4004 (MD5)
+Module - SWORD basics (slides).ppt.txt: 1277 bytes, checksum: f3ed4a7f3bcd08598bf1f7e3311d37c5 (MD5)
+Module - SWORD basics (slides).pdf: 274977 bytes, checksum: b32a59967ab464129880addb6ae2b4c1 (MD5)
+Module - SWORD basics (slides).ppt: 453632 bytes, checksum: 39f2e6a21ecf96bcea2e206fd39a5f95 (MD5)
+Module - SWORD basics.pdf: 780975 bytes, checksum: 2b4bfccf954a6422f47ec566a366430d (MD5)
+Module - SWORD basics.doc: 372224 bytes, checksum: 144250f15e58ec783ff18ae67adcb859 (MD5)
+  Previous issue date: 2008-08-14T15:51:57Z||Restored into DSpace on 2022-04-24T00:00:36Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/69","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - SWORD basics",,"Text",
+"beae341e-641b-4677-8f77-5d63b49877b0","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::500||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::500",,,"2008-08-14T15:33:52Z||2019-03-22T21:39:50Z",,"2008-08-14T15:33:52Z||2019-03-22T21:39:50Z",,"2008",,"2008-08-14T15:33:52Z",,,,,"This module provides an introduction to upgrading DSpace from version 1.4 to 1.5. General DSpace upgrade principles are also given to assist with upgrades from earlier versions.",,"Submitted by Stuart Lewis (sdl@aber.ac.uk) on 2008-08-14T15:33:42Z
+No. of bitstreams: 4
+Module - Upgrading from 1.4 to 1.5.doc: 433664 bytes, checksum: 08e759348610d09085dd189bf9db0654 (MD5)
+Module - Upgrading from 1.4 to 1.5.pdf: 1047717 bytes, checksum: 7ed0d5dfcc9fcebb8a3832270ba246ca (MD5)
+Module - Upgrading from 1.4 to 1.5 (slides).ppt: 368640 bytes, checksum: 028ea122295f2aa505cbdc6c112a7f6b (MD5)
+Module - Upgrading from 1.4 to 1.5 (slides).pdf: 291257 bytes, checksum: 212d319c940517e6ebebe43c1c01f894 (MD5)||Approved for entry into archive by Stuart Lewis(sdl@aber.ac.uk) on 2008-08-14T15:33:52Z (GMT) No. of bitstreams: 4
+Module - Upgrading from 1.4 to 1.5.doc: 433664 bytes, checksum: 08e759348610d09085dd189bf9db0654 (MD5)
+Module - Upgrading from 1.4 to 1.5.pdf: 1047717 bytes, checksum: 7ed0d5dfcc9fcebb8a3832270ba246ca (MD5)
+Module - Upgrading from 1.4 to 1.5 (slides).ppt: 368640 bytes, checksum: 028ea122295f2aa505cbdc6c112a7f6b (MD5)
+Module - Upgrading from 1.4 to 1.5 (slides).pdf: 291257 bytes, checksum: 212d319c940517e6ebebe43c1c01f894 (MD5)||Made available in DSpace on 2008-08-14T15:33:52Z (GMT). No. of bitstreams: 4
+Module - Upgrading from 1.4 to 1.5.doc: 433664 bytes, checksum: 08e759348610d09085dd189bf9db0654 (MD5)
+Module - Upgrading from 1.4 to 1.5.pdf: 1047717 bytes, checksum: 7ed0d5dfcc9fcebb8a3832270ba246ca (MD5)
+Module - Upgrading from 1.4 to 1.5 (slides).ppt: 368640 bytes, checksum: 028ea122295f2aa505cbdc6c112a7f6b (MD5)
+Module - Upgrading from 1.4 to 1.5 (slides).pdf: 291257 bytes, checksum: 212d319c940517e6ebebe43c1c01f894 (MD5)||Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2019-03-22T21:39:49Z
+No. of bitstreams: 8
+Module - Upgrading from 1.4 to 1.5 (slides).pdf: 291259 bytes, checksum: 22e924cfae98421a4914dc0ade4f3951 (MD5)
+Module - Upgrading from 1.4 to 1.5 (slides).ppt: 368640 bytes, checksum: 1d285c31c1039eb0fcf0242079298ede (MD5)
+Module - Upgrading from 1.4 to 1.5.pdf: 1060158 bytes, checksum: 4eebe996b8e348ece65be4651574a68c (MD5)
+Module - Upgrading from 1.4 to 1.5.doc: 433664 bytes, checksum: 8482f73490bc2c59c3e11aa15411ca44 (MD5)
+Module - Upgrading from 1.4 to 1.5.doc.txt: 13339 bytes, checksum: cee04a63018668c84df4a23d75e211d9 (MD5)
+Module - Upgrading from 1.4 to 1.5.pdf.txt: 14363 bytes, checksum: 64ad18a3548efade671bcdb13a2d9e81 (MD5)
+Module - Upgrading from 1.4 to 1.5 (slides).pdf.txt: 4828 bytes, checksum: e8d2c9add797d5b5422da93dd0064350 (MD5)
+Module - Upgrading from 1.4 to 1.5 (slides).ppt.txt: 4684 bytes, checksum: a5c0005084312dcba557883566928f85 (MD5)||Made available in DSpace on 2019-03-22T21:39:50Z (GMT). No. of bitstreams: 8
+Module - Upgrading from 1.4 to 1.5 (slides).pdf: 291259 bytes, checksum: 22e924cfae98421a4914dc0ade4f3951 (MD5)
+Module - Upgrading from 1.4 to 1.5 (slides).ppt: 368640 bytes, checksum: 1d285c31c1039eb0fcf0242079298ede (MD5)
+Module - Upgrading from 1.4 to 1.5.pdf: 1060158 bytes, checksum: 4eebe996b8e348ece65be4651574a68c (MD5)
+Module - Upgrading from 1.4 to 1.5.doc: 433664 bytes, checksum: 8482f73490bc2c59c3e11aa15411ca44 (MD5)
+Module - Upgrading from 1.4 to 1.5.doc.txt: 13339 bytes, checksum: cee04a63018668c84df4a23d75e211d9 (MD5)
+Module - Upgrading from 1.4 to 1.5.pdf.txt: 14363 bytes, checksum: 64ad18a3548efade671bcdb13a2d9e81 (MD5)
+Module - Upgrading from 1.4 to 1.5 (slides).pdf.txt: 4828 bytes, checksum: e8d2c9add797d5b5422da93dd0064350 (MD5)
+Module - Upgrading from 1.4 to 1.5 (slides).ppt.txt: 4684 bytes, checksum: a5c0005084312dcba557883566928f85 (MD5)
+  Previous issue date: 2008-08-14T15:33:52Z||Restored into DSpace on 2022-04-24T00:00:32Z (GMT).","This course was created by the Repositories Support Project (http://www.rsp.ac.uk/) and was funded by JISC (http://www.jisc.ac.uk/)",,,,,,,,"http://hdl.handle.net/10673/67","en",,,,,,,,,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence",,,,,,,"The DSpace Course - Upgrading from 1.4 to 1.5",,"Text",
+"ebc214f0-f416-43fc-93a1-8f80ff3714de","10673/10","Luyten, Bram::9041656d-25af-42cb-9e00-566bed9da2b3::0",,,"2018-01-07T15:46:13Z",,"2018-01-07T15:46:13Z",,,,"2017-03-25",,,,,,"1987 to 1992 scans of contributions from Rik Luyten to Volleyball Magazine. Works digitised and distributed with approval from editor Willy Mertens.","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2018-01-07T15:46:13Z
+No. of bitstreams: 2
+Vollebal-Magazine-SAF-full.zip: 299285609 bytes, checksum: 90c65c6948c60cfc3bc5062ad145b065 (MD5)
+license_rdf: 700 bytes, checksum: 79da7ba44461b593b4f6afc1f09853c4 (MD5)||Made available in DSpace on 2018-01-07T15:46:13Z (GMT). No. of bitstreams: 2
+Vollebal-Magazine-SAF-full.zip: 299285609 bytes, checksum: 90c65c6948c60cfc3bc5062ad145b065 (MD5)
+license_rdf: 700 bytes, checksum: 79da7ba44461b593b4f6afc1f09853c4 (MD5)
+  Previous issue date: 2017-03-25||Restored into DSpace on 2019-03-22T20:50:58Z (GMT).||Restored into DSpace on 2022-04-24T00:00:52Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/46",,"other",,,"Federatie van Oefenmeesters Volleyball",,"http://creativecommons.org/publicdomain/zero/1.0/",,"CC0 1.0 Universal",,,,"volleyball||education||training",,,,,"Volleyball Magazine SAF File",,"Article"
+"dbf69a3d-5965-417c-af2d-e45796b7990f","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:34Z",,"2018-01-07T08:55:34Z",,,,,"1989-04",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:34Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1989-04-Rik-Luyten.pdf: 7776091 bytes, checksum: bbf43c6092e07e86c85fbaa42ba1e8be (MD5)
+  Previous issue date: 1989-04||Restored into DSpace on 2019-03-22T20:51:02Z (GMT).||Restored into DSpace on 2022-04-24T00:00:56Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/14",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Psycho-sociale vorming van een team",,,,
+"5d89c83c-d126-496e-b898-ee1e9a857a99","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:38Z",,"2018-01-07T08:55:38Z",,,,,"1990-01",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:38Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1990-01-Rik-Luyten.pdf: 5769871 bytes, checksum: 5d74c66916356c54751ef5d26efda97b (MD5)
+  Previous issue date: 1990-01||Restored into DSpace on 2019-03-22T20:51:08Z (GMT).||Restored into DSpace on 2022-04-24T00:01:01Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/20",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Pas bevallen en terug volleybal",,,,
+"68e2ed03-f2e0-45b2-b9cf-b654ce4e5934","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:35Z",,"2018-01-07T08:55:35Z",,,,,"1989-08",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:35Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1989-08-Rik-Luyten.pdf: 10932414 bytes, checksum: 2cb8c4d67d0010023c28f1ce0a4e015d (MD5)
+  Previous issue date: 1989-08||Restored into DSpace on 2019-03-22T20:51:04Z (GMT).||Restored into DSpace on 2022-04-24T00:00:58Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/16",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Een pleidooi voor damesvolleybal",,,,
+"31d76c85-79d5-4c10-9909-e64cd37f5994","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:37Z",,"2018-01-07T08:55:37Z",,,,,"1989-12",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:37Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1989-12-Rik-Luyten.pdf: 6328088 bytes, checksum: 981d71d178d9e6d576f5d530f0e9efa5 (MD5)
+  Previous issue date: 1989-12||Restored into DSpace on 2019-03-22T20:51:07Z (GMT).||Restored into DSpace on 2022-04-24T00:01:00Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/19",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Informatieverwerking defensief",,,,
+"c8fe32f4-e688-4baf-ac51-eb84f99f9433","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:37Z",,"2018-01-07T08:55:37Z",,,,,"1989-10",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:37Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1989-10-Rik-Luyten.pdf: 12651566 bytes, checksum: 56e0c69448e138f0fcd9266ecd7c88a9 (MD5)
+  Previous issue date: 1989-10||Restored into DSpace on 2019-03-22T20:51:06Z (GMT).||Restored into DSpace on 2022-04-24T00:01:00Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/18",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Plaats aan de jeugd",,,,
+"5c2d0436-c1d0-4464-86ac-76a23b48f728","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:34Z",,"2018-01-07T08:55:34Z",,,,,"1989-05",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:34Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1989-05-Rik-Luyten.pdf: 7577097 bytes, checksum: 2ecad01dea64c509e1108e0e73b0cbee (MD5)
+  Previous issue date: 1989-05||Restored into DSpace on 2019-03-22T20:51:03Z (GMT).||Restored into DSpace on 2022-04-24T00:00:57Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/15",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Effectieve Communicatie",,,,
+"ea4ecd1c-7e66-4ce7-97d6-62e08b0a5ada","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:31Z",,"2018-01-07T08:55:31Z",,,,,"1987-03",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:31Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1987-03-Rik-Luyten.pdf: 2947155 bytes, checksum: 47abce6cf0cf16a205390eed4ddb0c1b (MD5)
+  Previous issue date: 1987-03||Restored into DSpace on 2019-03-22T20:50:59Z (GMT).||Restored into DSpace on 2022-04-24T00:00:54Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/12",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Het methode model",,,,
+"e56aa4e0-c99a-492d-b356-9b07e3709f00","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:36Z",,"2018-01-07T08:55:36Z",,,,,"1989-09",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:36Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1989-09-Rik-Luyten.pdf: 8685618 bytes, checksum: 0404d03caee98a7757a5bc862d689bb0 (MD5)
+  Previous issue date: 1989-09||Restored into DSpace on 2019-03-22T20:51:05Z (GMT).||Restored into DSpace on 2022-04-24T00:00:59Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/17",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Platanov in Nederland",,,,
+"4252c269-fbd6-4159-97e6-996930432411","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:33Z",,"2018-01-07T08:55:33Z",,,,,"1989-03",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:33Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1989-03-Rik-Luyten.pdf: 6792019 bytes, checksum: c98430ac57433670b86e668cf2ee21eb (MD5)
+  Previous issue date: 1989-03||Restored into DSpace on 2019-03-22T20:51:00Z (GMT).||Restored into DSpace on 2022-04-24T00:00:55Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/13",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Bloktransitietraining",,,,
+"a81836d4-fac0-4cd7-b4ba-4b8ac9c5ae6e","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:44Z",,"2018-01-07T08:55:44Z",,,,,"1991-04",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:44Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1991-04-Rik-Luyten.pdf: 5030203 bytes, checksum: d7a74c4beb17b33fc4a1363051847d28 (MD5)
+  Previous issue date: 1991-04||Restored into DSpace on 2019-03-22T20:51:18Z (GMT).||Restored into DSpace on 2022-04-24T00:01:09Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/28",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Strategisch Human Resource Management in het volleybalbedrijf",,,,
+"0c32297b-fa8b-428a-9fa2-63a21ab3046d","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:40Z",,"2018-01-07T08:55:40Z",,,,,"1990-05",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:40Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1990-05-Rik-Luyten.pdf: 7344225 bytes, checksum: c978b607fc775ba4cb4ec13c090e5661 (MD5)
+  Previous issue date: 1990-05||Restored into DSpace on 2019-03-22T20:51:10Z (GMT).||Restored into DSpace on 2022-04-24T00:01:03Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/22",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Diverse trainingsdoelen in de X met X-spelvormen",,,,
+"a9d1b036-959e-4281-80d1-d49cb79e1b94","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:39Z",,"2018-01-07T08:55:39Z",,,,,"1990-03",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:39Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1990-03-Rik-Luyten.pdf: 5181891 bytes, checksum: e8d272292adce2e418dafc099eb5f888 (MD5)
+  Previous issue date: 1990-03||Restored into DSpace on 2019-03-22T20:51:09Z (GMT).||Restored into DSpace on 2022-04-24T00:01:02Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/21",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Een gesprek met Jean-Marie Fabiani",,,,
+"923be7ab-df70-476d-ab22-bb57c9fb1374","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:41Z",,"2018-01-07T08:55:41Z",,,,,"1990-10",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:41Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1990-10-Rik-Luyten.pdf: 10274917 bytes, checksum: 75279124d899ac8d64a8562369b0018e (MD5)
+  Previous issue date: 1990-10||Restored into DSpace on 2019-03-22T20:51:13Z (GMT).||Restored into DSpace on 2022-04-24T00:01:05Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/24",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Jeugdopleiding en verplaatsingsmotoriek",,,,
+"c108b87c-d971-4034-bfa3-ed011195dc56","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:40Z",,"2018-01-07T08:55:40Z",,,,,"1987-04",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:40Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1987-04-Rik-Luyten.pdf: 7766912 bytes, checksum: 2a12fa60e7e20e22957bc430d8db6b77 (MD5)
+  Previous issue date: 1987-04||Restored into DSpace on 2019-03-22T20:51:11Z (GMT).||Restored into DSpace on 2022-04-24T00:01:04Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/23",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Het psychologisch activeringsmodel",,,,
+"67ec12dc-ea4d-45b7-83f2-c8b9da1a3a05","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:44Z",,"2018-01-07T08:55:44Z",,,,,"1991-08",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:44Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1991-08-Rik-Luyten-Jeugdkamp.pdf: 14259847 bytes, checksum: 47ada17ad15413e0f1a4792bf8bc6f26 (MD5)
+  Previous issue date: 1991-08||Restored into DSpace on 2019-03-22T20:51:20Z (GMT).||Restored into DSpace on 2022-04-24T00:01:10Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/29",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Een jeugdkamp praktisch",,,,
+"348bbf18-2a59-4dde-a6c5-7bfbc96055a9","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:42Z",,"2018-01-07T08:55:42Z",,,,,"1990-12",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:42Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1990-12-Rik-Luyten.pdf: 5788324 bytes, checksum: be95d9afa60637d73583ad0c0734edfb (MD5)
+  Previous issue date: 1990-12||Restored into DSpace on 2019-03-22T20:51:14Z (GMT).||Restored into DSpace on 2022-04-24T00:01:06Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/25",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Krachttraining en volleybal",,,,
+"f3e44e32-6039-493b-8cc3-0dd15fabd56a","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:42Z",,"2018-01-07T08:55:42Z",,,,,"1991-01",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:42Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1991-01-Rik-Luyten.pdf: 3386877 bytes, checksum: c00d01a7e732ba38ae739c46dace9047 (MD5)
+  Previous issue date: 1991-01||Restored into DSpace on 2019-03-22T20:51:15Z (GMT).||Restored into DSpace on 2022-04-24T00:01:07Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/26",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"De Witte Molen '90",,,,
+"3d4d0924-3f9c-4919-ba09-75cfd34d6373","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:43Z",,"2018-01-07T08:55:43Z",,,,,"1991-02",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:43Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1991-02-Rik-Luyten.pdf: 3283890 bytes, checksum: 31d9bd94cf2745bd74081f800918b26c (MD5)
+  Previous issue date: 1991-02||Restored into DSpace on 2019-03-22T20:51:17Z (GMT).||Restored into DSpace on 2022-04-24T00:01:08Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/27",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Randnotities",,,,
+"753b8801-a987-427f-8f5d-0daef1cab035","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:49Z",,"2018-01-07T08:55:49Z",,,,,"1992-01",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:49Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1992-01-Rik-Luyten.pdf: 20477831 bytes, checksum: 61badc6f2790d90f4d9124e41467c02d (MD5)
+  Previous issue date: 1992-01||Restored into DSpace on 2019-03-22T20:51:29Z (GMT).||Restored into DSpace on 2022-04-24T00:01:18Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/35",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Hoe het rendement van hoofdaanvallers verhogen? Een trainersblik achter de schermen. Psychologisch profiel van jonge spelers: gevolgen voor de praktijk (Alberto Cei)",,,,
+"2096e88c-a94b-418d-9fdb-c262c9944f7c","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:47Z",,"2018-01-07T08:55:47Z",,,,,"1991-12",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:47Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1991-12-Rik-Luyten.pdf: 3594597 bytes, checksum: 4d959695665a99561ecab5b7f61a4030 (MD5)
+  Previous issue date: 1991-12||Restored into DSpace on 2019-03-22T20:51:25Z (GMT).||Restored into DSpace on 2022-04-24T00:01:15Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/33",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Boekbespreking: Motor learning and performance from principles to practice by Richard A. Schmidt",,,,
+"4fa0fdba-5303-4abb-8f42-4040677c5a79","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:50Z",,"2018-01-07T08:55:50Z",,,,,"1992-02",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:50Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1992-02-Rik-Luyten.pdf: 22284283 bytes, checksum: f6d1c4db724cb30250ac40f262234ca7 (MD5)
+  Previous issue date: 1992-02||Restored into DSpace on 2019-03-22T20:51:31Z (GMT).||Restored into DSpace on 2022-04-24T00:01:19Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/36",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Methodiek voor de aanlering van het blok en het transitiespel. Verbeter je communicatie",,,,
+"043bae83-5085-4865-980b-b52f4bbace95","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:46Z",,"2018-01-07T08:55:46Z",,,,,"1991-09",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:46Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1991-09-Rik-Luyten.pdf: 13651792 bytes, checksum: c9f0cabffb18d3a9780debdab7b8f8f2 (MD5)
+  Previous issue date: 1991-09||Restored into DSpace on 2019-03-22T20:51:23Z (GMT).||Restored into DSpace on 2022-04-24T00:01:13Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/31",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Internationaal Coaches Seminarie FIVB te Olympia en Analyse WK '90",,,,
+"0add3341-f6d2-4db1-93c7-78012742ad8f","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:51Z",,"2018-01-07T08:55:51Z",,,,,"1992-03",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:51Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1992-03-Rik-Luyten.pdf: 3757419 bytes, checksum: c2ae7f017949db2699b669564d08d53b (MD5)
+  Previous issue date: 1992-03||Restored into DSpace on 2019-03-22T20:51:32Z (GMT).||Restored into DSpace on 2022-04-24T00:01:20Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/37",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Boekbespreking: Insights and strategies for winning volleybal by Mike Hebert",,,,
+"f1ab8346-be3c-4d87-bd7c-5bc7de7a8384","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:48Z",,"2018-01-07T08:55:48Z",,,,,"1987-05",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:48Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1987-05-Rik-Luyten.pdf: 12973142 bytes, checksum: 26173bd9b3f83b64e0536a7e4c47888b (MD5)
+  Previous issue date: 1987-05||Restored into DSpace on 2019-03-22T20:51:27Z (GMT).||Restored into DSpace on 2022-04-24T00:01:16Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/34",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Individuele training tijdens de overgangsperiode",,,,
+"e16dff27-a851-432c-b123-c2e7b93ad42f","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:45Z",,"2018-01-07T08:55:45Z",,,,,"1991-08",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:45Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1991-08-Rik-Luyten-Kohler.pdf: 12726856 bytes, checksum: 069478c1e6d383ab6f6d087406b6bb2b (MD5)
+  Previous issue date: 1991-08||Restored into DSpace on 2019-03-22T20:51:21Z (GMT).||Restored into DSpace on 2022-04-24T00:01:12Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/30",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Siegfried Kohler in Nederland",,,,
+"dcac317f-5f9d-4ecb-80f9-40bc2b41fab1","10673/11",,"Luyten, Rik||Kessel, John",,"2018-01-07T08:55:47Z",,"2018-01-07T08:55:47Z",,,,,"1991-11",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:47Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1991-11-Rik-Luyten.pdf: 15470198 bytes, checksum: e73c1130ba0579e9f2dca5857bcf28f9 (MD5)
+  Previous issue date: 1991-11||Restored into DSpace on 2019-03-22T20:51:24Z (GMT).||Restored into DSpace on 2022-04-24T00:01:14Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/32",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"The American Way",,,,
+"3a55892a-87c5-4e6b-9b45-ae047b94b6fe","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:56Z",,"2018-01-07T08:55:56Z",,,,,"1989-02",,,"Nederlandstalig artikel voor volleybal trainers over de trainingsvoorbereiding van Franse topclub Fréjus.",,,"Made available in DSpace on 2018-01-07T08:55:56Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1989-02-Rik-Luyten.pdf: 4290337 bytes, checksum: fed707e8c2d648ded1d90cf7581dff73 (MD5)
+  Previous issue date: 1989-02||Restored into DSpace on 2019-03-22T20:51:45Z (GMT).||Restored into DSpace on 2022-04-24T00:01:29Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/45",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"C'est fou!",,,,
+"a2e14c64-256e-4cc1-98e0-4d67b8fddcc9","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:52Z",,"2018-01-07T08:55:52Z",,,,,"1992-05",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:52Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1992-05-Rik-Luyten.pdf: 10999834 bytes, checksum: 6a5044c1d9e43968e3fe6e36cee78f57 (MD5)
+  Previous issue date: 1992-05||Restored into DSpace on 2019-03-22T20:51:34Z (GMT).||Restored into DSpace on 2022-04-24T00:01:22Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/39",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Beachvolleybal (John Kessel) - Een Bloktraining",,,,
+"e971c8d2-f006-4a74-9cad-9b5124ac8ed8","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:55Z",,"2018-01-07T08:55:55Z",,,,,"1988-10",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:55Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1988-10-Rik-Luyten.pdf: 6860966 bytes, checksum: 929f7f2c5a895610930a351cbc05f221 (MD5)
+  Previous issue date: 1988-10||Restored into DSpace on 2019-03-22T20:51:40Z (GMT).||Restored into DSpace on 2022-04-24T00:01:27Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/43",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Transitietraining Hoekaanval - Verdediging",,,,
+"f13d002e-3458-4759-97f5-cb747d88c306","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:54Z",,"2018-01-07T08:55:54Z",,,,,"1988-08",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:54Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1988-08-Rik-Luyten.pdf: 12115116 bytes, checksum: a8fc3dc50f4d83c96998292dd1acb0bc (MD5)
+  Previous issue date: 1988-08||Restored into DSpace on 2019-03-22T20:51:37Z (GMT).||Restored into DSpace on 2022-04-24T00:01:25Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/41",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Coördinatie training bij volleybal",,,,
+"d8c6449e-d74b-4527-bb42-b154be31425e","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:53Z",,"2018-01-07T08:55:53Z",,,,,"1987-12",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:53Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1987-12-Rik-Luyten.pdf: 9746863 bytes, checksum: 0293789b3173a4113a4b7a3f4e11b2ce (MD5)
+  Previous issue date: 1987-12||Restored into DSpace on 2019-03-22T20:51:36Z (GMT).||Restored into DSpace on 2022-04-24T00:01:24Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/40",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Ruimte, tijd en volleybal",,,,
+"3409c6d0-3034-4858-8bec-ae45c361effc","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:51Z",,"2018-01-07T08:55:51Z",,,,,"1992-04",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:51Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1992-04-Rik-Luyten.pdf: 5342338 bytes, checksum: 1d1649a833e9e89b86a4249e0c3ef6fc (MD5)
+  Previous issue date: 1992-04||Restored into DSpace on 2019-03-22T20:51:33Z (GMT).||Restored into DSpace on 2022-04-24T00:01:21Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/38",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Een passeurstraining",,,,
+"89a513a4-17f4-42e4-a576-d8a5d7254457","10673/11",,"Luyten, Rik",,"2018-01-07T08:55:54Z",,"2018-01-07T08:55:54Z",,,,,"1988-09",,,"Nederlandstalig artikel voor volleybal trainers",,,"Made available in DSpace on 2018-01-07T08:55:54Z (GMT). No. of bitstreams: 1
+Volleybal-Magazine-1988-09-Rik-Luyten.pdf: 4978055 bytes, checksum: d181b2520d01ccd290020dfcc77c4576 (MD5)
+  Previous issue date: 1988-09||Restored into DSpace on 2019-03-22T20:51:39Z (GMT).||Restored into DSpace on 2022-04-24T00:01:26Z (GMT).",,,,,,,,,"http://hdl.handle.net/10673/42",,,,"Volleybal Magazine",,,,"http://creativecommons.org/publicdomain/zero/1.0/",,,,"Volleybal||Coaching",,,,"Receptietraining",,,,
+"7e29e8cf-59b2-4ce0-a7c4-33cdfa47b50c","10673/52","Lewis, Stuart::3321421d-107c-4b5b-9104-fff68ff01872::600||Yates, Chris::9cfec913-0189-4205-a67a-5a96c815f43f::600",,,"2022-04-25T13:00:05Z",,"2008-08-13T11:36:06Z||2019-03-22T21:24:03Z||2022-04-25T13:00:05Z",,"2008",,"2008-08-13",,,,,,"These templates can be used if you wish to create your own modules to be part of the DSpace Course. There is a PowerPoint slide template and a Word Document workbook template. The course notes often refer to a set of local instructions which need to be customised for each course. A local instructions template is also included here.","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-25T13:00:05Z
+No. of bitstreams: 8
+DSpace course presentation template.ppt: 285184 bytes, checksum: 385525f0b06c9a09bd2cca07e5cd891d (MD5)
+DSpace course presentation template.pptx: 173670 bytes, checksum: 9b15536f5a1300b3f406afe09df27f2a (MD5)
+DSpace course module template.doc: 93696 bytes, checksum: 9f043774671dc4f6218a79b31d30542b (MD5)
+DSpace course module template.docx: 68379 bytes, checksum: c7fc589d5c3bb4e8919c92b515095911 (MD5)
+Local instructions template.doc: 49664 bytes, checksum: b28a0c544d8b4788fdaf02872ce2e2f6 (MD5)
+Local instructions template.docx: 32185 bytes, checksum: 3d3b8cba63d586ab4bf62adf495b1542 (MD5)
+Annexes-GPM.pdf: 179781 bytes, checksum: 3c942177573c048dabfbc96a01f78fc0 (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)||Made available in DSpace on 2022-04-25T13:00:05Z (GMT). No. of bitstreams: 8
+DSpace course presentation template.ppt: 285184 bytes, checksum: 385525f0b06c9a09bd2cca07e5cd891d (MD5)
+DSpace course presentation template.pptx: 173670 bytes, checksum: 9b15536f5a1300b3f406afe09df27f2a (MD5)
+DSpace course module template.doc: 93696 bytes, checksum: 9f043774671dc4f6218a79b31d30542b (MD5)
+DSpace course module template.docx: 68379 bytes, checksum: c7fc589d5c3bb4e8919c92b515095911 (MD5)
+Local instructions template.doc: 49664 bytes, checksum: b28a0c544d8b4788fdaf02872ce2e2f6 (MD5)
+Local instructions template.docx: 32185 bytes, checksum: 3d3b8cba63d586ab4bf62adf495b1542 (MD5)
+Annexes-GPM.pdf: 179781 bytes, checksum: 3c942177573c048dabfbc96a01f78fc0 (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)
+  Previous issue date: 2008-08-13",,"This course was created by the Repositories Support Project (http://www.rsp.ac.uk/). funded by JISC (http://www.jisc.ac.uk/)",,,,,,,"http://hdl.handle.net/10673/53.2",,"en",,,,,"http://creativecommons.org/publicdomain/zero/1.0/",,"This work is licensed by a Creative Commons 'by-attribution sharealike' licence||CC0 1.0 Universal",,,,,,,,,"The DSpace Course - Course Templates",,
+"edbc7a83-d719-48c1-8b05-086f99912e79","10673/11",,"Luyten, Rik",,"2022-04-25T13:04:20Z",,"2018-01-07T08:55:55Z||2022-04-25T13:04:20Z",,,,"1989-01",,,,,,"Nederlandstalig artikel voor volleybal trainers","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-25T13:04:20Z
+No. of bitstreams: 3
+Volleybal-Magazine-1989-01-Rik-Luyten.pdf: 9279365 bytes, checksum: 6ce535d7498cd6c8f129f1546f9df7ad (MD5)
+5384900690e75.pdf: 887372 bytes, checksum: 92e76c6c3d5f76057f7910fc6bae435f (MD5)
+license_rdf: 1037 bytes, checksum: 80294ba9ff4c5b4f07812ee200fbc42f (MD5)||Made available in DSpace on 2022-04-25T13:04:20Z (GMT). No. of bitstreams: 3
+Volleybal-Magazine-1989-01-Rik-Luyten.pdf: 9279365 bytes, checksum: 6ce535d7498cd6c8f129f1546f9df7ad (MD5)
+5384900690e75.pdf: 887372 bytes, checksum: 92e76c6c3d5f76057f7910fc6bae435f (MD5)
+license_rdf: 1037 bytes, checksum: 80294ba9ff4c5b4f07812ee200fbc42f (MD5)
+  Previous issue date: 1989-01",,,,,,,,,"http://hdl.handle.net/10673/44.2",,,,,"Volleybal Magazine",,"http://creativecommons.org/licenses/by-nc-sa/3.0/us/",,"Attribution-NonCommercial-ShareAlike 3.0 United States",,,,"Volleybal||Coaching",,,,,"Blessurepreventie",,
+"5c2fe40f-078c-4bc6-8894-4bdf654025a3","10673/88","RAFFIQ, MOHAMED::eedfbe91-0e0a-494e-bbf3-d500f21a56d2::600",,,"2022-04-25T07:31:02Z",,"2022-04-25T07:31:02Z",,,,"2000-05-12",,,,,,,"Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-25T07:31:02Z
+No. of bitstreams: 0||Made available in DSpace on 2022-04-25T07:31:02Z (GMT). No. of bitstreams: 0
+  Previous issue date: 2000-05-12",,,,,,,,,"http://hdl.handle.net/10673/89",,"en_US",,,"KGFGF PUB",,,,,,,,"CLA",,,,,"LIBRARY CLASSIFICATION",,
+"ef520661-ee62-4152-8450-10d81ca0babf","10673/115","singh, sanjebam sher::fbf382d4-9275-493c-b922-6a558a080f85::600||saha, anindita::887b950d-ed7f-4fac-9e14-9536bdd2295f::600",,,"2022-04-26T10:30:15Z",,"2022-04-26T10:30:15Z",,,,"2017-06",,,,,,"Indigenous knowledge is the knowledge that people in a given community has developed over time, and continues to develop. It is based on experience, often tested over long period of use, adopted to local culture and environment, dynamic and changing, and lays emphasis on minimizing risks rather than maximizing profits. The indigenous knowledge (IK) covers a wide spectrum-soil, water and farm equipment, farm power, post harvest preservation and management; agro-forestry; bio-diversity conservation and also exploitation; animal rearing and health care; animal products preservation and management; fisheries and fish preservation; and ethnic foods and homestead management. This paper is an attempt to document the indigenous practices followed by traditional farmers for the management of pests of certain common crops grown in traditional farms in Manipur District. Twenty IK related to farming system were collected and documented with rationality.","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-26T10:30:15Z
+No. of bitstreams: 2
+Paper.pdf: 682108 bytes, checksum: 9efdcee0baf924eecacddf3a53178dda (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)||Made available in DSpace on 2022-04-26T10:30:15Z (GMT). No. of bitstreams: 2
+Paper.pdf: 682108 bytes, checksum: 9efdcee0baf924eecacddf3a53178dda (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)
+  Previous issue date: 2017-06",,,,,,,"2454-3551",,"http://hdl.handle.net/10673/134",,"en",,,"Interenational journal of bio resource , Envirtonment and  agricultural  sciences",,"http://creativecommons.org/publicdomain/zero/1.0/",,"CC0 1.0 Universal",,,,"Bio- diversityt, indigenous knowledge,local culture,,traditional fermerts||pest management",,,,,"Documentation of indigenous knowledge in farming system",,
+"44bb3537-79a4-4e5e-99a3-b259dd5c1119","10673/122","Gaikwad, Mahesh Nandkumar::7db42823-838e-43dd-9ea6-fa5bd9030bd0::600",,,"2022-04-26T10:23:32Z",,"2022-04-26T10:23:32Z",,,,"2022-04-26",,,,,,"E-resources have become bubbling boon for library
+professionals as well as library users in this Google
+era. The e-resources are available in multi-variety
+forms. The study examine the awareness of different
+types of e-information resources, access and use of
+subscribed UGC N-LIST and freely available eresources
+by the faculty members, Ph. D scholars
+and UG Students of the Arts and Commerce College,
+Madha. A structured questionnaire was distributed
+among the users. The study confirmed that the all
+Ph. D Scholars are aware of various types of eresources.
+Study evaluates the satisfaction level of
+the users on e-resources and the role of Internet in
+access of e-resources through different search
+engines (e.g. Google, Yahoo, etc.) and also offline
+databases in CD/DVD formats, Study also aims to
+highlight the problems encountered by the users and
+suggest some remedial measures for its
+improvements.","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-26T10:23:32Z
+No. of bitstreams: 2
+Awareness and Use of Electronic Information.pdf: 73264 bytes, checksum: 41c1e798bcaffe8af10c9d0b5e01cb8e (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)||Made available in DSpace on 2022-04-26T10:23:32Z (GMT). No. of bitstreams: 2
+Awareness and Use of Electronic Information.pdf: 73264 bytes, checksum: 41c1e798bcaffe8af10c9d0b5e01cb8e (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)
+  Previous issue date: 2022-04-26",,,,,,,,,"http://hdl.handle.net/10673/129",,"en_US",,,,,"http://creativecommons.org/publicdomain/zero/1.0/",,"CC0 1.0 Universal",,,,"E-resource||awareness of e-resources||e-information literacy Electronic access",,"Awareness and Use of Electronic Information Resources at Arts and Commerce College, Madha: A Study",,,"Awareness and Use of Electronic Information Resources",,
+"48fe52be-3753-42c1-8b89-c44be001315b","10673/113","Pandiya, Nirnimesh::1ad27cdc-3601-407a-a991-d0f4d5a7f9bd::600||Sarmah, Mukut::275a2ef2-dcea-46c2-a578-3a24b45c09b9::600",,,"2022-04-26T10:24:57Z",,"2022-04-26T10:24:57Z",,,,"2014-09-11",,,,,,"A library being a service organization, its prime objective is to provide the right documents, information
+and services to its users. So, libraries need continuous improvement in its quality services by
+application of quality management. The very existences of libraries are dependable on users’
+satisfaction. Users are getting satisfied when the library is able to rise to his or her expectations or
+meet the actual needs. A quality service is said to be one, which is able to satisfy the users’
+expectations resulting into a good experience. Hence, the present study is undertaken to identify the
+factors capable of influencing the library users level of satisfaction as well as attempted to measure the
+satisfaction level of the library users of IIM, Lucknow","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-26T10:24:57Z
+No. of bitstreams: 2
+INFORMATIONSEEKINGBEHAVIOR(1).doc: 50688 bytes, checksum: f69777dd9f198b5794b9a5df7ce73b96 (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)||Made available in DSpace on 2022-04-26T10:24:57Z (GMT). No. of bitstreams: 2
+INFORMATIONSEEKINGBEHAVIOR(1).doc: 50688 bytes, checksum: f69777dd9f198b5794b9a5df7ce73b96 (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)
+  Previous issue date: 2014-09-11",,,,,,,,,"http://hdl.handle.net/10673/132",,,,,"Academic Research Journals",,"http://creativecommons.org/publicdomain/zero/1.0/",,"CC0 1.0 Universal",,,,"Quality||service||higher education||information||knowledge",,,,,"A study on the level of satisfaction of the Library Users of IIM, Lucknow",,
+"b5ae335c-5475-436a-af0d-341e8139a362","10673/128","Rothwell, P M::99eed2eb-f051-4b34-ab78-43377e23bacb::600||Giles, M F::330af016-9ef9-47c2-b21b-72024511abf5::600||Flossmann, E::12f7bb98-413e-431e-903d-78a331329859::600||Lovelock, C E::3a6a2d78-6148-4c2d-a45b-51d9b331e380::600||Redgrave, JNE::e1c7b30d-0544-42c8-a4a7-b4fc2f5c2c54::600||Warlow, CP::0fad5949-b5f3-4f2e-b842-03b47f60f44d::600||Mehta, Z::197d5075-56f8-4d5a-bc7e-5954a05ce5e2::600",,,"2022-04-26T10:35:39Z",,"2022-04-26T10:35:39Z",,,,"2005-05-21",,,,,,"Background Effective early management of patients with transient ischaemic attacks (TIA) is undermined by an inability to predict who is at highest early risk of stroke. 
+Methods We derived a score for 7-day risk of stroke in a population-based cohort of patients (n=209) with a probable or deﬁnite TIA (Oxfordshire Community Stroke Project; OCSP), and validated the score in a similar populationbased cohort (Oxford Vascular Study; OXVASC, n=190). We assessed likely clinical usefulness to front-line health services by using the score to stratify all patients with suspected TIA referred to OXVASC (n=378, outcome: 7-day risk of stroke) and to a hospital-based weekly TIA clinic (n=210; outcome: risk of stroke before appointment). 
+Results A six-point score derived in the OCSP (age [ 60 years=1], blood pressure [systolic  140 mm Hg and/or diastolic  90 mm Hg=1], clinical features [unilateral weakness=2, speech disturbance without weakness=1, other=0], and duration of symptoms in min [ 60=2, 10–59=1,  10=0]; ABCD) was highly predictive of 7-day risk of stroke in OXVASC patients with probable or deﬁnite TIA (p 0·0001), in the OXVASC population-based cohort of all referrals with suspected TIA (p 0·0001), and in the hospital-based weekly TIA clinic-referred cohort (p=0·006). In the OXVASC suspected TIA cohort, 19 of 20 (95%) strokes occurred in 101 (27%) patients with a score of 5 or greater: 7-day risk was 0·4% (95% CI 0–1·1) in 274 (73%) patients with a score less than 5, 12·1% (4·2–20·0) in 66 (18%) with a score of 5, and 31·4% (16·0–46·8) in 35 (9%) with a score of 6. In the hospital-referred clinic cohort, 14 (7·5%) patients had a stroke before their scheduled appointment, all with a score of 4 or greater. 
+Conclusions Risk of stroke during the 7 days after TIA seems to be highly predictable. Although further validations and reﬁnements are needed, the ABCD score can be used in routine clinical practice to identify high-risk individuals who need emergency investigation and treatment.","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-26T10:35:39Z
+No. of bitstreams: 2
+abcd.pdf: 109851 bytes, checksum: 858c7de8220e523af90742639bc647a8 (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)||Made available in DSpace on 2022-04-26T10:35:39Z (GMT). No. of bitstreams: 2
+abcd.pdf: 109851 bytes, checksum: 858c7de8220e523af90742639bc647a8 (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)
+  Previous issue date: 2005-05-21",,,,,,,,,"http://hdl.handle.net/10673/138",,"en_US",,,"A simple score (ABCD) to identify individuals at high early risk of stroke after transient ischaemic attack",,"http://creativecommons.org/publicdomain/zero/1.0/",,"CC0 1.0 Universal",,,,"ABCD",,,,,"A simple score (ABCD) to identify individuals at high early risk of stroke after transient ischaemic attack",,
+"6b979813-1b9c-4928-ab8b-5376c190925e","10673/108","Lambert, Sylvie D.::0df480c5-ea54-41a3-bfe6-c8a257630dd8::600||Loiselle, Carmen G.::e60d1f6e-85a9-446f-9a92-7d36d6b26326::600",,,"2022-04-26T10:41:38Z",,"2022-04-26T10:41:38Z",,,,"2007-10",,,,,,"Seeking information about one’s health is increasingly documented as a key coping strategy in health-promotive activities and psychosocial adjustment to illness. In this article, the authors critically examine the scientific literature from 1982 to 2006 on the concept of health information–seeking behavior (HISB) to determine its level of maturity and clarify the concept’s essential characteristics. A principle-based method of concept analysis provides the framework for exploring the nature of HISB. The authors reviewed approximately 100 published articles and five books reporting on HISB. Although HISB is a popular concept used in various contexts,most HISB definitions provide little insight into the concept’s specific meanings. The authors describe the concept’s characteristics,contributing to a clearer understanding of HISB,and discuss operationalizations, antecedents, and outcomes of HISB. Such an analysis of HISB might guide further theorizing on this highly relevant concept and assist health care providers in designing optimal informational interventions.","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-26T10:41:38Z
+No. of bitstreams: 2
+Health-Information-Seeking-Behavior.pdf: 179102 bytes, checksum: 4232bdd9128c7e18c00aed05d22ef3bb (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)||Made available in DSpace on 2022-04-26T10:41:38Z (GMT). No. of bitstreams: 2
+Health-Information-Seeking-Behavior.pdf: 179102 bytes, checksum: 4232bdd9128c7e18c00aed05d22ef3bb (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)
+  Previous issue date: 2007-10",,,,,,"(this article cites 93 articles hosted on the SAGE Journals Online and HighWire Press platforms",,,"http://hdl.handle.net/10673/145",,"en_US",,,"SAGE Publications",,"http://creativecommons.org/publicdomain/zero/1.0/",,"CC0 1.0 Universal",,,,"concept analysis; information seeking; health information",,,,,"Health Information–Seeking Behavior",,
+"250f2d3e-e9b7-41d3-85f6-e6b5a76dfce1","10673/100","Lloyd Modimogale1, Jan H. Kroeze::ef7ae7d8-5676-4877-94ce-10f0a434ed0a::600",,,"2022-04-26T10:35:56Z",,"2022-04-26T10:35:56Z",,,,"2011",,,,,,"This article discusses the role of information and communication technology (ICT) within the small
+and medium enterprise (SME) sector in Gauteng, a province in South Africa. ICT plays a very
+important role in the current knowledge economy. It is vital for SMEs to participate in this economy
+in order to compete and thrive in the future. The problem is that SMEs are mainly using traditional
+tools to stay competitive. They need to take advantage of the power of ICT in order to take on the
+competition, whether small, big or global. Both the traditional and the ICT tools are very important
+for the competitiveness of the business. The article follows a qualitative research approach and
+uses semi-structured questionnaires with open-ended questions as data gathering method. There
+are a number of reasons why an SME might not implement ICT tools, such as limited funds, lack of
+knowledge, lack of skilled staff and lack of tools. The article highlights the limitation that SMEs have
+in using ICT and make recommendations on how to overcome them.","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-26T10:35:56Z
+No. of bitstreams: 1
+Modimogale-Kroeze_2011_Role_ICT_SME.pdf: 187283 bytes, checksum: 4a8dae1af9b3fc9a2564cfebec9d6c8e (MD5)||Made available in DSpace on 2022-04-26T10:35:56Z (GMT). No. of bitstreams: 1
+Modimogale-Kroeze_2011_Role_ICT_SME.pdf: 187283 bytes, checksum: 4a8dae1af9b3fc9a2564cfebec9d6c8e (MD5)
+  Previous issue date: 2011",,,,,,,,,"http://hdl.handle.net/10673/139",,"en_US",,,"IBIMA",,,,,,,,"Information and communication technology (ICT),||small and medium enterprise (SME)||knowledge economy",,,,,"The Role of ICT within Small and Medium Enterprises in Gauteng",,
+"3613af84-fc59-4bdf-bdaf-88358722bcb4","10673/149","Lambert, Sylvie D::0df480c5-ea54-41a3-bfe6-c8a257630dd8::600",,,"2022-04-26T11:02:31Z",,"2022-04-26T11:02:31Z",,,,"2004-05-21",,,,,,"Seeking information about one’s health is increasingly documented as a key coping strategy in health-promotive activities and psychosocial adjustment to illness. In this article, the authors critically examine the scientific literature from 1982 to 2006 on the concept of health information–seeking behavior (HISB) to determine its level of maturity and clarify the concept’s essential characteristics. A principle-based method of concept analysis provides the framework for exploring the nature of HISB. The authors reviewed approximately 100 published articles and five books reporting on HISB. Although HISB is a popular concept used in various contexts,most HISB definitions provide little insight into the concept’s specific meanings. The authors describe the concept’s characteristics,contributing to a clearer understanding of HISB,and discuss operationalizations, antecedents, and outcomes of HISB. Such an analysis of HISB might guide further theorizing on this highly relevant concept and assist health care providers in designing optimal informational interventions.","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-26T11:02:31Z
+No. of bitstreams: 1
+Assessing_digital_library_services_approaches_issu.pdf: 596111 bytes, checksum: c471e65f4d8ea9daeb0f86835daedc57 (MD5)||Made available in DSpace on 2022-04-26T11:02:31Z (GMT). No. of bitstreams: 1
+Assessing_digital_library_services_approaches_issu.pdf: 596111 bytes, checksum: c471e65f4d8ea9daeb0f86835daedc57 (MD5)
+  Previous issue date: 2004-05-21",,,,"Findings of this concept analysis provide up-to-date conceptual and operational foundations for clinicians, researchers, and theorists interested in the concept. To our knowledge,this is one of the first articles exploring in such depth the concept of health information– seeking behavior (HISB). This analysis initially examined the definitions of and contexts related to HISB and the concept’s boundaries and operationalizations. This section of the analysis was challenging primarily because of the large amount of literature available and lack of clear definitions and/or theoretical frameworks, and consensus on the meaning of HISB. It is apparent that the concept of HISB is used within many contexts, particularly in relation to illness-related coping, and has great appeal to multiple disciplines. Together,researchers have attempted to understand, explain, or predict individuals’quests for health-related information, with an underlying assumption that seeking information is often desirable and central to health and illness behaviors. In addition, insights into whether HISB is a trait (i.e., a relatively stable characteristic) or a state (i.e., according to the particular circumstance) has been provided, which, in turn, is important to consider when measuring HISB. In the second part of the analysis, we focused on clarifying and offering additional insights into the concept’s key components, including its antecedents,
+characteristics, and outcomes. Although HISB has received considerable attention in the literature, there has been less focus on examining the concept’s key dimensions. Identification of the two main dimensions of HISB (information and method dimension) clarifies the core meaning of the concept. Using these key dimensions affords a more throughout identification and discussion of individuals’actual HISB. The degree to which emphasis has been put on each dimension of HISB varies among authors. Most researchers have examined either dimension of HISB, but rarely have they attended to both despite suggestions that HISB is best understood as a composite of information and method-related behaviors (Lenz, 1984). Therefore, a more comprehensive understanding of HISB might lie in examining individuals’patterns of HISB, that is, the particular ways in which individuals sequence components of the information and method dimensions within a given situation (and over time) to satisfy their information needs (Dunne, 2002; Echlin & Rees, 2002; Huber & Cruz, 2000; Szwajcer et al., 2005). Patterns of HISB reflect individuals’ selectivity in the type and amount of information needed and sources and actions used, and best capture the uniqueness of each individual search for information. As such, HISB might best be reconceptualized from an either/or single behavior to an agglomeration of information and method behaviors. Such a reconceptualization further challenges traditional operationalization of HISB as categorically seekers or avoiders (Loiselle,Lambert,& Dubois, 2006). General definitions of seekers and avoiders focus on whether the information is sought or not, with little consideration of the individual’s overall information environment. Typical categorizations of seekers or avoiders do not optimally capture differential patterns of HISB and might contribute to the misclassification of individuals’ HISB. For example, if a pregnant woman does not want to be told the sex of her fetus as it might appear on the ultrasound but might be opened to “folk” tales about how to tell whether the fetus is a girl or a boy (Loiselle, Lambert, & Dubois, 2006), how should these HISB be categorized? Findings from this concept analysis can be used to theorize on HISB. Particularly, a fine-grained analysis of HISB requires attention to individuals’ patterns of HISB,its situational and personal antecedents,and their interaction effects. Some of the following questions could be considered: What differentiates individuals’ patterns of HISB? How do patterns of HISB vary across context and time? What are the consequences of different patterns? Such an analysis would further document
+ © 2007 SAGE Publications. All rights reserved. Not for commercial use or unauthorized distribution. at MCGILL UNIVERSITY LIBRARIES on October 10, 2007 http://qhr.sagepub.comDownloaded from 
+1016 Qualitative Health Research
+individuals’ selectivity and variability when seeking information and can be integrated into current models to explain HISB beyond the mere seeker-versus-avoider dichotomy. In addition, much of the research on HISB centers on illnesses, such as cancer, HIV, and heart disease,there is a need also to understand patterns of HISB in a variety of other contexts and in various stages of health and illness. How patterns of HISB differ in different groups,such as across cultures and within different age groups,also needs to be explored further. All of these questions indicate further areas in which to develop and clarify the concept of HISB and demonstrate the need to collect new data using qualitative methods. We have recently undertaken a qualitative study to explore further patterns of HISB among individuals diagnosed with breast, prostate, or colorectal cancer (Lambert & Loiselle, 2005). This exploration is contributing to a better understanding of the complexities and subtleties of HISB, such as the Differential Health Information Seeking Behavior (DHISB) scale (Loiselle & Lambert, 2007). HISB is of interest to health professionals because of its potential influence on the process and outcome related to psychosocial adjustment to illness. In addition, the concept of HISB as presented herein might be most relevant to practice as key dimensions are clearly outlined; making its assessment accessible and comprehensive. Such a clear and precise definition of HISB will also assist researchers and clinicians in tailoring their informational interventions to individuals’needs and preferences.",,,,,"http://hdl.handle.net/10673/152",,"en",,,"Sage publication",,,,,,,,"concept analysis; information seeking; health information||articler",,"Qualitative Health Research",,,"Health Information–Seeking Behavior",,
+"46492bab-139d-494c-821d-c6db500fd8f4","10673/119","Papadatos, Joseph::28df22eb-91fe-49c3-9368-53d638e55285::600",,,"2022-04-26T10:59:31Z",,"2022-04-26T10:59:31Z",,,,"2015",,,,,,"Information seeking is an important activity in every person’s life. In the literature of information seeking and information retrieval a number of 
+broad frameworks have been proposed for understanding user information seeking. These, among others, include Krikelas’ (1983) model, Bates’ 
+(1989) ‘berry picking’ model of information searching, Ellis’ (1989) information searching model, Kuhlthau’s (1991) model of the information 
+search process, Dervin’s (1992) sense making model, Ingwersen’s (1992) cognitive model, Savolainen’s (1995) everyday life information 
+seeking model, Leckie et al. (1996) model of the information seeking of professionals, Saracevic’s model of stratified interaction (1996), and 
+Wilson’s (1999) macro-model for information seeking behaviour. The proposed omnibus macro-models of information seeking, however,
+provide broad perspectives that need further analysis in order to be useful frameworks within different specialized contexts (Bawden, 2006; 
+Wilson, 2006). Further dwelling into specific contexts (music, art, healthcare, etc.) allows linking theoretical considerations for information 
+seeking with real-life situations and, provides the opportunity to develop efficient information services which may have a direct impact on 
+peoples’ everyday practical activities as well as their wider personal and work-related goals.","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-26T10:59:31Z
+No. of bitstreams: 2
+for dspace.pdf: 413793 bytes, checksum: eab65dc1aae8cf23c139485c9b1a8611 (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)||Made available in DSpace on 2022-04-26T10:59:31Z (GMT). No. of bitstreams: 2
+for dspace.pdf: 413793 bytes, checksum: eab65dc1aae8cf23c139485c9b1a8611 (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)
+  Previous issue date: 2015",,"No",,,,"Citation for the publisher’s version:",,,"http://hdl.handle.net/10673/151",,"en",,,,,"http://creativecommons.org/publicdomain/zero/1.0/",,"CC0 1.0 Universal",,,,"Music information, musical creativity, creative thinking in music",,,,,"Music information seeking behaviour as motivator for musical creativity: Conceptual analysis and literature review",,
+"672355f0-61ac-482b-b51f-2ba819b3d63f","10673/142","Gadgil, madhav::daf72419-b101-4ea6-82e6-d38657a1c053::600||berkes, fircate::eb00e3a3-80cb-4783-a73f-6fc0c49f8650::600||folke, carl::4c48a980-d5a6-499f-bc38-20e66dc1e825::600",,,"2022-04-26T10:46:45Z",,"2022-04-26T10:46:45Z",,,,"2017-02",,,,,,"Indigenous Knowledge for Biodiversit Conservation","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-26T10:46:44Z
+No. of bitstreams: 0||Made available in DSpace on 2022-04-26T10:46:45Z (GMT). No. of bitstreams: 0
+  Previous issue date: 2017-02",,,,,,,"1522-0222",,"http://hdl.handle.net/10673/147",,,,,"Interenational journal of bio resource , Envirtonment and  agricultural  sciences",,,,,,,,"Bio- diversityt, indigenous knowledge,local culture,,traditional fermerts||pest management",,,,,"Indigenous Knowledge for Biodiversit Conservation",,
+"a5886910-bf33-476d-befe-9e6acc1656d1","10673/136","BHATTACHARYA, PARTHA::856db4b8-9803-4110-9df3-7410810eec24::600",,,"2022-04-26T10:47:25Z",,"2022-04-26T10:47:25Z",,,,"2008-07",,,,,,"he paper deals with the digital library initiatives in seven IITs out of the fifteen IITs, which are existing
+today. The study has revealed certain interesting facts in the IIT Systems with regard to digital library
+initiatives, such as ETD, Copyright Policy; Automation of the Library systems etc. The study is mainly
+based on the questionnaire surveys carried out in these institutes for both the user community of the
+Digital Library systems & the Library Professionals of these institutions which are providing the
+Digital Library InformatonN","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-26T10:47:25Z
+No. of bitstreams: 2
+AutomationofJamiaHamdard.pdf: 1876935 bytes, checksum: 10ed3ed64388827e9af5ac69b83bba5b (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)||Made available in DSpace on 2022-04-26T10:47:25Z (GMT). No. of bitstreams: 2
+AutomationofJamiaHamdard.pdf: 1876935 bytes, checksum: 10ed3ed64388827e9af5ac69b83bba5b (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)
+  Previous issue date: 2008-07",,,,,,,,,"http://hdl.handle.net/10673/150",,"en",,,"ILA BULLETIN 2008, 44(3-4) 5-19",,"http://creativecommons.org/publicdomain/zero/1.0/",,"CC0 1.0 Universal",,,,"Digital Library Initiatives in IITs",,,,,"Digital Library Initiatives in IITs: An Overview",,
+"57bdd476-91de-4812-8b47-54c8c9fc607c","10673/128","jamil, ahmed::e7afd8d5-0532-4d9c-8bb3-433a877c90e4::600",,,"2022-04-27T06:17:48Z",,"2022-04-27T06:17:48Z",,,,"2022",,,,,,"ABCD","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-27T06:17:48Z
+No. of bitstreams: 2
+Choosing-the-Right-Institution-of-Higher-Education-Could-Really-Be-Tough!.pdf: 2083008 bytes, checksum: 43d9daf4ccf244e354db64328daab3f7 (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)||Made available in DSpace on 2022-04-27T06:17:48Z (GMT). No. of bitstreams: 2
+Choosing-the-Right-Institution-of-Higher-Education-Could-Really-Be-Tough!.pdf: 2083008 bytes, checksum: 43d9daf4ccf244e354db64328daab3f7 (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)
+  Previous issue date: 2022",,,,,,"LIBRARY CLASSIFICATION, 2022,VOL.3. NO.6","456788-45667",,"https://doi.org/10.1016/j.neucom.2022.04.093||http://hdl.handle.net/10673/154",,"en_US",,,"ESS","343567;7788","http://creativecommons.org/publicdomain/zero/1.0/",,"CC0 1.0 Universal",,,,"LIBRARY||CLASSIFICATION",,,,,"library classification",,
+"24b7cd71-a32d-4687-936c-01398cd659af","10673/11","Bloggs, J::5ff97212-edb5-4994-a699-e77be9ac353b::500",,,"2022-04-27T05:54:16Z",,"2016||2022-04-27T05:54:16Z",,,,,,"2022-04-27T05:54:16Z","A deposit from Archivematica||Abstract text here",,,,"Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-27T05:54:16Z
+No. of bitstreams: 3
+sword-2022-04-27T05:54:15.original.xml: 597 bytes, checksum: ddcc4aa6ff4b19405fc6adffa7216700 (MD5)
+content.zip: 267 bytes, checksum: b2b10a6551a8d71e056a39a4fc028370 (MD5)
+content.zip: 267 bytes, checksum: b2b10a6551a8d71e056a39a4fc028370 (MD5)||Made available in DSpace on 2022-04-27T05:54:16Z (GMT). No. of bitstreams: 3
+sword-2022-04-27T05:54:15.original.xml: 597 bytes, checksum: ddcc4aa6ff4b19405fc6adffa7216700 (MD5)
+content.zip: 267 bytes, checksum: b2b10a6551a8d71e056a39a4fc028370 (MD5)
+content.zip: 267 bytes, checksum: b2b10a6551a8d71e056a39a4fc028370 (MD5)",,,,,"archivematica:id:123456",,,,"http://hdl.handle.net/10673/153",,,,,,,,,,,,,,"A file deposited from Archivematica via SWORD",,,,,,
+"2e9ab11e-fb85-4206-b681-5842e02094b1","10673/124","GEOFFREY C. KIEL, ROGER A. LAYTON::4b5e58c3-49ea-46f7-a65e-5501578d88aa::0",,,"2022-04-28T02:26:49Z",,"2022-04-28T02:26:49Z",,,,"2022-04-26",,,,,,"In a comprehensive study of the behaviors and correlates of information seeking by Australian new car buyers, the authors examine three dimensions of information seeking-a sources of information dimension, a brand dimension, and a time dimension. Cluster analysis is used to develop consumer taxonomies of search behavior based on measurements of each of the dimensions. The resulting taxonomies are a high search group, a low search group, and three clusters collectively styled selective information seekers. Examination of the correlates of the individual search dimensions suggests that only certain predictors of search behavior are related to the different search","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-28T02:26:49Z
+No. of bitstreams: 2
+ARTICLE.pdf: 495062 bytes, checksum: 3219ebf262a713fa01c08ecb6d32effa (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)||Made available in DSpace on 2022-04-28T02:26:49Z (GMT). No. of bitstreams: 2
+ARTICLE.pdf: 495062 bytes, checksum: 3219ebf262a713fa01c08ecb6d32effa (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)
+  Previous issue date: 2022-04-26",,,,,,,,,"http://hdl.handle.net/10673/157",,"en",,,"Sage Publications, Inc. on behalf of American Marketing Association",,"http://creativecommons.org/publicdomain/zero/1.0/",,"CC0 1.0 Universal",,,,,,,,,"Dimensions of Consumer Information Seeking Behavior",,
+"b2869c8d-79fb-48d4-94fc-ea9a29b46e46","10673/2","SHELDON::eefe3291-4a5e-4997-a975-de16b03c5de1::600",,,"2022-04-28T05:41:40Z",,"2022-04-28T05:41:40Z",,,,"2022-02-09",,,,,,,"Submitted by Demo Submitter (dspacedemo+submit@gmail.com) on 2022-04-28T05:41:40Z
+No. of bitstreams: 0||Made available in DSpace on 2022-04-28T05:41:40Z (GMT). No. of bitstreams: 0
+  Previous issue date: 2022-02-09",,,,,,,,,"http://hdl.handle.net/10673/158",,,,,,,,,,,,,,,,,,"Library House-Keeping",,
+"7d8121d2-8e7c-4b49-b7f0-88831cdd17e2","10673/2",,,"Cat, Lily","2022-04-28T07:53:29Z",,"1982-06-26T19:58:24Z||2022-04-28T07:53:29Z",,,"1982-11-11","1982-11-11",,,,,,"This is a Sample HTML webpage including several images and styles (CSS).","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-28T07:53:29Z
+No. of bitstreams: 8
+Lily-cat-of-day.htm: 39970 bytes, checksum: aae901336b56ae14070fdec8c79dd48e (MD5)
+cl_style.css: 1181 bytes, checksum: 58178d41c221520d88333b9d482b31b8 (MD5)
+kitty-1257950690.jpg: 83390 bytes, checksum: 729596bb3ad09ebe958a150787418212 (MD5)
+kitty-1257950690_002.jpg: 86057 bytes, checksum: 37c07c8488042d064bd945765d9e2f98 (MD5)
+logo.png: 4157 bytes, checksum: d64fb5f69c7820685d5ed3037b9670ed (MD5)
+style.css: 49623 bytes, checksum: 89c2a0557993a8665574c0b52fc1582d (MD5)
+stylesheet.css: 877 bytes, checksum: d2b580ac1c89ae88dc05dcd9108b002e (MD5)
+53bc0d189cc7e.pdf: 481566 bytes, checksum: 1e0c67e0daa250652974be12ef27dee4 (MD5)||Made available in DSpace on 2022-04-28T07:53:29Z (GMT). No. of bitstreams: 8
+Lily-cat-of-day.htm: 39970 bytes, checksum: aae901336b56ae14070fdec8c79dd48e (MD5)
+cl_style.css: 1181 bytes, checksum: 58178d41c221520d88333b9d482b31b8 (MD5)
+kitty-1257950690.jpg: 83390 bytes, checksum: 729596bb3ad09ebe958a150787418212 (MD5)
+kitty-1257950690_002.jpg: 86057 bytes, checksum: 37c07c8488042d064bd945765d9e2f98 (MD5)
+logo.png: 4157 bytes, checksum: d64fb5f69c7820685d5ed3037b9670ed (MD5)
+style.css: 49623 bytes, checksum: 89c2a0557993a8665574c0b52fc1582d (MD5)
+stylesheet.css: 877 bytes, checksum: d2b580ac1c89ae88dc05dcd9108b002e (MD5)
+53bc0d189cc7e.pdf: 481566 bytes, checksum: 1e0c67e0daa250652974be12ef27dee4 (MD5)
+  Previous issue date: 1982-11-11",,,,,,,"123456789",,"http://hdl.handle.net/10673/4.2",,,"en",,,,,,,,"© EverCats.com",,"cat||calico",,,,,"Test Webpage",,
+"bd2cdd98-00ce-4a3f-9f62-862f2399db7e","10673/167||10673/168||10673/170","ram, sarvanan::bc3bfddf-5cd0-44c1-8ed1-0dccb4a78bdb::0||seorawam, jaze,::599973b9-1909-4f8b-b486-8d21c4291f61::0||kumar, satish KS::46418572-5303-4da0-ac49-260ef41b01ad::0||CLARK, glenn t::ac363928-59c9-4f95-b578-49226f5e8f7a::0",,,"2022-04-28T08:34:55Z",,"2022-04-28T08:34:55Z",,,,"2010-02-01",,,,,,"epidemiologic studies on sleep disorders in the USA have mostly focused on specific disorders in specific groups of individuals. Most studies on sleep-related difficulties have  focused on children and adolescents.","Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-28T08:34:55Z
+No. of bitstreams: 2
+psychologicaldevelopment.pdf: 237425 bytes, checksum: 997d54940d21209fbdc60384f06d70b8 (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)||Made available in DSpace on 2022-04-28T08:34:55Z (GMT). No. of bitstreams: 2
+psychologicaldevelopment.pdf: 237425 bytes, checksum: 997d54940d21209fbdc60384f06d70b8 (MD5)
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)
+  Previous issue date: 2010-02-01",,,,,,,,,"http://hdl.handle.net/10673/169",,"en",,,"springer-verlag,","14 ,issue1;","http://creativecommons.org/publicdomain/zero/1.0/",,"CC0 1.0 Universal",,,,,,,,,"prevalence and impact of sleep disorders and sleep habits in the united states",,"Other"
+"749926ec-720e-4001-ad21-5e7fa6a1747d","10673/176","Sharma, Amit::adfb1535-decb-446b-acc2-fbae95616b0a::600",,,"2022-04-28T09:23:35Z",,"2022-04-28T09:23:35Z",,,,"2022-04-28",,,,,,,"Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-28T09:23:35Z
+No. of bitstreams: 2
+DSpace-5_Introduction.pdf: 1922982 bytes, checksum: 58011bacd967dfa348b2fc95df9885c6 (MD5)
+license_rdf: 811 bytes, checksum: 9868ccc48a14c8d591352b6eaf7f6239 (MD5)||Made available in DSpace on 2022-04-28T09:23:35Z (GMT). No. of bitstreams: 2
+DSpace-5_Introduction.pdf: 1922982 bytes, checksum: 58011bacd967dfa348b2fc95df9885c6 (MD5)
+license_rdf: 811 bytes, checksum: 9868ccc48a14c8d591352b6eaf7f6239 (MD5)
+  Previous issue date: 2022-04-28",,,,,,,,,"http://hdl.handle.net/10673/177",,"en",,,"MLB College",,"http://creativecommons.org/licenses/by-nc-nd/3.0/us/",,"Attribution-NonCommercial-NoDerivs 3.0 United States",,,,"LIS||Dspace||Repository||IR",,,,,"Dspace PPT",,
+"5738cf6b-abd7-4ab0-81a2-31c5d326e754","10673/2","Sheldon, Young::e59466bf-8bf8-4299-bfe5-8e75e3805fc8::600",,,"2022-04-28T09:27:35Z",,"2022-04-28T09:27:35Z",,,,"2022-04-28",,,,,,,"Submitted by Demo Submitter (dspacedemo+submit@gmail.com) on 2022-04-28T09:27:35Z
+No. of bitstreams: 1
+license_rdf: 920 bytes, checksum: dd65805249d68ea862568f59102935ac (MD5)||Made available in DSpace on 2022-04-28T09:27:35Z (GMT). No. of bitstreams: 1
+license_rdf: 920 bytes, checksum: dd65805249d68ea862568f59102935ac (MD5)
+  Previous issue date: 2022-04-28",,,,,,,,,"http://hdl.handle.net/10673/178",,"en",,,"COMMUNITY PUBLISHER",,"http://creativecommons.org/licenses/by-nc/3.0/us/",,"Attribution-NonCommercial 3.0 United States",,,,,,,,,"The Alchemist",,
+"95ba2b5b-b53e-46a4-b6ab-7b065f676278","10673/2","Ranganathan, S.R::4e323b98-7912-4cb3-8cff-97ddc7771429::600",,,"2022-04-28T09:30:47Z",,"2022-04-28T09:30:47Z",,,,"2022-04-08",,,,,,,"Submitted by Demo Submitter (dspacedemo+submit@gmail.com) on 2022-04-28T09:30:47Z
+No. of bitstreams: 1
+license_rdf: 805 bytes, checksum: 5812a2eee99d5585fc0c26f0033099bb (MD5)||Made available in DSpace on 2022-04-28T09:30:47Z (GMT). No. of bitstreams: 1
+license_rdf: 805 bytes, checksum: 5812a2eee99d5585fc0c26f0033099bb (MD5)
+  Previous issue date: 2022-04-08",,,,,,,,,"http://hdl.handle.net/10673/179",,"en_US",,,,,"http://creativecommons.org/licenses/by-nd/3.0/us/",,"Attribution-NoDerivs 3.0 United States",,,,,,,,,"Knowledge Organisation",,
+"cee5f01b-689d-4b0b-b9b0-99da6bb71ef6","10673/2","Ranganathan::35068d94-70ce-44fe-8aa7-8ad21dc3d4f0::600",,,"2022-04-28T09:43:27Z",,"2022-04-28T09:43:27Z",,,,"2003-04-28",,,,,,,"Submitted by Demo Submitter (dspacedemo+submit@gmail.com) on 2022-04-28T09:43:27Z
+No. of bitstreams: 1
+license_rdf: 811 bytes, checksum: 9868ccc48a14c8d591352b6eaf7f6239 (MD5)||Made available in DSpace on 2022-04-28T09:43:27Z (GMT). No. of bitstreams: 1
+license_rdf: 811 bytes, checksum: 9868ccc48a14c8d591352b6eaf7f6239 (MD5)
+  Previous issue date: 2003-04-28",,,,,,,,,"http://hdl.handle.net/10673/183",,,,,,,"http://creativecommons.org/licenses/by-nc-nd/3.0/us/",,"Attribution-NonCommercial-NoDerivs 3.0 United States",,,,,,,,,"Prolegomena to library classification",,
+"5f0a0cbb-b289-453f-9135-8a7346084ea0","10673/2","smith, John::99cea00c-7cd4-49d3-9336-29610b828e59::600",,,"2022-04-28T09:40:08Z",,"2022-04-28T09:40:08Z",,,,"2012-01-30",,,,,,,"Submitted by Demo Submitter (dspacedemo+submit@gmail.com) on 2022-04-28T09:40:08Z
+No. of bitstreams: 1
+license_rdf: 811 bytes, checksum: 9868ccc48a14c8d591352b6eaf7f6239 (MD5)||Made available in DSpace on 2022-04-28T09:40:08Z (GMT). No. of bitstreams: 1
+license_rdf: 811 bytes, checksum: 9868ccc48a14c8d591352b6eaf7f6239 (MD5)
+  Previous issue date: 2012-01-30",,,,,,,,,"http://hdl.handle.net/10673/182",,"en",,,,,"http://creativecommons.org/licenses/by-nc-nd/3.0/us/",,"Attribution-NonCommercial-NoDerivs 3.0 United States",,,,,,,,,"The First Flight",,
+"b5b4b72d-c81e-47d0-9ec0-09e4458ec641","10673/2","kumar, Rahul::060dc5e4-4be2-4b24-b673-3bdc49958afe::600",,,"2022-04-28T09:33:51Z",,"2022-04-28T09:33:51Z",,,,"1999-02-02",,,,,,,"Submitted by Demo Submitter (dspacedemo+submit@gmail.com) on 2022-04-28T09:33:50Z
+No. of bitstreams: 1
+license_rdf: 811 bytes, checksum: 9868ccc48a14c8d591352b6eaf7f6239 (MD5)||Made available in DSpace on 2022-04-28T09:33:51Z (GMT). No. of bitstreams: 1
+license_rdf: 811 bytes, checksum: 9868ccc48a14c8d591352b6eaf7f6239 (MD5)
+  Previous issue date: 1999-02-02",,,,,,,,,"http://hdl.handle.net/10673/180",,"en",,,,,"http://creativecommons.org/licenses/by-nc-nd/3.0/us/",,"Attribution-NonCommercial-NoDerivs 3.0 United States",,,,,,,,,"The Lost Love",,
+"c173aecc-d293-4b82-89f9-8879cbcbba31","10673/2",,,,"2022-04-28T09:37:55Z",,"2022-04-28T09:37:55Z",,,,"2003-01-28",,,,,,,"Submitted by Demo Submitter (dspacedemo+submit@gmail.com) on 2022-04-28T09:37:55Z
+No. of bitstreams: 1
+license_rdf: 811 bytes, checksum: 9868ccc48a14c8d591352b6eaf7f6239 (MD5)||Made available in DSpace on 2022-04-28T09:37:55Z (GMT). No. of bitstreams: 1
+license_rdf: 811 bytes, checksum: 9868ccc48a14c8d591352b6eaf7f6239 (MD5)
+  Previous issue date: 2003-01-28",,,,,,,,,"http://hdl.handle.net/10673/181",,,,,,,"http://creativecommons.org/licenses/by-nc-nd/3.0/us/",,"Attribution-NonCommercial-NoDerivs 3.0 United States",,,,,,,,,"Naga history",,
+"193fded2-eb42-4bdd-a49a-0a18b541efb9","10673/2","Sin, Sirji::3a333b01-8b63-432d-be42-a8c1318371af::600",,,"2022-04-28T09:46:04Z",,"2022-04-28T09:46:04Z",,,,"2022-04-28",,,,,,,"Submitted by Demo Submitter (dspacedemo+submit@gmail.com) on 2022-04-28T09:46:04Z
+No. of bitstreams: 1
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)||Made available in DSpace on 2022-04-28T09:46:04Z (GMT). No. of bitstreams: 1
+license_rdf: 701 bytes, checksum: 42fd4ad1e89814f5e4a476b409eb708c (MD5)
+  Previous issue date: 2022-04-28",,,,,,,,,"http://hdl.handle.net/10673/184",,"en",,,,,"http://creativecommons.org/publicdomain/zero/1.0/",,"CC0 1.0 Universal",,,,,,"The under world",,,"Into the unknown",,
+"35aec40f-845d-4bac-9ef4-ffa162caf633","10673/128","Pim Reis, Julia::4ce16c59-f742-443b-91c1-fae48d91326e::600",,,"2022-04-28T10:54:29Z",,"2022-04-28T10:54:29Z",,,,"2022",,,,,,,"Submitted by Demo Administrator (dspacedemo+admin@gmail.com) on 2022-04-28T10:54:29Z
+No. of bitstreams: 1
+S11L1U0024.mp4: 28784988 bytes, checksum: cb83a0e715cf3683e3a81bd0db06378f (MD5)||Made available in DSpace on 2022-04-28T10:54:29Z (GMT). No. of bitstreams: 1
+S11L1U0024.mp4: 28784988 bytes, checksum: cb83a0e715cf3683e3a81bd0db06378f (MD5)
+  Previous issue date: 2022",,,,,,,,,"http://hdl.handle.net/10673/185",,,,,,,,,,,,,,,,,,"testing readiness",,
