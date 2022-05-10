@@ -22,6 +22,7 @@
 ###################################################################
 ## Root variables
 export RELENG_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P )"
+source $RELENG_SCRIPT_DIR/lib/cleanup.sh
 export BUNDLES=$(cd $RELENG_SCRIPT_DIR/../../bundles; pwd -P)
 export RELENG=$(cd $RELENG_SCRIPT_DIR/../../releng; pwd -P)
 export DEPLOY=$(cd $RELENG_SCRIPT_DIR/../../deploy; pwd -P)

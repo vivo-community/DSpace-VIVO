@@ -27,5 +27,12 @@ PREFIX vivo:     <http://vivoweb.org/ontology/core#>
 PREFIX scires:   <http://vivoweb.org/ontology/scientific-research#>
 PREFIX vann:     <http://purl.org/vocab/vann/>
 PREFIX dspace:   <http://vivoweb.org/ontology/dspace#> 
+PREFIX dspace-demo:   <https://demo7.dspace.org/resource/>
+PREFIX vitro:   <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> 
+PREFIX terms:   <http://purl.org/dc/terms/> 
+PREFIX card:   <http://www.w3.org/2006/vcard/ns#> 
+PREFIX bo:   <http://purl.obolibrary.org/obo/> 
+PREFIX vo-core:   <http://vivoweb.org/ontology/core#> 
+PREFIX bibo:   <http://purl.org/ontology/bibo/> 
 
 construct { ?s ?p ?o } where { ?s ?p ?o }

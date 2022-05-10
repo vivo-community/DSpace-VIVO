@@ -79,10 +79,10 @@ public class HarvesterRunner {
                 String stringModel = ParserHelper.dumpModelNtriples(repoModel);
                 Files.write(Paths.get(transformedFileName), stringModel.getBytes(StandardCharsets.UTF_8));
                 logger.info(transformedFileName);
-                if (count > 50 ) {
-                    logger.info("Done!");
-                    System.exit(0);
-            }
+//                if (count > 50 ) {
+//                    logger.info("Done!");
+//                    System.exit(0);
+//            }
             }
         }
     }

@@ -140,7 +140,7 @@ public class OAIPMHResponse {
         Elements list = result.getElementsByTag("oai_dc");
 
         String id = resp.getId();
-        String uri = this.prop.getProperty("uriPrefix") + id;
+        String uri = this.prop.getProperty("uriPrefix") + id.replace("/","_");
         resp.setListOfStatementLiterals(new ArrayList());
         for (Element e : list.get(0).children()) {
             String text = e.text();
@@ -148,7 +148,15 @@ public class OAIPMHResponse {
 
             switch (tag) {
                 case "dc:identifier":
-                    resp.setUri(text);
+                    resp.setUrl(text);
+                    /*
+                     * Replace last '/' by '_' to define URI
+                     */
+                    resp.setUri(uri);
+//                    StringBuffer sb = new StringBuffer(text);
+//                    int index=sb.lastIndexOf("/");    
+//                    sb.replace(index,1+index,"_");    
+//                    resp.setUri(sb.toString());
                     break;
                 case "dc:bundle":
                     resp.setDspaceBitstreamURL(text);
@@ -167,7 +175,11 @@ public class OAIPMHResponse {
 
         return resp;
     }
-
+    public String urlToUri(String url, String id) {
+        String pragma = id.replace("/", "_");
+        String uri =  url.replaceAll(id, pragma);
+        return uri;
+    }
     public List<String> getSetSpec() {
         return setSpec;
     }

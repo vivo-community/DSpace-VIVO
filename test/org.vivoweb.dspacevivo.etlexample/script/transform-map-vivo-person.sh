@@ -21,7 +21,7 @@ while read name; do
     ((j=j+1))
     if [ $j = "25" ]
     then
-        wait; ((j=0)) ; echo "($LOOP_CTR/$NBR_FILE)====================" ; sleep 0.1  
+        wait; ((j=0)) ; echo "($LOOP_CTR/$NBR_FILE)====================" ; sleep 0.1 
     else
         sleep 0.10 
     fi

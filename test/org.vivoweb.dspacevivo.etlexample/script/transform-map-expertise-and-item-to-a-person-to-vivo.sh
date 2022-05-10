@@ -38,10 +38,12 @@ select ?sub
     } 
 EOF
 cd $ETL_DIR_TRANSFORM
-for f in  10673_7659.ntriples
+NBR_FILE=$(ls *.ntriples | wc -l)
+for f in  *.ntriples
 do
+    ((LOOP_CTR=LOOP_CTR+1))
     fileName=$(realpath $f)
-    echo "Processing $f"
+    echo "($LOOP_CTR/$NBR_FILE) Processing $f"
     BN=$(basename $f .ntriples)
     cp $fileName $TMPDIR/$BN.nt
     ITEM_URI=$(sparql --data=$TMPDIR/$BN.nt --query=$ITEM_URI_QUERY --results=TSV 2>/dev/null | func-skip-first-line.sh | func-remove-brace-to-uri.sh) 
@@ -50,7 +52,7 @@ do
     while read aPerson; do 
         while read anExpertise; do 
             echo "$aPerson $anExpertise"
-            map-expertise-and-item-to-a-person-to-vivo.sh "$anExpertise" "$aPerson" $ITEM_URI&
+            map-expertise-and-item-to-a-person-to-vivo.sh "$anExpertise" "$aPerson" $ITEM_URI &
         done <<< " $LIST_OF_EXPERT" 
     done <<< " $LIST_OF_PERSON" 
     wait

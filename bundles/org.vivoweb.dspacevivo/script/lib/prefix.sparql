@@ -27,3 +27,4 @@ PREFIX vivo:     <http://vivoweb.org/ontology/core#>
 PREFIX scires:   <http://vivoweb.org/ontology/scientific-research#>
 PREFIX vann:     <http://purl.org/vocab/vann/>
 PREFIX dspace:   <http://vivoweb.org/ontology/dspace#> 
+PREFIX dspace-demo:   <https://demo7.dspace.org/resource/>

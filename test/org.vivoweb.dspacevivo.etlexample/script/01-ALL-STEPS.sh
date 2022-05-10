@@ -12,7 +12,7 @@
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $SCRIPT_DIR/00-env.sh
 ###################################################################
-* Produce all list
+# Produce all list
 ###########################
 echo run produce-list-of-expertise.sh
 produce-list-of-expertise.sh

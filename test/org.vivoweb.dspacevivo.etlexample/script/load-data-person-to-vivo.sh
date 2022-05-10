@@ -18,6 +18,7 @@ do
     fileName=$(realpath $f)
     echo "Processing $f"
     cat $fileName >> $TMPDIR/all.ntriples
+
 #    grep terms/type $fileName
 done
 echo "Loading all files to VIVO"
