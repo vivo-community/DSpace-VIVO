@@ -21,7 +21,7 @@ do
     echo "Processing ($LOOP_CTR/$NBR_FILE) $f"
     (map-vivo-doc-type.sh $f > $ETL_DIR_TRANSFORM_DOC_TYPE/$f )&
     ((j=j+1))
-    if [ $j = "20" ]
+    if [ $j = "10" ]
     then
         wait; ((j=0)) ;  echo =========; sleep 0.1
          

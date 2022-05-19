@@ -27,7 +27,7 @@ import javax.validation.Valid;
 /**
  * Collection
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-05-04T10:29:37.432-04:00[America/New_York]")public class Collection   {
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-05-19T15:36:16.472926-04:00[America/New_York]")public class Collection   {
   @JsonProperty("dspaceType")
   private String dspaceType = "collection";
 

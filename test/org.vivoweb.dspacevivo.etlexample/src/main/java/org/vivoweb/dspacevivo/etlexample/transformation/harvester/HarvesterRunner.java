@@ -16,6 +16,7 @@ import org.apache.jena.rdf.model.Model;
 import org.apache.jena.sparql.SystemARQ;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.vivoweb.dspacevivo.etlexample.transformation.harvester.config.HarvesterConfiguration;
 import org.vivoweb.dspacevivo.model.Collection;
 import org.vivoweb.dspacevivo.model.Community;
 import org.vivoweb.dspacevivo.model.Item;
@@ -23,7 +24,7 @@ import org.vivoweb.dspacevivo.model.Repository;
 import org.vivoweb.dspacevivo.model.util.DSpaceObjectMapperHelper;
 import org.vivoweb.dspacevivo.transformation.DspaceItemParser;
 import org.vivoweb.dspacevivo.transformation.harvester.DspaceHarvester;
-import org.vivoweb.dspacevivo.transformation.harvester.config.HarvesterConfiguration;
+
 import org.vivoweb.dspacevivo.transformation.harvester.oai.DspaceOAI;
 import org.vivoweb.dspacevivo.transformation.harvester.restv7.RESTv7Harvester;
 import org.vivoweb.dspacevivo.vocab.util.ParserHelper;
@@ -45,15 +46,16 @@ public class HarvesterRunner {
         logger.info("Creating DspaceVivoParser");
         dspaceVioItemparser = new DspaceItemParser();
         Properties conf = HarvesterConfiguration.getConf();
+
         switch (conf.getProperty(TYPE)) {
-            case "RESTv7":
-                logger.info("Connecting to REST endpoint");
-                dh = new RESTv7Harvester(conf);
-                break;
-            case "OAI":
-                logger.info("Connecting to OAI-PMH endpoint");
-                dh = new DspaceOAI(conf);
-                break;
+        case "RESTv7":
+            logger.info("Connecting to REST endpoint");
+            dh = new RESTv7Harvester(conf);
+            break;
+        case "OAI":
+            logger.info("Connecting to OAI-PMH endpoint");
+            dh = new DspaceOAI(conf);
+            break;
         }
         setExtractDir(conf.getProperty(ETL_DIR_EXTRACT));
         setTransformDir(conf.getProperty(ETL_DIR_TRANSFORM));
@@ -81,8 +83,8 @@ public class HarvesterRunner {
                 logger.info(transformedFileName);
 //                if (count > 50 ) {
 //                    logger.info("Done!");
-//                    System.exit(0);
-//            }
+//                    break;
+//                }
             }
         }
     }

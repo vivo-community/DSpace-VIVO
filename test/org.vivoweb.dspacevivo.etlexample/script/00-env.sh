@@ -23,6 +23,8 @@ function prop {
 #export ETL_DIR_EXTRACT=$WORKDIR/$(prop etl.dir.extract)
 #export ETL_DIR_TRANSFORM=$WORKDIR/$(prop etl.dir.transform)
 export DATA_DIR=$(cd $WORKDIR/data ; pwd -P)
+export DATA_DEMO6_DIR=$(cd $WORKDIR/data_src_dspace6 ; pwd -P)
+export DATA_DEMO7_DIR=$(cd $WORKDIR/data_src_dspace7 ; pwd -P)
 export ETL_DIR_EXTRACT=$DATA_DIR/extract
 export ETL_DIR_TRANSFORM=$DATA_DIR/transform
 export ETL_DIR_TRANSFORM_DOC_TYPE=$(cd ${ETL_DIR_TRANSFORM}_doc_type ; pwd -P)

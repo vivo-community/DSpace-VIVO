@@ -8,9 +8,9 @@ cd DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/00-INIT/
 # Install dans compile VIVO 
 cd ../01-VIVO/
 vivo-git-clone.sh 
-vivo-compile-and-deploy-for-tomcat.sh 
 
-# RUN VIVO 
+# RUN VIVO
+vivo-compile-and-deploy-for-tomcat.sh 
 solr-start.sh 
 tomcat-start.sh 
-vivo-browse.sh 
+browse-vivo.sh

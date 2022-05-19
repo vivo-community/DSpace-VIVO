@@ -14,4 +14,4 @@ source $SCRIPT_DIR/00-env.sh
 cd $WORKDIR/installer
 mvn install
 cd $WORKDIR
-mvn install
+mvn dependency:copy-dependencies install -DoutputDirectory=$LIB

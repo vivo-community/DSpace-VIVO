@@ -19,7 +19,7 @@ while read name; do
     echo "($LOOP_CTR/$NBR_FILE) Processing $name"
     map-name-to-vivo-person.sh "$name" & 
     ((j=j+1))
-    if [ $j = "25" ]
+    if [ $j = "15" ]
     then
         wait; ((j=0)) ; echo "($LOOP_CTR/$NBR_FILE)====================" ; sleep 0.1 
     else

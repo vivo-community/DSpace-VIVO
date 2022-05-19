@@ -2,7 +2,7 @@
 
 ###################################################################
 # Script Name   :
-# Description   :
+# Description   : This script encapsulates the functions call allowing the migration of DSpace Demo(6&7) data into VIVO
 # Args          : 
 # Author       	: Michel Héon PhD
 # Institution   : Université du Québec à Montréal
@@ -11,41 +11,42 @@
 ###################################################################
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $SCRIPT_DIR/00-env.sh
+
+###################################################################
+# Extract dspace(6-7) demo data
+./extract-dspace6.sh 
+./extract-dspace7.sh 
+cp -r $DATA_DEMO6_DIR/* $DATA_DEMO7_DIR/* $DATA_DIR
+
 ###################################################################
 # Produce all list
-###########################
 echo run produce-list-of-expertise.sh
 produce-list-of-expertise.sh
+
 ###########################
 echo run produce-list-of-itemtype.sh
 produce-list-of-itemtype.sh
+
 ###########################
 echo run produce-list-of-persons.sh
 produce-list-of-persons.sh
 
 ###################################################################
-# Process transformation
-load-data-to-vivo.sh &
+# Process transformation and load to VIVO
+load-data-to-vivo.sh
 
 transform-map-vivo-doc-type.sh
-load-data-doc_type-to-vivo.sh & 
+load-data-doc_type-to-vivo.sh ; vivo-recomputeIndex.sh & 
 
 transform-map-vivo-person.sh
-load-data-person-to-vivo.sh &
+load-data-person-to-vivo.sh ; vivo-recomputeIndex.sh &
 
 transform-map-vivo-expertises.sh
-load-data-expertises-to-vivo.sh &
+load-data-expertises-to-vivo.sh ; vivo-recomputeIndex.sh &
 
 transform-map-expertise-and-item-to-a-person-to-vivo.sh
-load-data-person-expertise-to-vivo.sh 
+load-data-person-expertise-to-vivo.sh ; vivo-recomputeIndex.sh
 
-###################################################################
-# Load to VIVO
-# load-data-to-vivo.sh
-# load-data-doc_type-to-vivo.sh
-# load-data-person-to-vivo.sh
-# load-data-expertises-to-vivo.sh
-# load-data-person-expertise-to-vivo.sh
+echo $Done!"
 
 
-vivo-recomputeIndex.sh

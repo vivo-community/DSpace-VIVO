@@ -13,16 +13,18 @@ export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd 
 source $SCRIPT_DIR/00-env.sh
 
 cd $ETL_DIR_TRANSFORM_PERSON
+rm .ntriples _.ntriples
 for f in *.ntriples
 do
     fileName=$(realpath $f)
     echo "Processing $f"
-    cat $fileName >> $TMPDIR/all.ntriples
+    cat $fileName | grep -v '^\.$' >> $TMPDIR/all.ntriples
 
 #    grep terms/type $fileName
 done
 echo "Loading all files to VIVO"
 sparql-load-a-graph-to-vivo.sh -f $TMPDIR/all.ntriples
+echo "Done!"
 
 
 
