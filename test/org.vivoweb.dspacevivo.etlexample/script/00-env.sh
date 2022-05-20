@@ -15,13 +15,12 @@ PATH=$LOC_SCRIPT_DIR:$PATH
 export WORKDIR=$(cd $LOC_SCRIPT_DIR/../; pwd -P)
 export RESSOURCESDIR=$(cd $WORKDIR/src/main/resources ; pwd -P)
 export MAPPING_DATA_DIR=$(cd $RESSOURCESDIR/mapping_data ; pwd -P)
+export RESSOURCES_TARGET_DIR=$(cd $WORKDIR/target/classes ; pwd -P)
 export QUERY_DIR=$(cd $RESSOURCESDIR/query ; pwd -P)
 export JAVA_CONF_PROPERTIES=$(realpath $RESSOURCESDIR/harvester.conf) 
 function prop {
     grep "${1}" ${JAVA_CONF_PROPERTIES}|cut -d'=' -f2
 }
-#export ETL_DIR_EXTRACT=$WORKDIR/$(prop etl.dir.extract)
-#export ETL_DIR_TRANSFORM=$WORKDIR/$(prop etl.dir.transform)
 export DATA_DIR=$(cd $WORKDIR/data ; pwd -P)
 export DATA_DEMO6_DIR=$(cd $WORKDIR/data_src_dspace6 ; pwd -P)
 export DATA_DEMO7_DIR=$(cd $WORKDIR/data_src_dspace7 ; pwd -P)
@@ -32,7 +31,6 @@ export ETL_DIR_TRANSFORM_PERSON=$(cd ${ETL_DIR_TRANSFORM}_person ; pwd -P)
 export ETL_DIR_TRANSFORM_EXPERTISES=$(cd ${ETL_DIR_TRANSFORM}_expertises ; pwd -P)
 export ETL_DIR_TRANSFORM_PERSON_EXPERTISES=$(cd ${ETL_DIR_TRANSFORM}_person_expertises ; pwd -P)
 
-# Link https://duraspace.org/registry/?filter_10=DSpace
 
 
 
