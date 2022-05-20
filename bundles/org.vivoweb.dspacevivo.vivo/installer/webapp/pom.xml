@@ -11,7 +11,7 @@
         <groupId>org.vivoweb</groupId>
         <artifactId>vivo-installer</artifactId>
         <version>1.12.2</version>
-        <relativePath>..</relativePath>
+        <relativePath>../</relativePath>
     </parent>
     
     <name>DSpace-VIVO Install Web App</name>
@@ -163,7 +163,7 @@
             <type>war</type>
         </dependency>
         <dependency>
-            <groupId>org.vivoweb.dspacevivo</groupId>
+            <groupId>org.vivoweb</groupId>
             <artifactId>dspacevivo-languages-webapp-en_US</artifactId>
             <version>${project.version}</version>
             <type>war</type>

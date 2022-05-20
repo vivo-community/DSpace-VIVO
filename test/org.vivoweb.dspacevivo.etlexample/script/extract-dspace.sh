@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
  
 ###################################################################
 # Script Name   :
@@ -13,7 +13,12 @@ export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd 
 source $SCRIPT_DIR/00-env.sh
 cd $WORKDIR
 CLASSPATH=$(find "$LIB" -name '*.jar' -printf '%p:' | sed 's/:$//')
-java  org.vivoweb.dspacevivo.etlexample.HarvestDSpace
+export PRJ_CP=$WORKDIR/target/org.vivoweb.dspacevivo.etlexample-0.0.1-SNAPSHOT.jar:$LIB/*:
+export JVM_ARGS=""
 
-#-cp "/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO/SPRINT-3/00-GIT/DSpace-VIVO/test/org.vivoweb.dspacevivo.etlexample/src/main/resources/:/home/heon/01-SPRINT/00-PROJET-DSPACE-VIVO/SPRINT-3/00-GIT/DSpace-VIVO/test/org.vivoweb.dspacevivo.etlexample/target/org.vivoweb.dspacevivo.etlexample-0.0.1-SNAPSHOT.jar:$LIB/*"
+
+echo $PRJ_CP | tr ':' '\n'
+echo "============================================"
+
+java $JVM_ARGS -cp "$PRJ_CP" org.vivoweb.dspacevivo.etlexample.ExtractDSpace
 

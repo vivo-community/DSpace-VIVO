@@ -22,6 +22,7 @@
 ###################################################################
 ## Root variables
 export RELENG_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P )"
+source $RELENG_SCRIPT_DIR/lib/cleanup.sh
 export BUNDLES=$(cd $RELENG_SCRIPT_DIR/../../bundles; pwd -P)
 export RELENG=$(cd $RELENG_SCRIPT_DIR/../../releng; pwd -P)
 export DEPLOY=$(cd $RELENG_SCRIPT_DIR/../../deploy; pwd -P)
@@ -64,8 +65,10 @@ export PATH=$PATH:$JENA_HOME/bin:$DSPACEVIVO_PKG_HOME/script:$DSPACE_HOME/bin
 ###################################################################
 ## Useful variables extracted from runtime.properties
 export RUNTIME_PROP=$VIVO_HOME/config/runtime.properties
-export ROOT_USER="${ROOT_USER:=$(grep 'rootUser.emailAddress' < $RUNTIME_PROP | tr -d ' ' | cut -f 2 -d "=")}"
-export ROOT_PASSWD="${ROOT_PASSWD:=$(grep 'rootUser.password =' < $RUNTIME_PROP | tr -d ' ' | cut -f 2 -d "=")}"
+if test -f "$RUNTIME_PROP"; then
+	export ROOT_USER="${ROOT_USER:=$(grep 'rootUser.emailAddress' < $RUNTIME_PROP | tr -d ' ' | cut -f 2 -d "=")}"
+	export ROOT_PASSWD="${ROOT_PASSWD:=$(grep 'rootUser.password =' < $RUNTIME_PROP | tr -d ' ' | cut -f 2 -d "=")}"
+fi
 
 ###################################################################
 ## Variables for dspace backend/frontend runtime

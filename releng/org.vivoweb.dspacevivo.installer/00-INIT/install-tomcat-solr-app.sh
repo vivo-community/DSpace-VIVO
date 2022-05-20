@@ -30,6 +30,6 @@ echo Installing solr
 #
 tar -xf solr-8.11.1.tgz
 mv solr-8.11.1 app-solr
-cp -r $SCRIPT_DIR/00-INIT/vivo-solr/* app-solr
+cp -r $SCRIPT_DIR/vivo-solr/* app-solr
 
 echo Done!
