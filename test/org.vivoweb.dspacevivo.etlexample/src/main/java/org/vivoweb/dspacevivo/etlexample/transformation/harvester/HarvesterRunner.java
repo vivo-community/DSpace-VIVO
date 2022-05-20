@@ -31,17 +31,25 @@ import org.vivoweb.dspacevivo.vocab.util.ParserHelper;
 
 public class HarvesterRunner {
 
+    private static final String HARVEST_TOTAL_COUNT = "harvestTotalCount";
+    private static final String FILE_PREFIX = "filePrefix";
     private static final String ETL_DIR_TRANSFORM = "etl.dir.transform";
     private static final String TYPE = "type";
     private static final String ETL_DIR_EXTRACT = "etl.dir.extract";
+    
     private static Logger logger = LoggerFactory.getLogger(HarvesterRunner.class);
     private DspaceHarvester dh = null;
-    DspaceItemParser dspaceVioItemparser = null;
+    private DspaceItemParser dspaceVioItemparser = null;
     private String extractDir;
     private String transformDir;
+    private int totalCount = Integer.MAX_VALUE;
+    private String filePrefix;
     private ObjectMapper objectMapper;
 
 
+    /**
+     * @throws IOException
+     */
     public void init() throws IOException {
         logger.info("Creating DspaceVivoParser");
         dspaceVioItemparser = new DspaceItemParser();
@@ -59,6 +67,10 @@ public class HarvesterRunner {
         }
         setExtractDir(conf.getProperty(ETL_DIR_EXTRACT));
         setTransformDir(conf.getProperty(ETL_DIR_TRANSFORM));
+        try {
+            setTotalCount(Integer.valueOf(conf.getProperty(HARVEST_TOTAL_COUNT)));
+        } catch (Exception e) {  }
+        setFilePrefix(conf.getProperty(FILE_PREFIX));
         objectMapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         dh.connect();
     }
@@ -70,21 +82,21 @@ public class HarvesterRunner {
             while (harvestItemsItr.hasNext()) {
                 count++;
                 Item item = harvestItemsItr.next();
-                logger.info("DSpace Extraction "+count+ " ..."+item.getId());
+                logger.info("DSpace Extraction ("+count+") ..."+item.getId());
                 String itemJson = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(item);
-                String extractedFileName = extractDir+"/"+item.getId().replaceAll("[^a-zA-Z0-9]", "_")+".json"; 
-                String transformedFileName = transformDir+"/"+item.getId().replaceAll("[^a-zA-Z0-9]", "_")+".ntriples"; 
-                logger.info("Write to "+extractedFileName); 
+                String extractedFileName = extractDir+"/"+filePrefix+item.getId().replaceAll("[^a-zA-Z0-9]", "_")+".json"; 
+                String transformedFileName = transformDir+"/"+filePrefix+item.getId().replaceAll("[^a-zA-Z0-9]", "_")+".ntriples"; 
+                logger.info("   Write to "+extractedFileName); 
                 Files.write(Paths.get(extractedFileName), itemJson.getBytes(StandardCharsets.UTF_8));
-                logger.info("DSpace-VIVO Transformation ..."+item.getId());
+                logger.info("   DSpace-VIVO Transformation ... "+item.getId());
                 Model repoModel = dspaceVioItemparser.parse(item);
                 String stringModel = ParserHelper.dumpModelNtriples(repoModel);
                 Files.write(Paths.get(transformedFileName), stringModel.getBytes(StandardCharsets.UTF_8));
-                logger.info(transformedFileName);
-//                if (count > 50 ) {
-//                    logger.info("Done!");
-//                    break;
-//                }
+                logger.info("   Model write to "+transformedFileName);
+                if (count > totalCount) {
+                    logger.info("Done!");
+                    break;
+                }
             }
         }
     }
@@ -148,5 +160,21 @@ public class HarvesterRunner {
     public void setTransformDir(String transformDir) {
         this.transformDir = transformDir;
     }
+    public int getTotalCount() {
+        return totalCount;
+    }
+
+    public void setTotalCount(int totalCount) {
+        this.totalCount = totalCount;
+    }
+    public void setFilePrefix(String filePrefix) {
+        this.filePrefix = filePrefix;
+    }
+
+    public String getFilePrefix() {
+        return filePrefix;
+    }
+
+
 
 }

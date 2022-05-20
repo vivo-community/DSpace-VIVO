@@ -13,6 +13,12 @@ export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd 
 source $SCRIPT_DIR/00-env.sh
 
 ###################################################################
+# Clean up data directories
+flush_data_dspace.sh 2>/dev/null
+flush_data_dspace6.sh 2>/dev/null 
+flush_data_dspace7.sh 2>/dev/null
+
+###################################################################
 # Extract dspace(6-7) demo data
 ./extract-dspace6.sh 
 ./extract-dspace7.sh 
@@ -47,6 +53,4 @@ load-data-expertises-to-vivo.sh ; vivo-recomputeIndex.sh &
 transform-map-expertise-and-item-to-a-person-to-vivo.sh
 load-data-person-expertise-to-vivo.sh ; vivo-recomputeIndex.sh
 
-echo $Done!"
-
-
+echo "Done!"

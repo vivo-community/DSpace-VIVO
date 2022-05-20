@@ -46,12 +46,22 @@ do
     echo "($LOOP_CTR/$NBR_FILE) Processing $f"
     BN=$(basename $f .ntriples)
     cp $fileName $TMPDIR/$BN.nt
-    ITEM_URI=$(sparql --data=$TMPDIR/$BN.nt --query=$ITEM_URI_QUERY --results=TSV 2>/dev/null | func-skip-first-line.sh | func-remove-brace-to-uri.sh) 
-    LIST_OF_PERSON=$(sparql --data=$TMPDIR/$BN.nt --query=$CREATOR_QUERY --results=TSV 2>/dev/null | func-skip-first-line.sh | tr -d '"' | func-clean-begin-ending-whitespace.sh)
+    # Extract list of expertises
     LIST_OF_EXPERT=$(sparql --data=$TMPDIR/$BN.nt --query=$EXPERTISE_QUERY --results=TSV 2>/dev/null | func-skip-first-line.sh | func-encode_string_to_expertise.sh)
+    if [ -z "${LIST_OF_EXPERT}" ]; then
+        echo "    LIST_OF_EXPERTISE is empty"
+        continue
+    fi
+    # if list of expertises exist, then extract list of persons
+    LIST_OF_PERSON=$(sparql --data=$TMPDIR/$BN.nt --query=$CREATOR_QUERY --results=TSV 2>/dev/null | func-skip-first-line.sh | tr -d '"' | func-clean-begin-ending-whitespace.sh)
+    if [ -z "${LIST_OF_PERSON}" ]; then
+        echo "    LIST_OF_PERSON is empty"
+        continue
+    fi
+    # if list of expertises exist and the extract list of persons exist, the extract de URI of the ITEM
+    ITEM_URI=$(sparql --data=$TMPDIR/$BN.nt --query=$ITEM_URI_QUERY --results=TSV 2>/dev/null | func-skip-first-line.sh | func-remove-brace-to-uri.sh) 
     while read aPerson; do 
         while read anExpertise; do 
-            echo "$aPerson $anExpertise"
             map-expertise-and-item-to-a-person-to-vivo.sh "$anExpertise" "$aPerson" $ITEM_URI &
         done <<< " $LIST_OF_EXPERT" 
     done <<< " $LIST_OF_PERSON" 

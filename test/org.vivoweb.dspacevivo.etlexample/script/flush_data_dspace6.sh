@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 
 ###################################################################
 # Script Name   :
@@ -11,15 +11,6 @@
 ###################################################################
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $SCRIPT_DIR/00-env.sh
-if [ -v $1 ] ; then
-    # Data com from stdin
-    cat - > $TMPDIR/data.tmp
-    DATA=$TMPDIR/data.tmp
-else
-    # Filename is set
-    DATA=$(realpath $1)
-fi
-riot --output=RDFXML $DATA > /$TMPDIR/data_out.rdf 2>/dev/null
-sparql --data=/$TMPDIR/data_out.rdf --query=$SCRIPT_DIR/lib/construct.sparql 2>/dev/null 
-
+cd $DATA_DEMO6_DIR
+find . -type d -exec sh -c 'rm $0/*' {} \;
 

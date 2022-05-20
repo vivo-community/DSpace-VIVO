@@ -17,7 +17,6 @@ export PRJ_CP=$WORKDIR/target/classes:$LIB/*:
 export JVM_ARGS=""
 
 
-echo $PRJ_CP | tr ':' '\n'
 echo "============================================"
 
 cp $WORKDIR/src/main/resources/harvester-dspace6.conf $WORKDIR/src/main/resources/harvester-dspace.conf

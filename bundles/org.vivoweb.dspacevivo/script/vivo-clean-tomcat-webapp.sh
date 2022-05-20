@@ -2,7 +2,7 @@
 
 ###################################################################
 # Script Name   :
-# Description   :
+# Description   : Allows to remove VIVO from Tomcat
 # Args          : 
 # Author       	: Michel Héon PhD
 # Institution   : Université du Québec à Montréal
