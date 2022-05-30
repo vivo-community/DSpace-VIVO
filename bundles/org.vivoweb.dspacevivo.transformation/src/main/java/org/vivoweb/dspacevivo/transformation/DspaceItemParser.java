@@ -19,7 +19,6 @@ import org.apache.jena.shared.PrefixMapping;
 import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
-import org.apache.jena.vocabulary.XSD;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.vivoweb.dspacevivo.model.Item;
@@ -36,6 +35,7 @@ import org.vivoweb.dspacevivo.vocab.vivo.VCARD;
 import org.vivoweb.dspacevivo.vocab.vivo.VIVO;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import java.util.ArrayList;
 
 /**
  * @author heon
@@ -71,7 +71,9 @@ public class DspaceItemParser {
         String itemUri = "http://dspacevivo.vivoweb.org/individual/123456789_68"; // namesapce defined in runtime.properties
         anItem.setUri(itemUri);
         anItem.setUrl("http://localhost:8080/server/rdf/resource/123456789/68");
-        anItem.setDspaceBitstreamURL("http://localhost:4000/bitstream/123456789/68/1/bubble-chart-line.png");
+        List<String> arrayList = new ArrayList<String>();
+        arrayList.add("http://localhost:4000/bitstream/123456789/68/1/bubble-chart-line.png");
+        anItem.setDspaceBitstreamURLs(arrayList);
         anItem.addDspaceIsPartOfCollectionIDItem("123456789_62");
         anItem.addListOfStatementLiteralsItem(DSpaceStatementHelper.createStatementLiteral(itemUri,"dc:date","2022-04-02T06:28:50Z","xsd:dateTime"));
         anItem.addListOfStatementLiteralsItem(DSpaceStatementHelper.createStatementLiteral(itemUri,"dcterms:available","2022-04-02T06:28:50Z","xsd:dateTime"));
@@ -129,7 +131,7 @@ public class DspaceItemParser {
         model.add(anItemURI, VITRO.mostSpecificType, DSPACE.Item);
         model.add(anItemURI, OBO.ARG_2000028, anItemURI_vcard );
         try {
-            Literal biteStream = ResourceFactory.createTypedLiteral(anItem.getDspaceBitstreamURL(),XSDDatatype.XSDanyURI);
+            Literal biteStream = ResourceFactory.createTypedLiteral(anItem.getDspaceBitstreamURLs().get(0),XSDDatatype.XSDanyURI);
             model.add(anItemURI, DSPACE.hasBitstream, biteStream );
         } catch (Exception e) {
         }

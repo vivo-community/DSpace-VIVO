@@ -4,6 +4,7 @@ import org.apache.jena.vocabulary.XSD;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.common.collect.Lists;
 
 public class TestCollectionTaxonomy {
 
@@ -134,7 +135,7 @@ public class TestCollectionTaxonomy {
 		 * dspace:isPartOfCollection  <http://localhost:8080/server/rdf/resource/123456789/61> ;
 		 * dcterms:title              "Test paper" ;
 		 */
-		item66.setDspaceBitstreamURL("http://localhost:4000/bitstream/123456789/66/1/bubble-chart-line.png");
+		item66.setDspaceBitstreamURLs(Lists.newArrayList("http://localhost:4000/bitstream/123456789/66/1/bubble-chart-line.png"));
 		item66.addDspaceIsPartOfCollectionIDItem(col61.getId());
 		item66.addListOfStatementLiteralsItem(item66Title);
 		/*****************
@@ -143,7 +144,7 @@ public class TestCollectionTaxonomy {
 		 * dspace:isPartOfCollection  <http://localhost:8080/server/rdf/resource/123456789/62> ;
 		 * dcterms:title              "Test thesis" ;
 		 */
-		item68.setDspaceBitstreamURL("http://localhost:4000/bitstream/123456789/66/1/bubble-chart-line.png");
+		item68.setDspaceBitstreamURLs(Lists.newArrayList("http://localhost:4000/bitstream/123456789/66/1/bubble-chart-line.png"));
 		item68.addDspaceIsPartOfCollectionIDItem(col62.getId());
 		item68.addListOfStatementLiteralsItem(item68Title);
 		/********

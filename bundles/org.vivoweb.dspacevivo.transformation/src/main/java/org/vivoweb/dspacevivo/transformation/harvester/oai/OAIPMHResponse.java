@@ -159,7 +159,10 @@ public class OAIPMHResponse {
 //                    resp.setUri(sb.toString());
                     break;
                 case "dc:bundle":
-                    resp.setDspaceBitstreamURL(text);
+                    if (resp.getDspaceBitstreamURLs() == null){
+                        resp.setDspaceBitstreamURLs(Lists.newArrayList());
+                    }
+                    resp.getDspaceBitstreamURLs().add(text);
                     break;
                 default:
                     StatementLiteral statementLiteral = new StatementLiteral();
@@ -207,7 +210,10 @@ public class OAIPMHResponse {
             for (Element s : meta.children()) {
 
                 if ("dc:bundle".equals(s.tagName())) {
-                    resp.setDspaceBitstreamURL(s.text());
+                    if (resp.getDspaceBitstreamURLs() == null){
+                        resp.setDspaceBitstreamURLs(Lists.newArrayList());
+                    }
+                    resp.getDspaceBitstreamURLs().add(s.text());
                 } else {
 
                     StatementLiteral statementLiteral = new StatementLiteral();

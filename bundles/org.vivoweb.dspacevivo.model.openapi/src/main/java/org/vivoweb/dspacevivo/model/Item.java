@@ -26,7 +26,7 @@ import javax.validation.Valid;
 /**
  * Item
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-05-20T15:51:48.468630-04:00[America/New_York]")public class Item   {
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-05-29T23:34:38.851-05:00[America/Guayaquil]")public class Item   {
   @JsonProperty("dspaceType")
   private String dspaceType = "item";
 
@@ -39,8 +39,8 @@ import javax.validation.Valid;
   @JsonProperty("url")
   private String url = null;
 
-  @JsonProperty("dspaceBitstreamURL")
-  private String dspaceBitstreamURL = null;
+  @JsonProperty("dspaceBitstreamURLs")
+  private List<String> dspaceBitstreamURLs = null;
 
   @JsonProperty("dspaceIsPartOfCollectionID")
   private List<String> dspaceIsPartOfCollectionID = null;
@@ -121,24 +121,31 @@ import javax.validation.Valid;
     this.url = url;
   }
 
-  public Item dspaceBitstreamURL(String dspaceBitstreamURL) {
-    this.dspaceBitstreamURL = dspaceBitstreamURL;
+  public Item dspaceBitstreamURLs(List<String> dspaceBitstreamURLs) {
+    this.dspaceBitstreamURLs = dspaceBitstreamURLs;
+    return this;
+  }
+
+  public Item addDspaceBitstreamURLsItem(String dspaceBitstreamURLsItem) {
+    if (this.dspaceBitstreamURLs == null) {
+      this.dspaceBitstreamURLs = new ArrayList<>();
+    }
+    this.dspaceBitstreamURLs.add(dspaceBitstreamURLsItem);
     return this;
   }
 
   /**
-   * Get dspaceBitstreamURL
-   * @return dspaceBitstreamURL
+   * Get dspaceBitstreamURLs
+   * @return dspaceBitstreamURLs
    **/
-  @JsonProperty("dspaceBitstreamURL")
-  @Schema(example = "http://localhost:4000/bitstream/123456789/68/1/bubble-chart-line.png", required = true, description = "")
-  @NotNull
-  public String getDspaceBitstreamURL() {
-    return dspaceBitstreamURL;
+  @JsonProperty("dspaceBitstreamURLs")
+  @Schema(description = "")
+  public List<String> getDspaceBitstreamURLs() {
+    return dspaceBitstreamURLs;
   }
 
-  public void setDspaceBitstreamURL(String dspaceBitstreamURL) {
-    this.dspaceBitstreamURL = dspaceBitstreamURL;
+  public void setDspaceBitstreamURLs(List<String> dspaceBitstreamURLs) {
+    this.dspaceBitstreamURLs = dspaceBitstreamURLs;
   }
 
   public Item dspaceIsPartOfCollectionID(List<String> dspaceIsPartOfCollectionID) {
@@ -238,7 +245,7 @@ import javax.validation.Valid;
         Objects.equals(this.id, item.id) &&
         Objects.equals(this.uri, item.uri) &&
         Objects.equals(this.url, item.url) &&
-        Objects.equals(this.dspaceBitstreamURL, item.dspaceBitstreamURL) &&
+        Objects.equals(this.dspaceBitstreamURLs, item.dspaceBitstreamURLs) &&
         Objects.equals(this.dspaceIsPartOfCollectionID, item.dspaceIsPartOfCollectionID) &&
         Objects.equals(this.listOfStatements, item.listOfStatements) &&
         Objects.equals(this.listOfStatementLiterals, item.listOfStatementLiterals);
@@ -246,7 +253,7 @@ import javax.validation.Valid;
 
   @Override
   public int hashCode() {
-    return Objects.hash(dspaceType, id, uri, url, dspaceBitstreamURL, dspaceIsPartOfCollectionID, listOfStatements, listOfStatementLiterals);
+    return Objects.hash(dspaceType, id, uri, url, dspaceBitstreamURLs, dspaceIsPartOfCollectionID, listOfStatements, listOfStatementLiterals);
   }
 
 
@@ -259,7 +266,7 @@ import javax.validation.Valid;
     sb.append("    id: ").append(toIndentedString(id)).append("\n");
     sb.append("    uri: ").append(toIndentedString(uri)).append("\n");
     sb.append("    url: ").append(toIndentedString(url)).append("\n");
-    sb.append("    dspaceBitstreamURL: ").append(toIndentedString(dspaceBitstreamURL)).append("\n");
+    sb.append("    dspaceBitstreamURLs: ").append(toIndentedString(dspaceBitstreamURLs)).append("\n");
     sb.append("    dspaceIsPartOfCollectionID: ").append(toIndentedString(dspaceIsPartOfCollectionID)).append("\n");
     sb.append("    listOfStatements: ").append(toIndentedString(listOfStatements)).append("\n");
     sb.append("    listOfStatementLiterals: ").append(toIndentedString(listOfStatementLiterals)).append("\n");
