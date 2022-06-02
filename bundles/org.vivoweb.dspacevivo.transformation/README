@@ -1,0 +1,11 @@
+To generate JAR executable:
+
+mvn clean compile assembly:single
+
+
+Execute the harvester as JAR:
+
+java -jar transformation.jar /somedir/harvester.conf /somedir/outputDir/
+
+
+

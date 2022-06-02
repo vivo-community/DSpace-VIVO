@@ -3,9 +3,12 @@ package org.vivoweb.dspacevivo.transformation.harvester;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.Properties;
+import java.util.logging.Level;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.vivoweb.dspacevivo.model.Collection;
@@ -17,12 +20,36 @@ import org.vivoweb.dspacevivo.transformation.harvester.oai.DspaceOAI;
 import org.vivoweb.dspacevivo.transformation.harvester.restv7.RESTv7Harvester;
 
 public class HarvesterRunner {
-
+    
     private static Logger logger = LoggerFactory.getLogger(HarvesterRunner.class);
     private DspaceHarvester dh = null;
-
+    private String pathConfigFile = null;
+    private String outputDir = null;
+    
+    public void setPathConfigFile(String pathConfigFile) {
+        this.pathConfigFile = pathConfigFile;
+    }
+    
+    public String getPathConfigFile() {
+        return this.pathConfigFile;
+    }
+    
+    public String getOutputDir() {
+        return this.outputDir;
+    }
+    
+    public void setOutputDir(String outputDir) {
+        this.outputDir = outputDir;
+    }
+    
     public void init() throws IOException {
         Properties conf = HarvesterConfiguration.getConf();
+        if (pathConfigFile != null) {
+            logger.info("Reading configuration from: {}", getPathConfigFile());
+            conf = HarvesterConfiguration.getConf(getPathConfigFile());
+        } else {
+            logger.warn("No configuration file provided");
+        }
         switch (conf.getProperty("type")) {
             case "RESTv7":
                 logger.info("Connecting to REST endpoint");
@@ -35,7 +62,7 @@ public class HarvesterRunner {
         }
         dh.connect();
     }
-
+    
     public void harvestItems() throws JsonProcessingException {
         ObjectMapper mp = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         Iterator<Item> harvestItemsItr = dh.harvestItems();
@@ -46,11 +73,23 @@ public class HarvesterRunner {
                 Item next = harvestItemsItr.next();
                 logger.info("new Item harvested...");
                 logger.info(" " + count);
-                logger.info(mp.writeValueAsString(next));
+                String itemContent = mp.writeValueAsString(next);
+                if (this.outputDir != null) {
+                    String filename = this.outputDir + next.getId().replace("/", "_") + ".json";
+                    try (PrintWriter out = new PrintWriter(filename)) {
+                        out.println(itemContent);
+                        logger.info("Saving file {}", filename);
+                    } catch (FileNotFoundException ex) {
+                        logger.warn("Error saving file {}", filename);
+                    }
+                } else {
+                    logger.info(itemContent);
+                }
+                
             }
         }
     }
-
+    
     public void harvestCollections() throws JsonProcessingException {
         ObjectMapper mp = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         Iterator<Collection> harvestCollection = dh.harvestCollection();
@@ -65,7 +104,7 @@ public class HarvesterRunner {
             }
         }
     }
-
+    
     public void harvestCommunities() throws JsonProcessingException {
         ObjectMapper mp = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         Iterator<Community> harvestCommunity = dh.harvestCommunity();
@@ -80,7 +119,7 @@ public class HarvesterRunner {
             }
         }
     }
-
+    
     public void harvestRepositories() throws JsonProcessingException {
         ObjectMapper mp = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         Iterator<Repository> harvestRepository = dh.harvestRepository();
@@ -95,5 +134,5 @@ public class HarvesterRunner {
             }
         }
     }
-
+    
 }
