@@ -10,7 +10,8 @@
 # Email         : heon.michel@uqam.ca
 ###################################################################
 export LOC_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
-source $LOC_SCRIPT_DIR/../../../releng/org.vivoweb.dspacevivo.installer/00-env.sh
+export INSTALLER_DIR=$(cd $LOC_SCRIPT_DIR/../../../releng/org.vivoweb.dspacevivo.installer ; pwd -P)
+source $INSTALLER_DIR/00-env.sh
 PATH=$LOC_SCRIPT_DIR:$PATH
 export WORKDIR=$(cd $LOC_SCRIPT_DIR/../; pwd -P)
 export RESSOURCESDIR=$(cd $WORKDIR/src/main/resources ; pwd -P)

@@ -19,7 +19,7 @@ else
     # Filename is set
     DATA=$(realpath $1)
 fi
-riot --output=RDFXML $DATA > /$TMPDIR/data_out.rdf 2>/dev/null
-sparql --data=/$TMPDIR/data_out.rdf --query=$SCRIPT_DIR/lib/construct.sparql 2>/dev/null 
+riot --syntax=nt --output=ttl $DATA > /$TMPDIR/data_out.ttl 2>/dev/null
+sparql --data=/$TMPDIR/data_out.ttl --query=$SCRIPT_DIR/lib/construct.sparql 2>/dev/null 
 
 
