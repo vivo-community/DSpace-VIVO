@@ -9,15 +9,18 @@ import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.Properties;
 import java.util.logging.Level;
+import org.apache.jena.rdf.model.Model;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.vivoweb.dspacevivo.model.Collection;
 import org.vivoweb.dspacevivo.model.Community;
 import org.vivoweb.dspacevivo.model.Item;
 import org.vivoweb.dspacevivo.model.Repository;
+import org.vivoweb.dspacevivo.transformation.DspaceItemParser;
 import org.vivoweb.dspacevivo.transformation.harvester.config.HarvesterConfiguration;
 import org.vivoweb.dspacevivo.transformation.harvester.oai.DspaceOAI;
 import org.vivoweb.dspacevivo.transformation.harvester.restv7.RESTv7Harvester;
+import org.vivoweb.dspacevivo.vocab.util.ParserHelper;
 
 public class HarvesterRunner {
     
@@ -25,6 +28,7 @@ public class HarvesterRunner {
     private DspaceHarvester dh = null;
     private String pathConfigFile = null;
     private String outputDir = null;
+    private DspaceItemParser dspaceVioItemparser = null;
     
     public void setPathConfigFile(String pathConfigFile) {
         this.pathConfigFile = pathConfigFile;
@@ -43,6 +47,8 @@ public class HarvesterRunner {
     }
     
     public void init() throws IOException {
+        logger.info("Creating DspaceVivoParser");
+        dspaceVioItemparser = new DspaceItemParser();
         Properties conf = HarvesterConfiguration.getConf();
         if (pathConfigFile != null) {
             logger.info("Reading configuration from: {}", getPathConfigFile());
@@ -73,17 +79,18 @@ public class HarvesterRunner {
                 Item next = harvestItemsItr.next();
                 logger.info("new Item harvested...");
                 logger.info(" " + count);
-                String itemContent = mp.writeValueAsString(next);
+                Model repoModel = dspaceVioItemparser.parse(next);
+                String stringModel = ParserHelper.dumpModelNtriples(repoModel);
                 if (this.outputDir != null) {
-                    String filename = this.outputDir + next.getId().replace("/", "_") + ".json";
+                    String filename = this.outputDir + next.getId().replace("/", "_") + ".nt";
                     try (PrintWriter out = new PrintWriter(filename)) {
-                        out.println(itemContent);
+                        out.println(stringModel);
                         logger.info("Saving file {}", filename);
                     } catch (FileNotFoundException ex) {
                         logger.warn("Error saving file {}", filename);
                     }
                 } else {
-                    logger.info(itemContent);
+                    logger.info(stringModel);
                 }
                 
             }
