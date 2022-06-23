@@ -218,12 +218,21 @@ public class DspaceItemParser {
                     aLiteral = ResourceFactory.createPlainLiteral(obj);
                 }
                 
+                /*
+                 * Adding Title
+                 */
                 if (pred.contains("title") && pred.contains("terms")) {
                     model.add(model.createResource(subj),RDFS.label, aLiteral);
+                /*
+                 * Adding abstract
+                 */
                 } else if (pred.contains("description") && pred.contains("terms")) {
                     model.add(model.createResource(subj),BIBO.abstract_, aLiteral);
-                } else if (pred.contains("description") && pred.contains("terms")) {
-                    model.add(model.createResource(subj),BIBO.abstract_, aLiteral);
+                /*
+                 * Adding Keywords
+                 */
+                } else if (pred.contains("subject")) {
+                    model.add(model.createResource(subj),VIVO.freetextKeyword, aLiteral);
                 } 
                 model.add(model.createResource(subj),model.createProperty(pred), aLiteral);
             }
