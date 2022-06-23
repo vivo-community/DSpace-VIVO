@@ -42,7 +42,6 @@ produce-list-of-persons.sh
 ###################################################################
 # Process transformation and load to VIVO
 load-data-to-vivo.sh
-
 transform-map-vivo-doc-type.sh
 load-data-doc_type-to-vivo.sh ; vivo-recomputeIndex.sh & 
 
