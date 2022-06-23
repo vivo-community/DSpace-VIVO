@@ -25,7 +25,6 @@ flush_data_dspace7.sh 2>/dev/null
 ./extract-dspace7.sh 
 cp -r $DATA_DEMO6_DIR/* $DATA_DEMO7_DIR/* $DATA_DIR
 
-
 ###################################################################
 # Produce all list
 echo run produce-list-of-expertise.sh
@@ -54,4 +53,6 @@ load-data-expertises-to-vivo.sh ; vivo-recomputeIndex.sh &
 transform-map-expertise-and-item-to-a-person-to-vivo.sh
 load-data-person-expertise-to-vivo.sh ; vivo-recomputeIndex.sh
 
+###################################################################
+# Done ETL Process
 echo "Done!"

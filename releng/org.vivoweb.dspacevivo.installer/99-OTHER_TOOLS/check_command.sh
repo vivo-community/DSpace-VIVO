@@ -10,7 +10,8 @@
 # Email         : heon.michel@uqam.ca
 ###################################################################
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
-source ../lib/cleanup.sh
+source $SCRIPT_DIR/../00-env.sh
+source $SCRIPT_DIR/../lib/cleanup.sh
 cd $SCRIPT_DIR/../../../
 
 
