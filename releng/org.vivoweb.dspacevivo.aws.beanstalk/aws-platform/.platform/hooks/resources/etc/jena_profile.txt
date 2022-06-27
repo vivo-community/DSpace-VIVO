@@ -1,0 +1,7 @@
+export TRANSLATOR_HOME=/opt/DSpace-VIVO/deploy/translator
+export JENA_HOME=$TRANSLATOR_HOME
+JENA_BIN="$JENA_HOME/bin"
+
+PATH=$JENA_BIN:$PATH
+export PATH
+

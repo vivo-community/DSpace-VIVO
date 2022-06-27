@@ -17,4 +17,4 @@ source $SCRIPT_DIR/00-env.sh
 # Send command
 ############################################################
 
-curl -s -d "email=$ROOT_USER" -d "password=$ROOT_PASSWD" -d "$QUERY" "http://localhost:8080/$VIVO_APP_NAME/SearchIndex" 2>/dev/null
+curl -s -d "email=$ROOT_USER" -d "password=$ROOT_PASSWD" -d "$QUERY" "$VIVO_URL/SearchIndex" 2>/dev/null

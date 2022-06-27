@@ -59,4 +59,4 @@ EOF
 # Send query
 ############################################################
 
-curl -s -d "email=$ROOT_USER" -d "password=$ROOT_PASSWD" -d "$QUERY" "http://localhost:8080/$VIVO_APP_NAME/api/sparqlUpdate" 2>/dev/null
+curl -s -d "email=$ROOT_USER" -d "password=$ROOT_PASSWD" -d "$QUERY" "$VIVO_URL/api/sparqlUpdate" 2>/dev/null

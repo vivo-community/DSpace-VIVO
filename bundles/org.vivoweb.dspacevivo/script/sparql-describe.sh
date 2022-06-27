@@ -71,5 +71,5 @@ EOF
 # Send query
 ############################################################
 
-curl -s -d "email=$ROOT_USER" -d "password=$ROOT_PASSWD" -d "query=$QUERY" -H "Accept: $FORM" "http://localhost:8080/$VIVO_APP_NAME/api/sparqlQuery" 2>/dev/null
+curl -s -d "email=$ROOT_USER" -d "password=$ROOT_PASSWD" -d "query=$QUERY" -H "Accept: $FORM" "$VIVO_URL/api/sparqlQuery" 2>/dev/null
 

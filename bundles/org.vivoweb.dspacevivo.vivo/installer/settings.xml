@@ -9,13 +9,12 @@
                 <app-name>${env.VIVO_APP_NAME}</app-name>
                 <vivo-dir>${env.VIVO_HOME}</vivo-dir>
                 <tomcat-dir>${env.CATALINA_HOME}</tomcat-dir>
-                <default-theme>wilma</default-theme>
                 <vivo-project-dir>${env.VIVO_PROJECT}</vivo-project-dir>
                 <vitro-project-dir>${env.VITRO_PROJECT}</vitro-project-dir>
+                <default-theme>wilma</default-theme>
             </properties>
         </profile>
     </profiles>
-
     <activeProfiles>
         <activeProfile>defaults</activeProfile>
     </activeProfiles>

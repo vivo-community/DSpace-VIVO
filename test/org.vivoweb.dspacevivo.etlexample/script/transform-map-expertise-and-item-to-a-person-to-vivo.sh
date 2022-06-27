@@ -63,6 +63,7 @@ do
     while read aPerson; do 
         while read anExpertise; do 
             map-expertise-and-item-to-a-person-to-vivo.sh "$anExpertise" "$aPerson" $ITEM_URI &
+	    sleep 0.5
         done <<< " $LIST_OF_EXPERT" 
     done <<< " $LIST_OF_PERSON" 
     wait
