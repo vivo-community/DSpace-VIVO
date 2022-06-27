@@ -12,24 +12,26 @@
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $SCRIPT_DIR/../00-env.sh
 cd $DEPLOY
+TOMCAT_VER=8.5.81
+SOLR_VER=8.11.2
 
 ######################
 # Downloading packages
 #
-wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.78/bin/apache-tomcat-8.5.78.tar.gz \
-    https://dlcdn.apache.org/lucene/solr/8.11.1/solr-8.11.1.tgz
+wget    https://dlcdn.apache.org/tomcat/tomcat-8/v$TOMCAT_VER/bin/apache-tomcat-$TOMCAT_VER.tar.gz \
+        https://dlcdn.apache.org/lucene/solr/$SOLR_VER/solr-$SOLR_VER.tgz
 
 ######################
 echo Installing tomcat
 #
-tar -xf apache-tomcat-8.5.78.tar.gz 
-mv apache-tomcat-8.5.78 app-tomcat
+mkdir app-tomcat 
+tar -xf apache-tomcat-$TOMCAT_VER.tar.gz -C ./app-tomcat --strip-components=1 
 
 ######################
 echo Installing solr
 #
-tar -xf solr-8.11.1.tgz
-mv solr-8.11.1 app-solr
+mkdir app-solr
+tar -xf solr-$SOLR_VER.tgz -C ./app-solr --strip-components=1
 cp -r $SCRIPT_DIR/vivo-solr/* app-solr
 
 echo Done!

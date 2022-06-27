@@ -66,10 +66,12 @@ export PATH=$PATH:$JENA_HOME/bin:$DSPACEVIVO_PKG_HOME/script:$DSPACE_HOME/bin
 ###################################################################
 ## Useful variables extracted from runtime.properties
 export RUNTIME_PROP=$VIVO_HOME/config/runtime.properties
-if test -f "$RUNTIME_PROP"; then
-	export ROOT_USER="${ROOT_USER:=$(grep 'rootUser.emailAddress' < $RUNTIME_PROP | tr -d ' ' | cut -f 2 -d "=")}"
-	export ROOT_PASSWD="${ROOT_PASSWD:=$(grep 'rootUser.password =' < $RUNTIME_PROP | tr -d ' ' | cut -f 2 -d "=")}"
-fi
+alias vivo_passwd="grep 'rootUser.password =' < $RUNTIME_PROP | tr -d ' ' | cut -f 2 -d '='"
+alias vivo_user="grep 'rootUser.emailAddress' < $RUNTIME_PROP | tr -d ' ' | cut -f 2 -d '='"
+# if test -f "$RUNTIME_PROP"; then
+#	export ROOT_USER="${ROOT_USER:=$(grep 'rootUser.emailAddress' < $RUNTIME_PROP | tr -d ' ' | cut -f 2 -d "=")}"
+#	export ROOT_PASSWD="${ROOT_PASSWD:=$(grep 'rootUser.password =' < $RUNTIME_PROP | tr -d ' ' | cut -f 2 -d "=")}"
+#fi
 
 ###################################################################
 ## Variables for dspace backend/frontend runtime

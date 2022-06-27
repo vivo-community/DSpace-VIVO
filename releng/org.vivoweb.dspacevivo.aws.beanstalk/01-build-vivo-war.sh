@@ -13,7 +13,7 @@ export MAIN_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null &&
 source $MAIN_SCRIPT_DIR/00-env.sh
 source $GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/00-env.sh
 
-
+cp ~/.aws/vivo-dspace-runtime.properties $DSPACEVIVO_HOME/home/src/main/resources/config/runtime.properties
 (cd $DSPACEVIVO_PKG_HOME/script ; vivo-compile-and-deploy-for-tomcat.sh)
 rm -fr $CNAME
 cp -r $CATALINA_HOME/webapps/$CNAME .

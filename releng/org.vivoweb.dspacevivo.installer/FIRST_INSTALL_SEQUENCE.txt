@@ -9,6 +9,10 @@ cd DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/00-INIT/
 cd ../01-VIVO/
 vivo-git-clone.sh 
 
+# setup vivo property file
+
+/opt/00-GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/FIRST_INSTALL_SEQUENCE.txt
+vi ../../bundles/org.vivoweb.dspacevivo.vivo/home/src/main/resources/config/runtime.properties
 # RUN VIVO
 vivo-compile-and-deploy-for-tomcat.sh 
 solr-start.sh 
