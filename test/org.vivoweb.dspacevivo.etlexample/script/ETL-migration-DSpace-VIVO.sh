@@ -23,7 +23,7 @@ flush_data_dspace7.sh 2>/dev/null
 # Extract dspace(6-7) demo data
 ./extract-dspace6.sh 
 ./extract-dspace7.sh 
-cp -r $DATA_DEMO6_DIR/* $DATA_DEMO7_DIR/* $DATA_DIR
+cp -rf $DATA_DEMO6_DIR/* $DATA_DEMO7_DIR/* $DATA_DIR
 
 ###################################################################
 # Produce all list

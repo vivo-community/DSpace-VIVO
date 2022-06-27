@@ -47,7 +47,7 @@ export DSPACEVIVO_PKG_HOME=$BUNDLES/org.vivoweb.dspacevivo
 ###################################################################
 ## VIVO Installation Variables
 export VIVO_APP_NAME=vivo-dspace
-export API_APP_NAME=dspace-vivo-dex
+
 export CATALINA_HOME=$DEPLOY/app-tomcat
 export SOLR_DIR=$DEPLOY/app-solr
 export VIVO_HOME=$DEPLOY/vivo-home

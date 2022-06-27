@@ -1,7 +1,4 @@
-<project
-    xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.vivoweb</groupId>
     <artifactId>vivo-installer</artifactId>
@@ -42,6 +39,30 @@
                 <configuration>
                     <skip>true</skip>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.1</version>
+                <executions>
+                    <execution>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <tasks>
+                                <echo>Displaying value of 'datasource.proxy' property</echo>
+                                <echo>[app-name] ${app-name}</echo>
+                                <echo>[vivo-dir] ${vivo-dir}</echo>
+                                <echo>[tomcat-dir] ${tomcat-dir}</echo>
+                                <echo>[vivo-project-dir] ${vivo-project-dir}</echo>
+                                <echo>[vitro-project-dir] ${vitro-project-dir}</echo>
+                                <echo>[default-theme] ${default-theme}</echo>
+                            </tasks>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
         <pluginManagement>
@@ -101,7 +122,7 @@
     <modules>
         <module>home</module>
         <module>webapp</module>
-        
+
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -128,7 +149,9 @@
         <profile>
             <id>skip-install</id>
             <activation>
-                <property><name>!vivo-dir</name></property>
+                <property>
+                    <name>!vivo-dir</name>
+                </property>
             </activation>
             <build>
                 <plugins>
@@ -176,7 +199,7 @@
                         <executions>
                             <execution>
                                 <id>test</id>
-                                <phase/>
+                                <phase />
                             </execution>
                         </executions>
                     </plugin>
@@ -185,7 +208,7 @@
                         <executions>
                             <execution>
                                 <id>default-war</id>
-                                <phase/>
+                                <phase />
                             </execution>
                         </executions>
                     </plugin>
@@ -195,7 +218,9 @@
         <profile>
             <id>install</id>
             <activation>
-                <property><name>vivo-dir</name></property>
+                <property>
+                    <name>vivo-dir</name>
+                </property>
             </activation>
             <build>
                 <plugins>
@@ -241,10 +266,7 @@
             </plugin>
         </plugins>
     </reporting>
-    <!--
-        Add a custom repository, which is actually just a simple GitHub project
-        in order to distribute some dependencies that aren't part of Maven central
-    -->
+    <!-- Add a custom repository, which is actually just a simple GitHub project in order to distribute some dependencies that aren't part of Maven central -->
     <repositories>
         <repository>
             <id>vivo-dependencies</id>

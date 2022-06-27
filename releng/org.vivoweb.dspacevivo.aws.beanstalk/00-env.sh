@@ -12,8 +12,9 @@
 export ENV_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 export LANG=C.UTF-8
 export GIT=$(cd ${ENV_SCRIPT_DIR}/../../../ ; pwd -P)
+source $GIT/DSpace-VIVO/releng/org.vivoweb.dspacevivo.installer/00-env.sh
 export VIVO=${ENV_SCRIPT_DIR}
-export CNAME=vivo-dspace  # Préfixe de l'URL de déploiement
+export CNAME=$VIVO_APP_NAME  # Préfixe de l'URL de déploiement
 export CNAME_ENV=$CNAME-env
 
 ###################################################################
