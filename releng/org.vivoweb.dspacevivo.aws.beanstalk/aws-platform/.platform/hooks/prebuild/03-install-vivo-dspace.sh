@@ -47,4 +47,4 @@ EOF
 # Compiling etlexample
 /opt/00-GIT/DSpace-VIVO/test/org.vivoweb.dspacevivo.etlexample/script/mvn_install_example.sh
 
-(sleep 5m ; at now /usr/local/bin/etl_script.sh) &
+(sleep 5m ; at now -f /usr/local/bin/etl_script.sh) &
