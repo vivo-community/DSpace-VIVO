@@ -9,5 +9,6 @@
 # Copyright     : Université du Québec à Montréal (c) 2022
 # Email         : heon.michel@uqam.ca
 ###################################################################
-at now + 15 minute -f /usr/local/bin/etl_script.sh
+echo "at now + 10 minute -f /usr/local/bin/etl_script.sh" > /tmp/run-etl.log
+at now + 10 minute -f /usr/local/bin/etl_script.sh
 
