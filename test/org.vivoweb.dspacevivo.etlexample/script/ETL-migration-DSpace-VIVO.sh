@@ -22,6 +22,7 @@ cp $RESSOURCESDIR/*.conf $RESSOURCES_TARGET_DIR
 flush_data_dspace.sh 2>/dev/null
 flush_data_dspace6.sh 2>/dev/null 
 flush_data_dspace7.sh 2>/dev/null
+
 ###################################################################
 # Extract dspace(6-7) demo data
 ./extract-dspace6.sh 
@@ -44,14 +45,15 @@ produce-list-of-persons.sh
 ###################################################################
 # Process transformation and load to VIVO
 load-data-to-vivo.sh
+
 transform-map-vivo-doc-type.sh
-load-data-doc_type-to-vivo.sh ; vivo-recomputeIndex.sh & 
+load-data-doc_type-to-vivo.sh ; vivo-recomputeIndex.sh 
 
 transform-map-vivo-person.sh
-load-data-person-to-vivo.sh ; vivo-recomputeIndex.sh &
+load-data-person-to-vivo.sh ; vivo-recomputeIndex.sh
 
 transform-map-vivo-expertises.sh
-load-data-expertises-to-vivo.sh ; vivo-recomputeIndex.sh &
+load-data-expertises-to-vivo.sh ; vivo-recomputeIndex.sh
 
 transform-map-expertise-and-item-to-a-person-to-vivo.sh
 load-data-person-expertise-to-vivo.sh ; vivo-recomputeIndex.sh
