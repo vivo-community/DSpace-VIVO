@@ -40,9 +40,6 @@ diff
 dir
 dirname
 display
-docker
-docker-compose
-dspace
 du
 echo
 edit
