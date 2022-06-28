@@ -33,7 +33,7 @@ etl.dir.extract=data_src_dspace6/extract
 etl.dir.transform=data_src_dspace6/transform
 EOF
 
-cat <<EOF > /opt/00-GIT/DSpace-VIVO/test/org.vivoweb.dspacevivo.etlexample/src/main/resources/harvester-dspace7.conf
+cat <<EOF > /opt/00-GIT/DSpace-VIVO/test/orzg.vivoweb.dspacevivo.etlexample/src/main/resources/harvester-dspace7.conf
 type = OAI
 filePrefix=d7_
 harvestTotalCount=10
@@ -47,4 +47,4 @@ EOF
 # Compiling etlexample
 /opt/00-GIT/DSpace-VIVO/test/org.vivoweb.dspacevivo.etlexample/script/mvn_install_example.sh
 
-(sleep 5m ; at now -f /usr/local/bin/etl_script.sh) &
+
