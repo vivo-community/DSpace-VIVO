@@ -40,8 +40,8 @@ sed "s/_SG_GROUP_/$AWS_CUSTOM_SECURITY_GROUP_ID/g" < $VIVO/aws-platform/.ebexten
 # Déploiement de VIVO dans Beanstalk  
 #
 cd $VIVO/$CNAME
-eb init $CNAME -p 'Tomcat 8.5 with Corretto 11 running on 64bit Amazon Linux 2' -r $REGION -k $CLE_SSH
-eb create $CNAME_ENV -c $CNAME -p 'Tomcat 8.5 with Corretto 11 running on 64bit Amazon Linux 2' -r $REGION -k $CLE_SSH --single
+eb init $CNAME -p 'Tomcat 8.5 with Corretto 11 running on 64bit Amazon Linux 2/4.2.16' -r $REGION -k $CLE_SSH
+eb create $CNAME_ENV -c $CNAME -p 'Tomcat 8.5 with Corretto 11 running on 64bit Amazon Linux 2/4.2.16' -r $REGION -k $CLE_SSH --single
 
 echo "$CNAME creation done!"
 export EC2_ID=$(aws ec2 describe-instances --filters  "Name=tag:Name,Values=$CNAME_ENV" "Name=instance-state-name,Values=running" --query "Reservations[].Instances[].InstanceId" --output=text)

@@ -53,7 +53,8 @@ export SOLR_DIR=$DEPLOY/app-solr
 export VIVO_HOME=$DEPLOY/vivo-home
 export DSPACE_UI_HOME=$DEPLOY/dspace-ui
 export DSPACE_HOME=$DEPLOY/dspace
-export VIVO_URL=http://localhost:8080/$VIVO_APP_NAME
+source $RELENG_SCRIPT_DIR/00-env-vivo-url.sh
+#[ -v VIVO_URL ] || export VIVO_URL=http://localhost:8080/$VIVO_APP_NAME
 export PATH=$CATALINA_HOME/bin:$SOLR_DIR/bin:$DSPACE_HOME/bin:$PATH
 
 ###################################################################

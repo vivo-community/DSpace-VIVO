@@ -14,6 +14,7 @@
 # Scripts root directory
 export LOC_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 
+
 ###################################################################
 # Root installation directory of the different dspace2vivo packages
 export INSTALLER_DIR=$(cd $LOC_SCRIPT_DIR/../../../releng/org.vivoweb.dspacevivo.installer ; pwd -P)
