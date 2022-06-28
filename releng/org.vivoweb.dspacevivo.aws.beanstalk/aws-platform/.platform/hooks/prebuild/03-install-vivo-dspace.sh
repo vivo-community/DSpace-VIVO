@@ -26,7 +26,7 @@ echo 'export VIVO_URL=http://$VIVO_APP_NAME.ca-central-1.elasticbeanstalk.com' >
 cat <<EOF > /opt/00-GIT/DSpace-VIVO/test/org.vivoweb.dspacevivo.etlexample/src/main/resources/harvester-dspace6.conf
 type = OAI
 filePrefix=d6_
-harvestTotalCount=10
+# harvestTotalCount=10
 uriPrefix = https://demo.dspace.org/resource/
 endpoint = https://demo.dspace.org/oai/request
 etl.dir.extract=data_src_dspace6/extract
@@ -36,7 +36,7 @@ EOF
 cat <<EOF > /opt/00-GIT/DSpace-VIVO/test/orzg.vivoweb.dspacevivo.etlexample/src/main/resources/harvester-dspace7.conf
 type = OAI
 filePrefix=d7_
-harvestTotalCount=10
+# harvestTotalCount=10
 uriPrefix = https://dspace7.org/resource/
 endpoint = https://api7.dspace.org/server/oai/request
 etl.dir.extract=data_src_dspace7/extract
