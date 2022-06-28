@@ -74,6 +74,9 @@ alias vivo_user="grep 'rootUser.emailAddress' < $RUNTIME_PROP | tr -d ' ' | cut 
 #	export ROOT_PASSWD="${ROOT_PASSWD:=$(grep 'rootUser.password =' < $RUNTIME_PROP | tr -d ' ' | cut -f 2 -d "=")}"
 #fi
 
+[ -v ROOT_PASSWD ] || export ROOT_PASSWD=$(vivo_passwd)
+[ -v ROOT_USER ] || export ROOT_USER=$(vivo_user)
+
 ###################################################################
 ## Variables for dspace backend/frontend runtime
 # "ui" section

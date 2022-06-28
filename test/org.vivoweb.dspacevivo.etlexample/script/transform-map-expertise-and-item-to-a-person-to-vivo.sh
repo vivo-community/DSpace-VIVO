@@ -63,12 +63,14 @@ do
     while read aPerson; do 
         while read anExpertise; do 
             map-expertise-and-item-to-a-person-to-vivo.sh "$anExpertise" "$aPerson" $ITEM_URI &
-	    sleep 0.5
+	    sleep 0.25
         done <<< " $LIST_OF_EXPERT" 
     done <<< " $LIST_OF_PERSON" 
     wait
 done
 
+###################################################################
+# Execution end
 exit 0
 
 cd $ETL_DIR_TRANSFORM_EXPERTISES

@@ -26,7 +26,7 @@ do
         wait; ((j=0)) ;  echo =========; sleep 0.1
          
     else
-        sleep 0.15
+        sleep 0.2
     fi
 done
 wait

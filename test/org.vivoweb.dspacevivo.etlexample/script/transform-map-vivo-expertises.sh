@@ -19,11 +19,11 @@ while read name; do
     echo "($LOOP_CTR/$NBR_FILE) Processing $name"
     map-expertise-to-vivo.sh "$name" &
     ((j=j+1))
-    if [ $j = "15" ]
+    if [ $j = "10" ]
     then
         wait; ((j=0)) ; echo "($LOOP_CTR/$NBR_FILE)====================" ; sleep 0.1 
     else
-        sleep 0.10
+        sleep 0.20
     fi
 done < $MAPPING_DATA_DIR/list-of-all-expertises.data
 wait
