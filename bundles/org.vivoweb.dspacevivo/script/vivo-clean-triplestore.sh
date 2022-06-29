@@ -1,5 +1,4 @@
 #!/bin/bash 
-
 ###################################################################
 # Script Name   :
 # Description   :Delete the VIVO triplet directories. This action is 
@@ -13,4 +12,14 @@
 ###################################################################
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $SCRIPT_DIR/00-env.sh
+cd $VIVO_HOME
+if [ ! -f tdbModels ]
+then
+    systemctl stop tomcat
+    rm -fr tdbContentModels  tdbModels  upgrade  uploads
+    systemctl start tomcat
+    echo "VIVO triplesore is clean"
+fi
+
+
 
