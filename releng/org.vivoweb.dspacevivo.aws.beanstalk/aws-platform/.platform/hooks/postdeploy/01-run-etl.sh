@@ -9,6 +9,5 @@
 # Copyright     : Université du Québec à Montréal (c) 2022
 # Email         : heon.michel@uqam.ca
 ###################################################################
-# (sleep 5m && /usr/local/bin/etl_script.sh) &
-# /usr/local/bin/at_script.sh
+(sleep 3m && /usr/local/bin/etl_script.sh) &
 
