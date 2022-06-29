@@ -6,6 +6,7 @@ deploy/dspace/
 deploy/dspace-ui/
 deploy/dspace-angular/
 deploy/lib/
+deploy/*tgz*
 
 !.mvn/wrapper/maven-wrapper.jar
 
