@@ -17,8 +17,8 @@ for f in *.ntriples
 do
     fileName=$(realpath $f)
     echo "Processing $f"
-    cat $fileName | grep -v '^\.$' >> $TMPDIR/all.ntriples
-done
+    cat $fileName | grep -v '^\.$' | grep -v "^\ ." | grep -v "^> ." >> $TMPDIR/all.ntriples
+    done
 echo "Loading all files to VIVO"
 sparql-load-a-graph-to-vivo.sh -f $TMPDIR/all.ntriples
 
