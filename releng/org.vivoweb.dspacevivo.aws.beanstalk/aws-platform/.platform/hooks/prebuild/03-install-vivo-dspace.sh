@@ -11,7 +11,7 @@
 ###################################################################
 source /etc/profile
 cd /opt/00-GIT
-git clone https://github.com/vivo-community/DSpace-VIVO
+git clone --depth 1 --branch Beta-1.0 https://github.com/vivo-community/DSpace-VIVO
 cd /opt/00-GIT
 if [ ! -d "/opt/00-GIT/DSpace-VIVO/deploy/vivo-home" ]; then
     mkdir -p /opt/00-GIT/DSpace-VIVO/deploy/vivo-home/config

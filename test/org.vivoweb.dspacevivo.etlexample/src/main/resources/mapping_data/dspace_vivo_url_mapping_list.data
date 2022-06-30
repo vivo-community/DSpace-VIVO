@@ -43,3 +43,4 @@
 "thesis" <http://purl.org/ontology/bibo/Thesis>
 "video" <http://vivoweb.org/ontology/core#Video>
 "workshop proceedings" <http://purl.org/ontology/bibo/Proceedings> 
+"text" <http://purl.org/ontology/bibo/Manuscript>
