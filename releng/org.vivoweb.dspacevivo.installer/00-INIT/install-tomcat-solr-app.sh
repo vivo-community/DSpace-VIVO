@@ -12,7 +12,7 @@
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P)"
 source $SCRIPT_DIR/../00-env.sh
 cd $DEPLOY
-TOMCAT_VER=8.5.81
+TOMCAT_VER=8.5.82
 SOLR_VER=8.11.2
 
 ######################

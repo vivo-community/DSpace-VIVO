@@ -22,7 +22,7 @@ import javax.validation.Valid;
 /**
  * Statement
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-06-23T09:38:28.154030-04:00[America/New_York]")public class Statement   {
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaJerseyServerCodegen", date = "2022-08-18T13:48:26.427757Z[Etc/UTC]")public class Statement   {
   @JsonProperty("dspaceType")
   private String dspaceType = "statement";
 
